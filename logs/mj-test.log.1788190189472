@@ -1,0 +1,283 @@
+INFO  17:29:07,115 - Compiling source file: C:\Users\tamara\eclipse-workspace\MJCompiler\test\program.mj
+INFO  17:29:07,167 - #2 program
+INFO  17:29:07,167 - #45 test302
+INFO  17:29:07,167 - #5 const
+INFO  17:29:07,169 - #45 int
+INFO  17:29:07,169 - #45 jedan
+INFO  17:29:07,169 - #6 =
+INFO  17:29:07,169 - #46 1
+INFO  17:29:07,170 - #7 ;
+INFO  17:29:07,171 - #45 int
+INFO  17:29:07,171 - #45 i
+INFO  17:29:07,171 - #8 ,
+INFO  17:29:07,172 - #45 j
+INFO  17:29:07,172 - #7 ;
+INFO  17:29:07,172 - #45 bool
+INFO  17:29:07,173 - #45 ibool
+INFO  17:29:07,173 - #7 ;
+INFO  17:29:07,173 - #45 int
+INFO  17:29:07,174 - #45 niz
+INFO  17:29:07,174 - #9 [
+INFO  17:29:07,174 - #10 ]
+INFO  17:29:07,174 - #8 ,
+INFO  17:29:07,174 - #45 niz2
+INFO  17:29:07,200 - #9 [
+INFO  17:29:07,200 - #10 ]
+INFO  17:29:07,200 - #8 ,
+INFO  17:29:07,200 - #45 niz3
+INFO  17:29:07,200 - #9 [
+INFO  17:29:07,200 - #10 ]
+INFO  17:29:07,200 - #8 ,
+INFO  17:29:07,200 - #45 niz4
+INFO  17:29:07,200 - #9 [
+INFO  17:29:07,201 - #10 ]
+INFO  17:29:07,201 - #7 ;
+INFO  17:29:07,201 - #3 {
+INFO  17:29:07,202 - #11 void
+INFO  17:29:07,202 - #45 main
+INFO  17:29:07,203 - #43 (
+INFO  17:29:07,204 - #44 )
+INFO  17:29:07,204 - #3 {
+INFO  17:29:07,205 - #45 i
+INFO  17:29:07,206 - #6 =
+INFO  17:29:07,206 - #46 0
+INFO  17:29:07,206 - #7 ;
+INFO  17:29:07,207 - #12 if
+INFO  17:29:07,207 - #43 (
+INFO  17:29:07,208 - #45 i
+INFO  17:29:07,208 - #34 <
+INFO  17:29:07,208 - #26 *
+ERROR 17:29:07,208 - 
+Sintaksna greska na liniji 18
+INFO  17:29:07,209 - #46 5
+INFO  17:29:07,209 - #44 )
+INFO  17:29:07,209 - #3 {
+INFO  17:29:07,210 - #45 i
+INFO  17:29:07,210 - #6 =
+ERROR 17:29:07,215 - Oporavak od greske u if Conditionu. Linija: 18
+INFO  17:29:07,215 - #46 1
+INFO  17:29:07,216 - #7 ;
+INFO  17:29:07,216 - #4 }
+INFO  17:29:07,216 - #13 else
+INFO  17:29:07,216 - #3 {
+INFO  17:29:07,217 - #45 i
+INFO  17:29:07,217 - #6 =
+INFO  17:29:07,217 - #46 2
+INFO  17:29:07,217 - #7 ;
+INFO  17:29:07,217 - #4 }
+INFO  17:29:07,218 - #18 print
+INFO  17:29:07,218 - #43 (
+INFO  17:29:07,218 - #45 i
+INFO  17:29:07,218 - #44 )
+INFO  17:29:07,218 - #7 ;
+INFO  17:29:07,218 - #4 }
+INFO  17:29:07,218 - #4 }
+INFO  17:29:07,223 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  ConstVarList_Var(
+    ConstVarList_Var(
+      ConstVarList_Var(
+        ConstVarList_Const(
+          ConstVarList_Eps(
+          ) [ConstVarList_Eps]
+          ConstList(
+            Type(
+             int
+            ) [Type]
+            ConstItem(
+             jedan
+              ConstVal_num(
+               1
+              ) [ConstVal_num]
+            ) [ConstItem]
+            RConstItem_eps(
+            ) [RConstItem_eps]
+          ) [ConstList]
+        ) [ConstVarList_Const]
+        VarList(
+          Type(
+           int
+          ) [Type]
+          VarItem_var(
+           i
+          ) [VarItem_var]
+          RVarItem_rep(
+            VarItem_var(
+             j
+            ) [VarItem_var]
+            RVarItem_eps(
+            ) [RVarItem_eps]
+          ) [RVarItem_rep]
+        ) [VarList]
+      ) [ConstVarList_Var]
+      VarList(
+        Type(
+         bool
+        ) [Type]
+        VarItem_var(
+         ibool
+        ) [VarItem_var]
+        RVarItem_eps(
+        ) [RVarItem_eps]
+      ) [VarList]
+    ) [ConstVarList_Var]
+    VarList(
+      Type(
+       int
+      ) [Type]
+      VarItem_arr(
+       niz
+      ) [VarItem_arr]
+      RVarItem_rep(
+        VarItem_arr(
+         niz2
+        ) [VarItem_arr]
+        RVarItem_rep(
+          VarItem_arr(
+           niz3
+          ) [VarItem_arr]
+          RVarItem_rep(
+            VarItem_arr(
+             niz4
+            ) [VarItem_arr]
+            RVarItem_eps(
+            ) [RVarItem_eps]
+          ) [RVarItem_rep]
+        ) [RVarItem_rep]
+      ) [RVarItem_rep]
+    ) [VarList]
+  ) [ConstVarList_Var]
+  GlobEnd(
+  ) [GlobEnd]
+  MethodList_rep(
+    MethodList_eps(
+    ) [MethodList_eps]
+    MethodDecl(
+      MethodType_v(
+      ) [MethodType_v]
+      MethodName(
+       main
+      ) [MethodName]
+      ParamList_eps(
+      ) [ParamList_eps]
+      RVarList_eps(
+      ) [RVarList_eps]
+      StatementList_rep(
+        StatementList_rep(
+          StatementList_rep(
+            StatementList_eps(
+            ) [StatementList_eps]
+            Statement_desig(
+              DesigStatement_exp(
+                Designator_var(
+                 i
+                ) [Designator_var]
+                Expr_aritm(
+                  RAdd_term(
+                    Term(
+                      RMul_fac(
+                        Factor_pos(
+                          Factor_n(
+                           0
+                          ) [Factor_n]
+                        ) [Factor_pos]
+                      ) [RMul_fac]
+                    ) [Term]
+                  ) [RAdd_term]
+                ) [Expr_aritm]
+              ) [DesigStatement_exp]
+            ) [Statement_desig]
+          ) [StatementList_rep]
+          Statement_if_error(
+            IfStart(
+            ) [IfStart]
+            IfCondError(
+            ) [IfCondError]
+            Statement_stat(
+              StatementList_rep(
+                StatementList_eps(
+                ) [StatementList_eps]
+                Statement_desig(
+                  DesigStatement_exp(
+                    Designator_var(
+                     i
+                    ) [Designator_var]
+                    Expr_aritm(
+                      RAdd_term(
+                        Term(
+                          RMul_fac(
+                            Factor_pos(
+                              Factor_n(
+                               1
+                              ) [Factor_n]
+                            ) [Factor_pos]
+                          ) [RMul_fac]
+                        ) [Term]
+                      ) [RAdd_term]
+                    ) [Expr_aritm]
+                  ) [DesigStatement_exp]
+                ) [Statement_desig]
+              ) [StatementList_rep]
+            ) [Statement_stat]
+            BranchDecisioner(
+            ) [BranchDecisioner]
+            ElseStatement_e(
+              Statement_stat(
+                StatementList_rep(
+                  StatementList_eps(
+                  ) [StatementList_eps]
+                  Statement_desig(
+                    DesigStatement_exp(
+                      Designator_var(
+                       i
+                      ) [Designator_var]
+                      Expr_aritm(
+                        RAdd_term(
+                          Term(
+                            RMul_fac(
+                              Factor_pos(
+                                Factor_n(
+                                 2
+                                ) [Factor_n]
+                              ) [Factor_pos]
+                            ) [RMul_fac]
+                          ) [Term]
+                        ) [RAdd_term]
+                      ) [Expr_aritm]
+                    ) [DesigStatement_exp]
+                  ) [Statement_desig]
+                ) [StatementList_rep]
+              ) [Statement_stat]
+            ) [ElseStatement_e]
+          ) [Statement_if_error]
+        ) [StatementList_rep]
+        Statement_print1(
+          Expr_aritm(
+            RAdd_term(
+              Term(
+                RMul_fac(
+                  Factor_pos(
+                    Factor_d(
+                      Designator_var(
+                       i
+                      ) [Designator_var]
+                    ) [Factor_d]
+                  ) [Factor_pos]
+                ) [RMul_fac]
+              ) [Term]
+            ) [RAdd_term]
+          ) [Expr_aritm]
+        ) [Statement_print1]
+      ) [StatementList_rep]
+    ) [MethodDecl]
+  ) [MethodList_rep]
+) [Program]
+INFO  17:29:07,225 - ===================================
+INFO  17:29:07,239 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 17
+INFO  17:29:07,239 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 19
+INFO  17:29:07,239 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 21
+INFO  17:29:07,239 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 24
+INFO  17:29:07,240 - ===================================
+INFO  17:29:07,246 - Parsiranje uspesno zavrseno!

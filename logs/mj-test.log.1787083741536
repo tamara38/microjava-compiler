@@ -1,0 +1,222 @@
+INFO  22:06:47,074 - Compiling source file: C:\Users\tamara\eclipse-workspace\MJCompiler\test\program.mj
+INFO  22:06:47,119 - #2 program
+INFO  22:06:47,119 - #44 test317
+INFO  22:06:47,119 - #44 int
+INFO  22:06:47,121 - #44 i
+INFO  22:06:47,121 - #8 ,
+INFO  22:06:47,122 - #44 j
+INFO  22:06:47,122 - #8 ,
+INFO  22:06:47,122 - #44 gvar
+INFO  22:06:47,122 - #8 ,
+INFO  22:06:47,122 - #44 fvar
+INFO  22:06:47,122 - #8 ,
+INFO  22:06:47,122 - #44 arr1
+INFO  22:06:47,122 - #9 [
+INFO  22:06:47,122 - #10 ]
+INFO  22:06:47,122 - #7 ;
+INFO  22:06:47,123 - #5 const
+INFO  22:06:47,124 - #44 int
+INFO  22:06:47,124 - #44 n
+INFO  22:06:47,124 - #6 =
+INFO  22:06:47,124 - #45 3
+INFO  22:06:47,125 - #7 ;
+INFO  22:06:47,126 - #3 {
+INFO  22:06:47,129 - #11 void
+INFO  22:06:47,129 - #44 ispis
+INFO  22:06:47,130 - #42 (
+INFO  22:06:47,130 - #43 )
+INFO  22:06:47,131 - #3 {
+INFO  22:06:47,131 - #18 print
+INFO  22:06:47,131 - #42 (
+INFO  22:06:47,131 - #45 1
+INFO  22:06:47,131 - #43 )
+INFO  22:06:47,132 - #7 ;
+INFO  22:06:47,133 - #4 }
+INFO  22:06:47,133 - #11 void
+INFO  22:06:47,133 - #44 main
+INFO  22:06:47,133 - #42 (
+INFO  22:06:47,133 - #43 )
+INFO  22:06:47,133 - #44 int
+INFO  22:06:47,134 - #44 a
+INFO  22:06:47,134 - #7 ;
+INFO  22:06:47,134 - #44 char
+INFO  22:06:47,134 - #44 c
+INFO  22:06:47,134 - #8 ,
+INFO  22:06:47,134 - #44 b
+INFO  22:06:47,134 - #9 [
+INFO  22:06:47,134 - #10 ]
+INFO  22:06:47,134 - #7 ;
+INFO  22:06:47,134 - #3 {
+INFO  22:06:47,134 - #44 ispis
+INFO  22:06:47,134 - #42 (
+INFO  22:06:47,134 - #43 )
+INFO  22:06:47,134 - #7 ;
+INFO  22:06:47,135 - #18 print
+INFO  22:06:47,135 - #42 (
+INFO  22:06:47,135 - #45 2
+INFO  22:06:47,135 - #43 )
+INFO  22:06:47,135 - #7 ;
+INFO  22:06:47,135 - #4 }
+INFO  22:06:47,135 - #4 }
+INFO  22:06:47,140 - Program(
+  ProgramName(
+   test317
+  ) [ProgramName]
+  ConstVarList_Const(
+    ConstVarList_Var(
+      ConstVarList_Eps(
+      ) [ConstVarList_Eps]
+      VarList(
+        Type(
+         int
+        ) [Type]
+        VarItem_var(
+         i
+        ) [VarItem_var]
+        RVarItem_rep(
+          VarItem_var(
+           j
+          ) [VarItem_var]
+          RVarItem_rep(
+            VarItem_var(
+             gvar
+            ) [VarItem_var]
+            RVarItem_rep(
+              VarItem_var(
+               fvar
+              ) [VarItem_var]
+              RVarItem_rep(
+                VarItem_arr(
+                 arr1
+                ) [VarItem_arr]
+                RVarItem_eps(
+                ) [RVarItem_eps]
+              ) [RVarItem_rep]
+            ) [RVarItem_rep]
+          ) [RVarItem_rep]
+        ) [RVarItem_rep]
+      ) [VarList]
+    ) [ConstVarList_Var]
+    ConstList(
+      Type(
+       int
+      ) [Type]
+      ConstItem(
+       n
+        ConstVal_num(
+         3
+        ) [ConstVal_num]
+      ) [ConstItem]
+      RConstItem_eps(
+      ) [RConstItem_eps]
+    ) [ConstList]
+  ) [ConstVarList_Const]
+  MethodList_rep(
+    MethodList_rep(
+      MethodList_eps(
+      ) [MethodList_eps]
+      MethodDecl(
+        MethodType_v(
+        ) [MethodType_v]
+        MethodName(
+         ispis
+        ) [MethodName]
+        ParamList_eps(
+        ) [ParamList_eps]
+        RVarList_eps(
+        ) [RVarList_eps]
+        StatementList_rep(
+          StatementList_eps(
+          ) [StatementList_eps]
+          Statement_print1(
+            Expr_aritm(
+              RAdd_term(
+                Term(
+                  RMul_fac(
+                    Factor_pos(
+                      Factor_n(
+                       1
+                      ) [Factor_n]
+                    ) [Factor_pos]
+                  ) [RMul_fac]
+                ) [Term]
+              ) [RAdd_term]
+            ) [Expr_aritm]
+          ) [Statement_print1]
+        ) [StatementList_rep]
+      ) [MethodDecl]
+    ) [MethodList_rep]
+    MethodDecl(
+      MethodType_v(
+      ) [MethodType_v]
+      MethodName(
+       main
+      ) [MethodName]
+      ParamList_eps(
+      ) [ParamList_eps]
+      RVarList_rep(
+        VarListList_rep(
+          VarListList_single(
+            VarList(
+              Type(
+               int
+              ) [Type]
+              VarItem_var(
+               a
+              ) [VarItem_var]
+              RVarItem_eps(
+              ) [RVarItem_eps]
+            ) [VarList]
+          ) [VarListList_single]
+          VarList(
+            Type(
+             char
+            ) [Type]
+            VarItem_var(
+             c
+            ) [VarItem_var]
+            RVarItem_rep(
+              VarItem_arr(
+               b
+              ) [VarItem_arr]
+              RVarItem_eps(
+              ) [RVarItem_eps]
+            ) [RVarItem_rep]
+          ) [VarList]
+        ) [VarListList_rep]
+      ) [RVarList_rep]
+      StatementList_rep(
+        StatementList_rep(
+          StatementList_eps(
+          ) [StatementList_eps]
+          Statement_desig(
+            DesigStatement_emp(
+              Designator_var(
+               ispis
+              ) [Designator_var]
+            ) [DesigStatement_emp]
+          ) [Statement_desig]
+        ) [StatementList_rep]
+        Statement_print1(
+          Expr_aritm(
+            RAdd_term(
+              Term(
+                RMul_fac(
+                  Factor_pos(
+                    Factor_n(
+                     2
+                    ) [Factor_n]
+                  ) [Factor_pos]
+                ) [RMul_fac]
+              ) [Term]
+            ) [RAdd_term]
+          ) [Expr_aritm]
+        ) [Statement_print1]
+      ) [StatementList_rep]
+    ) [MethodDecl]
+  ) [MethodList_rep]
+) [Program]
+INFO  22:06:47,140 - ===================================
+ERROR 22:06:47,150 - Neodgovarajuci tip return iskaza metode: ispis na liniji 24
+INFO  22:06:47,151 - ===================================
+INFO  22:06:47,151 - Parsiranje NIJE uspesno zavrseno!

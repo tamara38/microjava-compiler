@@ -1,0 +1,138 @@
+INFO  16:57:18,400 - Compiling source file: C:\Users\tamara\eclipse-workspace\MJCompiler\test\program.mj
+INFO  16:57:18,458 - #2 program
+INFO  16:57:18,458 - #44 test317
+INFO  16:57:18,458 - #5 const
+INFO  16:57:18,460 - #44 int
+INFO  16:57:18,460 - #44 x
+INFO  16:57:18,461 - #6 =
+INFO  16:57:18,461 - #45 1
+INFO  16:57:18,461 - #7 ;
+INFO  16:57:18,462 - #3 {
+INFO  16:57:18,463 - #44 int
+INFO  16:57:18,464 - #44 sum
+INFO  16:57:18,464 - #42 (
+INFO  16:57:18,465 - #44 int
+INFO  16:57:18,465 - #44 a
+INFO  16:57:18,465 - #8 ,
+INFO  16:57:18,466 - #44 bool
+INFO  16:57:18,466 - #44 b
+INFO  16:57:18,466 - #8 ,
+INFO  16:57:18,466 - #44 char
+INFO  16:57:18,466 - #44 c
+INFO  16:57:18,466 - #43 )
+INFO  16:57:18,466 - #3 {
+INFO  16:57:18,491 - #4 }
+INFO  16:57:18,492 - #11 void
+INFO  16:57:18,492 - #44 main
+INFO  16:57:18,493 - #42 (
+INFO  16:57:18,493 - #43 )
+INFO  16:57:18,494 - #3 {
+INFO  16:57:18,494 - #18 print
+INFO  16:57:18,494 - #42 (
+INFO  16:57:18,494 - #24 -
+INFO  16:57:18,494 - #45 2
+INFO  16:57:18,494 - #43 )
+INFO  16:57:18,497 - #7 ;
+INFO  16:57:18,497 - #4 }
+INFO  16:57:18,498 - #4 }
+INFO  16:57:18,503 - Program(
+  ProgramName(
+   test317
+  ) [ProgramName]
+  ConstVarList_Const(
+    ConstVarList_Eps(
+    ) [ConstVarList_Eps]
+    ConstList(
+      Type(
+       int
+      ) [Type]
+      ConstItem(
+       x
+        ConstVal_num(
+         1
+        ) [ConstVal_num]
+      ) [ConstItem]
+      RConstItem_eps(
+      ) [RConstItem_eps]
+    ) [ConstList]
+  ) [ConstVarList_Const]
+  MethodList_rep(
+    MethodList_rep(
+      MethodList_eps(
+      ) [MethodList_eps]
+      MethodDecl(
+        MethodType_t(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType_t]
+        MethodName(
+         sum
+        ) [MethodName]
+        ParamList_comma(
+          ParamList_comma(
+            ParamList_it(
+              ParamItem_var(
+                Type(
+                 int
+                ) [Type]
+               a
+              ) [ParamItem_var]
+            ) [ParamList_it]
+            ParamItem_var(
+              Type(
+               bool
+              ) [Type]
+             b
+            ) [ParamItem_var]
+          ) [ParamList_comma]
+          ParamItem_var(
+            Type(
+             char
+            ) [Type]
+           c
+          ) [ParamItem_var]
+        ) [ParamList_comma]
+        RVarList_eps(
+        ) [RVarList_eps]
+        StatementList_eps(
+        ) [StatementList_eps]
+      ) [MethodDecl]
+    ) [MethodList_rep]
+    MethodDecl(
+      MethodType_v(
+      ) [MethodType_v]
+      MethodName(
+       main
+      ) [MethodName]
+      ParamList_eps(
+      ) [ParamList_eps]
+      RVarList_eps(
+      ) [RVarList_eps]
+      StatementList_rep(
+        StatementList_eps(
+        ) [StatementList_eps]
+        Statement_print1(
+          Expr_aritm(
+            AddExpr(
+              Term(
+                Factor_neg(
+                  Factor_n(
+                   2
+                  ) [Factor_n]
+                ) [Factor_neg]
+                RMul_eps(
+                ) [RMul_eps]
+              ) [Term]
+              RAdd_eps(
+              ) [RAdd_eps]
+            ) [AddExpr]
+          ) [Expr_aritm]
+        ) [Statement_print1]
+      ) [StatementList_rep]
+    ) [MethodDecl]
+  ) [MethodList_rep]
+) [Program]
+INFO  16:57:18,503 - ===================================
+INFO  16:57:18,512 - ===================================
+INFO  16:57:18,512 - Parsiranje uspesno zavrseno!

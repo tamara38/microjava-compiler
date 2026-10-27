@@ -1,0 +1,235 @@
+INFO  15:51:11,103 - Compiling source file: C:\Users\tamara\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:51:11,132 - #2 program
+INFO  15:51:11,132 - #44 test317
+INFO  15:51:11,133 - #5 const
+INFO  15:51:11,133 - #44 int
+INFO  15:51:11,133 - #44 x
+INFO  15:51:11,134 - #6 =
+INFO  15:51:11,134 - #45 1
+INFO  15:51:11,134 - #8 ,
+INFO  15:51:11,135 - #44 y
+INFO  15:51:11,135 - #6 =
+INFO  15:51:11,135 - #45 2
+INFO  15:51:11,135 - #7 ;
+INFO  15:51:11,135 - #44 int
+INFO  15:51:11,136 - #44 var
+INFO  15:51:11,136 - #8 ,
+INFO  15:51:11,136 - #44 func
+INFO  15:51:11,136 - #8 ,
+INFO  15:51:11,136 - #44 arr1
+INFO  15:51:11,136 - #9 [
+INFO  15:51:11,136 - #10 ]
+INFO  15:51:11,136 - #8 ,
+INFO  15:51:11,136 - #44 arr2
+INFO  15:51:11,161 - #9 [
+INFO  15:51:11,161 - #10 ]
+INFO  15:51:11,161 - #7 ;
+INFO  15:51:11,163 - #44 char
+INFO  15:51:11,163 - #44 c
+INFO  15:51:11,163 - #8 ,
+INFO  15:51:11,163 - #44 arrc
+INFO  15:51:11,163 - #9 [
+INFO  15:51:11,163 - #10 ]
+INFO  15:51:11,163 - #7 ;
+INFO  15:51:11,164 - #3 {
+INFO  15:51:11,164 - #44 int
+INFO  15:51:11,164 - #44 sum
+INFO  15:51:11,164 - #42 (
+INFO  15:51:11,164 - #44 int
+INFO  15:51:11,164 - #44 a
+INFO  15:51:11,164 - #8 ,
+INFO  15:51:11,165 - #44 int
+INFO  15:51:11,165 - #44 b
+INFO  15:51:11,165 - #43 )
+INFO  15:51:11,165 - #3 {
+INFO  15:51:11,165 - #16 return
+INFO  15:51:11,166 - #44 a
+INFO  15:51:11,166 - #7 ;
+INFO  15:51:11,168 - #4 }
+INFO  15:51:11,168 - #11 void
+INFO  15:51:11,168 - #44 main
+INFO  15:51:11,169 - #42 (
+INFO  15:51:11,169 - #43 )
+INFO  15:51:11,169 - #3 {
+INFO  15:51:11,169 - #44 arr1
+INFO  15:51:11,169 - #9 [
+INFO  15:51:11,170 - #45 2
+INFO  15:51:11,170 - #10 ]
+INFO  15:51:11,170 - #36 ++
+INFO  15:51:11,170 - #7 ;
+INFO  15:51:11,170 - #4 }
+INFO  15:51:11,170 - #4 }
+INFO  15:51:11,174 - Program(
+  ProgramName(
+   test317
+  ) [ProgramName]
+  ConstVarList_Var(
+    ConstVarList_Var(
+      ConstVarList_Const(
+        ConstVarList_Eps(
+        ) [ConstVarList_Eps]
+        ConstList(
+          Type(
+           int
+          ) [Type]
+          ConstItem(
+           x
+            ConstVal_num(
+             1
+            ) [ConstVal_num]
+          ) [ConstItem]
+          RConstItem_rep(
+            ConstItem(
+             y
+              ConstVal_num(
+               2
+              ) [ConstVal_num]
+            ) [ConstItem]
+            RConstItem_eps(
+            ) [RConstItem_eps]
+          ) [RConstItem_rep]
+        ) [ConstList]
+      ) [ConstVarList_Const]
+      VarList(
+        Type(
+         int
+        ) [Type]
+        VarItem_var(
+         var
+        ) [VarItem_var]
+        RVarItem_rep(
+          VarItem_var(
+           func
+          ) [VarItem_var]
+          RVarItem_rep(
+            VarItem_arr(
+             arr1
+            ) [VarItem_arr]
+            RVarItem_rep(
+              VarItem_arr(
+               arr2
+              ) [VarItem_arr]
+              RVarItem_eps(
+              ) [RVarItem_eps]
+            ) [RVarItem_rep]
+          ) [RVarItem_rep]
+        ) [RVarItem_rep]
+      ) [VarList]
+    ) [ConstVarList_Var]
+    VarList(
+      Type(
+       char
+      ) [Type]
+      VarItem_var(
+       c
+      ) [VarItem_var]
+      RVarItem_rep(
+        VarItem_arr(
+         arrc
+        ) [VarItem_arr]
+        RVarItem_eps(
+        ) [RVarItem_eps]
+      ) [RVarItem_rep]
+    ) [VarList]
+  ) [ConstVarList_Var]
+  MethodList_rep(
+    MethodList_rep(
+      MethodList_eps(
+      ) [MethodList_eps]
+      MethodDecl(
+        MethodType_t(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType_t]
+        MethodName(
+         sum
+        ) [MethodName]
+        ParamList_comma(
+          ParamList_it(
+            ParamItem_var(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [ParamItem_var]
+          ) [ParamList_it]
+          ParamItem_var(
+            Type(
+             int
+            ) [Type]
+           b
+          ) [ParamItem_var]
+        ) [ParamList_comma]
+        RVarList_eps(
+        ) [RVarList_eps]
+        StatementList_rep(
+          StatementList_eps(
+          ) [StatementList_eps]
+          Statement_ret1(
+            Expr_aritm(
+              AddExpr(
+                Term(
+                  Factor_pos(
+                    Factor_d(
+                      Designator_var(
+                       a
+                      ) [Designator_var]
+                    ) [Factor_d]
+                  ) [Factor_pos]
+                  RMul_eps(
+                  ) [RMul_eps]
+                ) [Term]
+                RAdd_eps(
+                ) [RAdd_eps]
+              ) [AddExpr]
+            ) [Expr_aritm]
+          ) [Statement_ret1]
+        ) [StatementList_rep]
+      ) [MethodDecl]
+    ) [MethodList_rep]
+    MethodDecl(
+      MethodType_v(
+      ) [MethodType_v]
+      MethodName(
+       main
+      ) [MethodName]
+      ParamList_eps(
+      ) [ParamList_eps]
+      RVarList_eps(
+      ) [RVarList_eps]
+      StatementList_rep(
+        StatementList_eps(
+        ) [StatementList_eps]
+        Statement_desig(
+          DesigStatement_i(
+            Designator_el(
+              ArrayName(
+               arr1
+              ) [ArrayName]
+              Expr_aritm(
+                AddExpr(
+                  Term(
+                    Factor_pos(
+                      Factor_n(
+                       2
+                      ) [Factor_n]
+                    ) [Factor_pos]
+                    RMul_eps(
+                    ) [RMul_eps]
+                  ) [Term]
+                  RAdd_eps(
+                  ) [RAdd_eps]
+                ) [AddExpr]
+              ) [Expr_aritm]
+            ) [Designator_el]
+          ) [DesigStatement_i]
+        ) [Statement_desig]
+      ) [StatementList_rep]
+    ) [MethodDecl]
+  ) [MethodList_rep]
+) [Program]
+INFO  15:51:11,174 - ===================================
+ERROR 15:51:11,181 - Metoda nema odgovarajuci return iskaz: main na liniji 15
+INFO  15:51:11,181 - ===================================
+INFO  15:51:11,182 - Parsiranje NIJE uspesno zavrseno!

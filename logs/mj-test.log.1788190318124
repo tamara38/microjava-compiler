@@ -1,0 +1,314 @@
+INFO  17:30:48,104 - Compiling source file: C:\Users\tamara\eclipse-workspace\MJCompiler\test\program.mj
+INFO  17:30:48,155 - #2 program
+INFO  17:30:48,155 - #45 test302
+INFO  17:30:48,155 - #5 const
+INFO  17:30:48,156 - #45 int
+INFO  17:30:48,157 - #45 jedan
+INFO  17:30:48,157 - #6 =
+INFO  17:30:48,157 - #46 1
+INFO  17:30:48,158 - #7 ;
+INFO  17:30:48,159 - #45 int
+INFO  17:30:48,160 - #45 i
+INFO  17:30:48,161 - #8 ,
+INFO  17:30:48,161 - #45 j
+INFO  17:30:48,161 - #7 ;
+INFO  17:30:48,162 - #45 bool
+INFO  17:30:48,163 - #45 ibool
+INFO  17:30:48,163 - #7 ;
+INFO  17:30:48,163 - #45 int
+INFO  17:30:48,163 - #45 niz
+INFO  17:30:48,163 - #9 [
+INFO  17:30:48,165 - #10 ]
+INFO  17:30:48,165 - #8 ,
+INFO  17:30:48,165 - #45 niz2
+INFO  17:30:48,188 - #9 [
+INFO  17:30:48,188 - #10 ]
+INFO  17:30:48,188 - #8 ,
+INFO  17:30:48,188 - #45 niz3
+INFO  17:30:48,188 - #9 [
+INFO  17:30:48,188 - #10 ]
+INFO  17:30:48,188 - #8 ,
+INFO  17:30:48,188 - #45 niz4
+INFO  17:30:48,188 - #9 [
+INFO  17:30:48,188 - #10 ]
+INFO  17:30:48,189 - #7 ;
+INFO  17:30:48,189 - #3 {
+INFO  17:30:48,190 - #11 void
+INFO  17:30:48,190 - #45 main
+INFO  17:30:48,191 - #43 (
+INFO  17:30:48,192 - #44 )
+INFO  17:30:48,192 - #3 {
+INFO  17:30:48,193 - #45 i
+INFO  17:30:48,194 - #6 =
+INFO  17:30:48,195 - #46 0
+INFO  17:30:48,195 - #7 ;
+INFO  17:30:48,197 - #12 if
+INFO  17:30:48,197 - #43 (
+INFO  17:30:48,198 - #45 i
+INFO  17:30:48,198 - #33 >
+INFO  17:30:48,198 - #46 5
+INFO  17:30:48,199 - #44 )
+INFO  17:30:48,201 - #3 {
+INFO  17:30:48,202 - #45 i
+INFO  17:30:48,202 - #6 =
+INFO  17:30:48,202 - #46 1
+INFO  17:30:48,202 - #7 ;
+INFO  17:30:48,202 - #4 }
+INFO  17:30:48,202 - #13 else
+INFO  17:30:48,202 - #3 {
+INFO  17:30:48,203 - #45 i
+INFO  17:30:48,203 - #6 =
+INFO  17:30:48,203 - #46 2
+INFO  17:30:48,203 - #7 ;
+INFO  17:30:48,203 - #4 }
+INFO  17:30:48,203 - #18 print
+INFO  17:30:48,204 - #43 (
+INFO  17:30:48,204 - #45 i
+INFO  17:30:48,204 - #44 )
+INFO  17:30:48,204 - #7 ;
+INFO  17:30:48,204 - #4 }
+INFO  17:30:48,204 - #4 }
+INFO  17:30:48,211 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  ConstVarList_Var(
+    ConstVarList_Var(
+      ConstVarList_Var(
+        ConstVarList_Const(
+          ConstVarList_Eps(
+          ) [ConstVarList_Eps]
+          ConstList(
+            Type(
+             int
+            ) [Type]
+            ConstItem(
+             jedan
+              ConstVal_num(
+               1
+              ) [ConstVal_num]
+            ) [ConstItem]
+            RConstItem_eps(
+            ) [RConstItem_eps]
+          ) [ConstList]
+        ) [ConstVarList_Const]
+        VarList(
+          Type(
+           int
+          ) [Type]
+          VarItem_var(
+           i
+          ) [VarItem_var]
+          RVarItem_rep(
+            VarItem_var(
+             j
+            ) [VarItem_var]
+            RVarItem_eps(
+            ) [RVarItem_eps]
+          ) [RVarItem_rep]
+        ) [VarList]
+      ) [ConstVarList_Var]
+      VarList(
+        Type(
+         bool
+        ) [Type]
+        VarItem_var(
+         ibool
+        ) [VarItem_var]
+        RVarItem_eps(
+        ) [RVarItem_eps]
+      ) [VarList]
+    ) [ConstVarList_Var]
+    VarList(
+      Type(
+       int
+      ) [Type]
+      VarItem_arr(
+       niz
+      ) [VarItem_arr]
+      RVarItem_rep(
+        VarItem_arr(
+         niz2
+        ) [VarItem_arr]
+        RVarItem_rep(
+          VarItem_arr(
+           niz3
+          ) [VarItem_arr]
+          RVarItem_rep(
+            VarItem_arr(
+             niz4
+            ) [VarItem_arr]
+            RVarItem_eps(
+            ) [RVarItem_eps]
+          ) [RVarItem_rep]
+        ) [RVarItem_rep]
+      ) [RVarItem_rep]
+    ) [VarList]
+  ) [ConstVarList_Var]
+  GlobEnd(
+  ) [GlobEnd]
+  MethodList_rep(
+    MethodList_eps(
+    ) [MethodList_eps]
+    MethodDecl(
+      MethodType_v(
+      ) [MethodType_v]
+      MethodName(
+       main
+      ) [MethodName]
+      ParamList_eps(
+      ) [ParamList_eps]
+      RVarList_eps(
+      ) [RVarList_eps]
+      StatementList_rep(
+        StatementList_rep(
+          StatementList_rep(
+            StatementList_eps(
+            ) [StatementList_eps]
+            Statement_desig(
+              DesigStatement_exp(
+                Designator_var(
+                 i
+                ) [Designator_var]
+                Expr_aritm(
+                  RAdd_term(
+                    Term(
+                      RMul_fac(
+                        Factor_pos(
+                          Factor_n(
+                           0
+                          ) [Factor_n]
+                        ) [Factor_pos]
+                      ) [RMul_fac]
+                    ) [Term]
+                  ) [RAdd_term]
+                ) [Expr_aritm]
+              ) [DesigStatement_exp]
+            ) [Statement_desig]
+          ) [StatementList_rep]
+          Statement_if(
+            IfStart(
+            ) [IfStart]
+            Condition(
+              CondTerm(
+                CondFact_r(
+                  RAdd_term(
+                    Term(
+                      RMul_fac(
+                        Factor_pos(
+                          Factor_d(
+                            Designator_var(
+                             i
+                            ) [Designator_var]
+                          ) [Factor_d]
+                        ) [Factor_pos]
+                      ) [RMul_fac]
+                    ) [Term]
+                  ) [RAdd_term]
+                  Relop_gt(
+                  ) [Relop_gt]
+                  RAdd_term(
+                    Term(
+                      RMul_fac(
+                        Factor_pos(
+                          Factor_n(
+                           5
+                          ) [Factor_n]
+                        ) [Factor_pos]
+                      ) [RMul_fac]
+                    ) [Term]
+                  ) [RAdd_term]
+                ) [CondFact_r]
+                RCondFact_eps(
+                ) [RCondFact_eps]
+              ) [CondTerm]
+              RCondTerm_eps(
+              ) [RCondTerm_eps]
+            ) [Condition]
+            Statement_stat(
+              StatementList_rep(
+                StatementList_eps(
+                ) [StatementList_eps]
+                Statement_desig(
+                  DesigStatement_exp(
+                    Designator_var(
+                     i
+                    ) [Designator_var]
+                    Expr_aritm(
+                      RAdd_term(
+                        Term(
+                          RMul_fac(
+                            Factor_pos(
+                              Factor_n(
+                               1
+                              ) [Factor_n]
+                            ) [Factor_pos]
+                          ) [RMul_fac]
+                        ) [Term]
+                      ) [RAdd_term]
+                    ) [Expr_aritm]
+                  ) [DesigStatement_exp]
+                ) [Statement_desig]
+              ) [StatementList_rep]
+            ) [Statement_stat]
+            BranchDecisioner(
+            ) [BranchDecisioner]
+            ElseStatement_e(
+              Statement_stat(
+                StatementList_rep(
+                  StatementList_eps(
+                  ) [StatementList_eps]
+                  Statement_desig(
+                    DesigStatement_exp(
+                      Designator_var(
+                       i
+                      ) [Designator_var]
+                      Expr_aritm(
+                        RAdd_term(
+                          Term(
+                            RMul_fac(
+                              Factor_pos(
+                                Factor_n(
+                                 2
+                                ) [Factor_n]
+                              ) [Factor_pos]
+                            ) [RMul_fac]
+                          ) [Term]
+                        ) [RAdd_term]
+                      ) [Expr_aritm]
+                    ) [DesigStatement_exp]
+                  ) [Statement_desig]
+                ) [StatementList_rep]
+              ) [Statement_stat]
+            ) [ElseStatement_e]
+          ) [Statement_if]
+        ) [StatementList_rep]
+        Statement_print1(
+          Expr_aritm(
+            RAdd_term(
+              Term(
+                RMul_fac(
+                  Factor_pos(
+                    Factor_d(
+                      Designator_var(
+                       i
+                      ) [Designator_var]
+                    ) [Factor_d]
+                  ) [Factor_pos]
+                ) [RMul_fac]
+              ) [Term]
+            ) [RAdd_term]
+          ) [Expr_aritm]
+        ) [Statement_print1]
+      ) [StatementList_rep]
+    ) [MethodDecl]
+  ) [MethodList_rep]
+) [Program]
+INFO  17:30:48,211 - ===================================
+INFO  17:30:48,226 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 17
+INFO  17:30:48,226 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 18
+INFO  17:30:48,229 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 19
+INFO  17:30:48,229 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 21
+INFO  17:30:48,229 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 24
+INFO  17:30:48,229 - ===================================
+INFO  17:30:48,233 - Parsiranje uspesno zavrseno!

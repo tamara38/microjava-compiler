@@ -1,0 +1,276 @@
+INFO  00:58:15,282 - Compiling source file: C:\Users\tamara\eclipse-workspace\MJCompiler\test\program.mj
+INFO  00:58:15,320 - #2 program
+INFO  00:58:15,321 - #44 test317
+INFO  00:58:15,321 - #44 int
+INFO  00:58:15,321 - #44 i
+INFO  00:58:15,322 - #8 ,
+INFO  00:58:15,322 - #44 j
+INFO  00:58:15,322 - #8 ,
+INFO  00:58:15,322 - #44 gvar
+INFO  00:58:15,322 - #8 ,
+INFO  00:58:15,322 - #44 fvar
+INFO  00:58:15,322 - #8 ,
+INFO  00:58:15,322 - #44 arr1
+INFO  00:58:15,322 - #9 [
+INFO  00:58:15,322 - #10 ]
+INFO  00:58:15,322 - #7 ;
+INFO  00:58:15,324 - #5 const
+INFO  00:58:15,324 - #44 int
+INFO  00:58:15,324 - #44 n
+INFO  00:58:15,324 - #6 =
+INFO  00:58:15,324 - #45 3
+INFO  00:58:15,325 - #7 ;
+INFO  00:58:15,325 - #3 {
+INFO  00:58:15,352 - #11 void
+INFO  00:58:15,352 - #44 main
+INFO  00:58:15,353 - #42 (
+INFO  00:58:15,353 - #43 )
+INFO  00:58:15,353 - #44 int
+INFO  00:58:15,354 - #44 a
+INFO  00:58:15,354 - #7 ;
+INFO  00:58:15,354 - #44 char
+INFO  00:58:15,354 - #44 b
+INFO  00:58:15,354 - #9 [
+INFO  00:58:15,354 - #10 ]
+INFO  00:58:15,354 - #7 ;
+INFO  00:58:15,354 - #3 {
+INFO  00:58:15,354 - #44 b
+INFO  00:58:15,354 - #6 =
+INFO  00:58:15,354 - #41 new
+INFO  00:58:15,355 - #44 char
+INFO  00:58:15,355 - #9 [
+INFO  00:58:15,355 - #45 2
+INFO  00:58:15,355 - #10 ]
+INFO  00:58:15,355 - #7 ;
+INFO  00:58:15,356 - #44 b
+INFO  00:58:15,356 - #9 [
+INFO  00:58:15,356 - #45 0
+INFO  00:58:15,356 - #10 ]
+INFO  00:58:15,356 - #6 =
+INFO  00:58:15,357 - #47 a
+INFO  00:58:15,357 - #7 ;
+INFO  00:58:15,357 - #18 print
+INFO  00:58:15,357 - #42 (
+INFO  00:58:15,357 - #44 b
+INFO  00:58:15,357 - #9 [
+INFO  00:58:15,357 - #45 0
+INFO  00:58:15,357 - #10 ]
+INFO  00:58:15,357 - #43 )
+INFO  00:58:15,357 - #7 ;
+INFO  00:58:15,357 - #16 return
+INFO  00:58:15,357 - #7 ;
+INFO  00:58:15,357 - #4 }
+INFO  00:58:15,357 - #4 }
+INFO  00:58:15,361 - Program(
+  ProgramName(
+   test317
+  ) [ProgramName]
+  ConstVarList_Const(
+    ConstVarList_Var(
+      ConstVarList_Eps(
+      ) [ConstVarList_Eps]
+      VarList(
+        Type(
+         int
+        ) [Type]
+        VarItem_var(
+         i
+        ) [VarItem_var]
+        RVarItem_rep(
+          VarItem_var(
+           j
+          ) [VarItem_var]
+          RVarItem_rep(
+            VarItem_var(
+             gvar
+            ) [VarItem_var]
+            RVarItem_rep(
+              VarItem_var(
+               fvar
+              ) [VarItem_var]
+              RVarItem_rep(
+                VarItem_arr(
+                 arr1
+                ) [VarItem_arr]
+                RVarItem_eps(
+                ) [RVarItem_eps]
+              ) [RVarItem_rep]
+            ) [RVarItem_rep]
+          ) [RVarItem_rep]
+        ) [RVarItem_rep]
+      ) [VarList]
+    ) [ConstVarList_Var]
+    ConstList(
+      Type(
+       int
+      ) [Type]
+      ConstItem(
+       n
+        ConstVal_num(
+         3
+        ) [ConstVal_num]
+      ) [ConstItem]
+      RConstItem_eps(
+      ) [RConstItem_eps]
+    ) [ConstList]
+  ) [ConstVarList_Const]
+  MethodList_rep(
+    MethodList_eps(
+    ) [MethodList_eps]
+    MethodDecl(
+      MethodType_v(
+      ) [MethodType_v]
+      MethodName(
+       main
+      ) [MethodName]
+      ParamList_eps(
+      ) [ParamList_eps]
+      RVarList_rep(
+        VarListList_rep(
+          VarListList_single(
+            VarList(
+              Type(
+               int
+              ) [Type]
+              VarItem_var(
+               a
+              ) [VarItem_var]
+              RVarItem_eps(
+              ) [RVarItem_eps]
+            ) [VarList]
+          ) [VarListList_single]
+          VarList(
+            Type(
+             char
+            ) [Type]
+            VarItem_arr(
+             b
+            ) [VarItem_arr]
+            RVarItem_eps(
+            ) [RVarItem_eps]
+          ) [VarList]
+        ) [VarListList_rep]
+      ) [RVarList_rep]
+      StatementList_rep(
+        StatementList_rep(
+          StatementList_rep(
+            StatementList_rep(
+              StatementList_eps(
+              ) [StatementList_eps]
+              Statement_desig(
+                DesigStatement_exp(
+                  Designator_var(
+                   b
+                  ) [Designator_var]
+                  Expr_aritm(
+                    RAdd_term(
+                      Term(
+                        RMul_fac(
+                          Factor_pos(
+                            Factor_newarr(
+                              Type(
+                               char
+                              ) [Type]
+                              Expr_aritm(
+                                RAdd_term(
+                                  Term(
+                                    RMul_fac(
+                                      Factor_pos(
+                                        Factor_n(
+                                         2
+                                        ) [Factor_n]
+                                      ) [Factor_pos]
+                                    ) [RMul_fac]
+                                  ) [Term]
+                                ) [RAdd_term]
+                              ) [Expr_aritm]
+                            ) [Factor_newarr]
+                          ) [Factor_pos]
+                        ) [RMul_fac]
+                      ) [Term]
+                    ) [RAdd_term]
+                  ) [Expr_aritm]
+                ) [DesigStatement_exp]
+              ) [Statement_desig]
+            ) [StatementList_rep]
+            Statement_desig(
+              DesigStatement_exp(
+                Designator_el(
+                  ArrayName(
+                   b
+                  ) [ArrayName]
+                  Expr_aritm(
+                    RAdd_term(
+                      Term(
+                        RMul_fac(
+                          Factor_pos(
+                            Factor_n(
+                             0
+                            ) [Factor_n]
+                          ) [Factor_pos]
+                        ) [RMul_fac]
+                      ) [Term]
+                    ) [RAdd_term]
+                  ) [Expr_aritm]
+                ) [Designator_el]
+                Expr_aritm(
+                  RAdd_term(
+                    Term(
+                      RMul_fac(
+                        Factor_pos(
+                          Factor_c(
+                           a
+                          ) [Factor_c]
+                        ) [Factor_pos]
+                      ) [RMul_fac]
+                    ) [Term]
+                  ) [RAdd_term]
+                ) [Expr_aritm]
+              ) [DesigStatement_exp]
+            ) [Statement_desig]
+          ) [StatementList_rep]
+          Statement_print1(
+            Expr_aritm(
+              RAdd_term(
+                Term(
+                  RMul_fac(
+                    Factor_pos(
+                      Factor_d(
+                        Designator_el(
+                          ArrayName(
+                           b
+                          ) [ArrayName]
+                          Expr_aritm(
+                            RAdd_term(
+                              Term(
+                                RMul_fac(
+                                  Factor_pos(
+                                    Factor_n(
+                                     0
+                                    ) [Factor_n]
+                                  ) [Factor_pos]
+                                ) [RMul_fac]
+                              ) [Term]
+                            ) [RAdd_term]
+                          ) [Expr_aritm]
+                        ) [Designator_el]
+                      ) [Factor_d]
+                    ) [Factor_pos]
+                  ) [RMul_fac]
+                ) [Term]
+              ) [RAdd_term]
+            ) [Expr_aritm]
+          ) [Statement_print1]
+        ) [StatementList_rep]
+        Statement_ret2(
+        ) [Statement_ret2]
+      ) [StatementList_rep]
+    ) [MethodDecl]
+  ) [MethodList_rep]
+) [Program]
+INFO  00:58:15,362 - ===================================
+INFO  00:58:15,373 - Pristup lokalnoj promenljivoj b [Kind: 1] na liniji 26
+INFO  00:58:15,373 - Pristup elementu niza b [Kind: 1] na liniji 27
+INFO  00:58:15,373 - Pristup elementu niza b [Kind: 1] na liniji 30
+INFO  00:58:15,373 - ===================================
+INFO  00:58:15,376 - Parsiranje uspesno zavrseno!

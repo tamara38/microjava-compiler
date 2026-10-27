@@ -1,0 +1,60 @@
+INFO  10:43:47,205 - Compiling source file: C:\Users\tamara\eclipse-workspace\MJCompiler\test\program.mj
+INFO  10:43:47,248 - #2 program
+INFO  10:43:47,249 - #44 test317
+INFO  10:43:47,249 - #5 const
+INFO  10:43:47,251 - #44 int
+INFO  10:43:47,251 - #44 x
+INFO  10:43:47,251 - #6 =
+INFO  10:43:47,251 - #45 1
+INFO  10:43:47,251 - #7 ;
+INFO  10:43:47,252 - #3 {
+INFO  10:43:47,252 - #11 void
+INFO  10:43:47,254 - #44 m
+INFO  10:43:47,254 - #42 (
+INFO  10:43:47,255 - #43 )
+INFO  10:43:47,255 - #3 {
+INFO  10:43:47,255 - #4 }
+INFO  10:43:47,257 - #4 }
+INFO  10:43:47,260 - Program(
+  ProgramName(
+   test317
+  ) [ProgramName]
+  ConstVarList_Const(
+    ConstVarList_Eps(
+    ) [ConstVarList_Eps]
+    ConstList(
+      Type(
+       int
+      ) [Type]
+      ConstItem(
+       x
+        ConstVal_num(
+         1
+        ) [ConstVal_num]
+      ) [ConstItem]
+      RConstItem_eps(
+      ) [RConstItem_eps]
+    ) [ConstList]
+  ) [ConstVarList_Const]
+  MethodList_rep(
+    MethodList_eps(
+    ) [MethodList_eps]
+    MethodDecl(
+      MethodType_v(
+      ) [MethodType_v]
+      MethodName(
+       m
+      ) [MethodName]
+      ParamList_eps(
+      ) [ParamList_eps]
+      RVarList_eps(
+      ) [RVarList_eps]
+      StatementList_eps(
+      ) [StatementList_eps]
+    ) [MethodDecl]
+  ) [MethodList_rep]
+) [Program]
+INFO  10:43:47,271 - ===================================
+ERROR 10:43:47,280 - Program nema odgovarajucu main metodu na liniji 3
+INFO  10:43:47,280 - ===================================
+INFO  10:43:47,281 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,3321 @@
+INFO  23:33:38,035 - Compiling source file: C:\Users\tamara\eclipse-workspace\MJCompiler\test\program.mj
+INFO  23:33:38,077 - #2 program
+INFO  23:33:38,079 - #45 test302
+INFO  23:33:38,079 - #5 const
+INFO  23:33:38,080 - #45 int
+INFO  23:33:38,080 - #45 jedan
+INFO  23:33:38,081 - #6 =
+INFO  23:33:38,081 - #46 1
+INFO  23:33:38,081 - #7 ;
+INFO  23:33:38,082 - #45 int
+INFO  23:33:38,082 - #45 i
+INFO  23:33:38,083 - #8 ,
+INFO  23:33:38,083 - #45 j
+INFO  23:33:38,083 - #7 ;
+INFO  23:33:38,083 - #45 bool
+INFO  23:33:38,084 - #45 ibool
+INFO  23:33:38,084 - #7 ;
+INFO  23:33:38,084 - #45 int
+INFO  23:33:38,084 - #45 niz
+INFO  23:33:38,084 - #9 [
+INFO  23:33:38,084 - #10 ]
+INFO  23:33:38,084 - #8 ,
+INFO  23:33:38,085 - #45 niz2
+INFO  23:33:38,108 - #9 [
+INFO  23:33:38,108 - #10 ]
+INFO  23:33:38,108 - #8 ,
+INFO  23:33:38,108 - #45 niz3
+INFO  23:33:38,108 - #9 [
+INFO  23:33:38,108 - #10 ]
+INFO  23:33:38,108 - #8 ,
+INFO  23:33:38,109 - #45 niz4
+INFO  23:33:38,109 - #9 [
+INFO  23:33:38,109 - #10 ]
+INFO  23:33:38,109 - #7 ;
+INFO  23:33:38,109 - #3 {
+INFO  23:33:38,109 - #45 int
+INFO  23:33:38,110 - #45 sum
+INFO  23:33:38,110 - #43 (
+INFO  23:33:38,110 - #45 int
+INFO  23:33:38,110 - #45 z
+INFO  23:33:38,111 - #8 ,
+INFO  23:33:38,111 - #45 int
+INFO  23:33:38,111 - #45 d
+INFO  23:33:38,111 - #44 )
+INFO  23:33:38,111 - #3 {
+INFO  23:33:38,112 - #16 return
+INFO  23:33:38,112 - #45 z
+INFO  23:33:38,113 - #23 +
+INFO  23:33:38,113 - #45 d
+INFO  23:33:38,114 - #7 ;
+INFO  23:33:38,114 - #4 }
+INFO  23:33:38,116 - #45 int
+INFO  23:33:38,117 - #45 inkrement
+INFO  23:33:38,117 - #43 (
+INFO  23:33:38,117 - #45 int
+INFO  23:33:38,117 - #45 a
+INFO  23:33:38,117 - #8 ,
+INFO  23:33:38,117 - #45 int
+INFO  23:33:38,117 - #45 inc
+INFO  23:33:38,117 - #44 )
+INFO  23:33:38,117 - #45 int
+INFO  23:33:38,117 - #45 pom
+INFO  23:33:38,117 - #7 ;
+INFO  23:33:38,117 - #3 {
+INFO  23:33:38,118 - #12 if
+INFO  23:33:38,118 - #43 (
+INFO  23:33:38,119 - #45 inc
+INFO  23:33:38,119 - #29 ==
+INFO  23:33:38,119 - #45 jedan
+INFO  23:33:38,121 - #44 )
+INFO  23:33:38,122 - #45 pom
+INFO  23:33:38,122 - #6 =
+INFO  23:33:38,122 - #46 1
+INFO  23:33:38,122 - #7 ;
+INFO  23:33:38,123 - #13 else
+INFO  23:33:38,123 - #12 if
+INFO  23:33:38,123 - #43 (
+INFO  23:33:38,123 - #45 inc
+INFO  23:33:38,124 - #29 ==
+INFO  23:33:38,124 - #46 2
+INFO  23:33:38,124 - #44 )
+INFO  23:33:38,124 - #45 pom
+INFO  23:33:38,124 - #6 =
+INFO  23:33:38,124 - #45 a
+INFO  23:33:38,124 - #7 ;
+INFO  23:33:38,124 - #16 return
+INFO  23:33:38,125 - #45 sum
+INFO  23:33:38,125 - #43 (
+INFO  23:33:38,125 - #45 a
+INFO  23:33:38,126 - #8 ,
+INFO  23:33:38,127 - #45 pom
+INFO  23:33:38,127 - #44 )
+INFO  23:33:38,129 - #7 ;
+INFO  23:33:38,130 - #4 }
+INFO  23:33:38,130 - #45 bool
+INFO  23:33:38,130 - #45 verify
+INFO  23:33:38,130 - #43 (
+INFO  23:33:38,130 - #44 )
+INFO  23:33:38,131 - #3 {
+INFO  23:33:38,131 - #18 print
+INFO  23:33:38,132 - #43 (
+INFO  23:33:38,132 - #48 v
+INFO  23:33:38,132 - #44 )
+INFO  23:33:38,132 - #7 ;
+INFO  23:33:38,132 - #16 return
+INFO  23:33:38,132 - #47 0
+INFO  23:33:38,133 - #7 ;
+INFO  23:33:38,133 - #4 }
+INFO  23:33:38,133 - #11 void
+INFO  23:33:38,133 - #45 main
+INFO  23:33:38,134 - #43 (
+INFO  23:33:38,134 - #44 )
+INFO  23:33:38,134 - #3 {
+INFO  23:33:38,134 - #12 if
+INFO  23:33:38,134 - #43 (
+INFO  23:33:38,135 - #46 1
+INFO  23:33:38,135 - #30 !=
+INFO  23:33:38,135 - #46 1
+INFO  23:33:38,135 - #44 )
+INFO  23:33:38,135 - #18 print
+INFO  23:33:38,135 - #43 (
+INFO  23:33:38,135 - #24 -
+INFO  23:33:38,135 - #46 6
+INFO  23:33:38,135 - #44 )
+INFO  23:33:38,135 - #7 ;
+INFO  23:33:38,136 - #13 else
+INFO  23:33:38,136 - #18 print
+INFO  23:33:38,136 - #43 (
+INFO  23:33:38,136 - #46 0
+INFO  23:33:38,136 - #44 )
+INFO  23:33:38,136 - #7 ;
+INFO  23:33:38,136 - #45 ibool
+INFO  23:33:38,136 - #6 =
+INFO  23:33:38,136 - #47 0
+INFO  23:33:38,136 - #7 ;
+INFO  23:33:38,136 - #45 i
+INFO  23:33:38,136 - #6 =
+INFO  23:33:38,136 - #46 0
+INFO  23:33:38,136 - #7 ;
+INFO  23:33:38,136 - #19 for
+INFO  23:33:38,136 - #43 (
+INFO  23:33:38,137 - #45 i
+INFO  23:33:38,137 - #6 =
+INFO  23:33:38,137 - #46 0
+INFO  23:33:38,137 - #7 ;
+INFO  23:33:38,137 - #45 i
+INFO  23:33:38,137 - #34 <
+INFO  23:33:38,137 - #46 5
+INFO  23:33:38,138 - #7 ;
+INFO  23:33:38,138 - #45 i
+INFO  23:33:38,138 - #37 ++
+INFO  23:33:38,138 - #44 )
+INFO  23:33:38,138 - #3 {
+INFO  23:33:38,138 - #12 if
+INFO  23:33:38,138 - #43 (
+INFO  23:33:38,138 - #45 i
+INFO  23:33:38,138 - #29 ==
+INFO  23:33:38,138 - #46 2
+INFO  23:33:38,138 - #44 )
+INFO  23:33:38,138 - #45 ibool
+INFO  23:33:38,139 - #6 =
+INFO  23:33:38,139 - #47 1
+INFO  23:33:38,139 - #7 ;
+INFO  23:33:38,139 - #4 }
+INFO  23:33:38,139 - #12 if
+INFO  23:33:38,139 - #43 (
+INFO  23:33:38,139 - #45 ibool
+INFO  23:33:38,139 - #44 )
+INFO  23:33:38,139 - #12 if
+INFO  23:33:38,139 - #43 (
+INFO  23:33:38,139 - #45 i
+INFO  23:33:38,139 - #29 ==
+INFO  23:33:38,139 - #46 5
+INFO  23:33:38,139 - #44 )
+INFO  23:33:38,139 - #18 print
+INFO  23:33:38,139 - #43 (
+INFO  23:33:38,139 - #46 1
+INFO  23:33:38,139 - #44 )
+INFO  23:33:38,139 - #7 ;
+INFO  23:33:38,139 - #13 else
+INFO  23:33:38,139 - #18 print
+INFO  23:33:38,139 - #43 (
+INFO  23:33:38,139 - #24 -
+INFO  23:33:38,139 - #46 1
+INFO  23:33:38,141 - #44 )
+INFO  23:33:38,141 - #7 ;
+INFO  23:33:38,141 - #45 niz
+INFO  23:33:38,141 - #6 =
+INFO  23:33:38,141 - #42 new
+INFO  23:33:38,141 - #45 int
+INFO  23:33:38,141 - #9 [
+INFO  23:33:38,141 - #46 3
+INFO  23:33:38,141 - #10 ]
+INFO  23:33:38,141 - #7 ;
+INFO  23:33:38,141 - #45 niz
+INFO  23:33:38,141 - #9 [
+INFO  23:33:38,142 - #46 0
+INFO  23:33:38,143 - #10 ]
+INFO  23:33:38,143 - #6 =
+INFO  23:33:38,143 - #46 1
+INFO  23:33:38,143 - #7 ;
+INFO  23:33:38,143 - #45 niz
+INFO  23:33:38,143 - #9 [
+INFO  23:33:38,143 - #46 1
+INFO  23:33:38,143 - #10 ]
+INFO  23:33:38,143 - #6 =
+INFO  23:33:38,144 - #46 2
+INFO  23:33:38,144 - #7 ;
+INFO  23:33:38,144 - #45 niz
+INFO  23:33:38,144 - #9 [
+INFO  23:33:38,144 - #46 2
+INFO  23:33:38,144 - #10 ]
+INFO  23:33:38,144 - #6 =
+INFO  23:33:38,144 - #45 sum
+INFO  23:33:38,144 - #43 (
+INFO  23:33:38,144 - #45 niz
+INFO  23:33:38,144 - #9 [
+INFO  23:33:38,144 - #46 1
+INFO  23:33:38,144 - #10 ]
+INFO  23:33:38,144 - #8 ,
+INFO  23:33:38,145 - #45 niz
+INFO  23:33:38,145 - #9 [
+INFO  23:33:38,145 - #46 0
+INFO  23:33:38,145 - #10 ]
+INFO  23:33:38,145 - #44 )
+INFO  23:33:38,145 - #23 +
+INFO  23:33:38,145 - #46 1
+INFO  23:33:38,145 - #7 ;
+INFO  23:33:38,145 - #12 if
+INFO  23:33:38,145 - #43 (
+INFO  23:33:38,145 - #45 niz
+INFO  23:33:38,145 - #9 [
+INFO  23:33:38,146 - #46 2
+INFO  23:33:38,146 - #10 ]
+INFO  23:33:38,146 - #29 ==
+INFO  23:33:38,146 - #46 4
+INFO  23:33:38,146 - #39 ||
+INFO  23:33:38,146 - #45 verify
+INFO  23:33:38,146 - #43 (
+INFO  23:33:38,146 - #44 )
+INFO  23:33:38,146 - #44 )
+INFO  23:33:38,146 - #18 print
+INFO  23:33:38,146 - #43 (
+INFO  23:33:38,146 - #45 ord
+INFO  23:33:38,146 - #43 (
+INFO  23:33:38,146 - #48 A
+INFO  23:33:38,147 - #44 )
+INFO  23:33:38,147 - #44 )
+INFO  23:33:38,147 - #7 ;
+INFO  23:33:38,147 - #13 else
+INFO  23:33:38,147 - #18 print
+INFO  23:33:38,147 - #43 (
+INFO  23:33:38,147 - #45 ord
+INFO  23:33:38,147 - #43 (
+INFO  23:33:38,147 - #48 a
+INFO  23:33:38,147 - #44 )
+INFO  23:33:38,147 - #44 )
+INFO  23:33:38,147 - #7 ;
+INFO  23:33:38,148 - #18 print
+INFO  23:33:38,148 - #43 (
+INFO  23:33:38,148 - #45 eol
+INFO  23:33:38,148 - #44 )
+INFO  23:33:38,148 - #7 ;
+INFO  23:33:38,148 - #45 i
+INFO  23:33:38,148 - #6 =
+INFO  23:33:38,148 - #46 0
+INFO  23:33:38,148 - #7 ;
+INFO  23:33:38,148 - #19 for
+INFO  23:33:38,148 - #43 (
+INFO  23:33:38,148 - #7 ;
+INFO  23:33:38,149 - #45 i
+INFO  23:33:38,149 - #34 <
+INFO  23:33:38,150 - #46 10
+INFO  23:33:38,150 - #7 ;
+INFO  23:33:38,150 - #44 )
+INFO  23:33:38,150 - #3 {
+INFO  23:33:38,150 - #12 if
+INFO  23:33:38,150 - #43 (
+INFO  23:33:38,150 - #45 i
+INFO  23:33:38,150 - #29 ==
+INFO  23:33:38,150 - #46 3
+INFO  23:33:38,150 - #44 )
+INFO  23:33:38,150 - #3 {
+INFO  23:33:38,150 - #45 i
+INFO  23:33:38,150 - #37 ++
+INFO  23:33:38,150 - #7 ;
+INFO  23:33:38,150 - #15 continue
+INFO  23:33:38,151 - #7 ;
+INFO  23:33:38,151 - #4 }
+INFO  23:33:38,151 - #12 if
+INFO  23:33:38,151 - #43 (
+INFO  23:33:38,151 - #45 i
+INFO  23:33:38,151 - #29 ==
+INFO  23:33:38,151 - #46 4
+INFO  23:33:38,151 - #44 )
+INFO  23:33:38,151 - #14 break
+INFO  23:33:38,151 - #7 ;
+INFO  23:33:38,151 - #45 i
+INFO  23:33:38,152 - #6 =
+INFO  23:33:38,152 - #45 inkrement
+INFO  23:33:38,152 - #43 (
+INFO  23:33:38,152 - #45 i
+INFO  23:33:38,152 - #8 ,
+INFO  23:33:38,152 - #46 1
+INFO  23:33:38,152 - #44 )
+INFO  23:33:38,152 - #7 ;
+INFO  23:33:38,152 - #4 }
+INFO  23:33:38,152 - #12 if
+INFO  23:33:38,152 - #43 (
+INFO  23:33:38,152 - #45 i
+INFO  23:33:38,152 - #29 ==
+INFO  23:33:38,152 - #46 3
+INFO  23:33:38,152 - #40 &&
+INFO  23:33:38,152 - #45 verify
+INFO  23:33:38,152 - #43 (
+INFO  23:33:38,152 - #44 )
+INFO  23:33:38,152 - #44 )
+INFO  23:33:38,152 - #18 print
+INFO  23:33:38,152 - #43 (
+INFO  23:33:38,152 - #46 4
+INFO  23:33:38,152 - #44 )
+INFO  23:33:38,152 - #7 ;
+INFO  23:33:38,152 - #13 else
+INFO  23:33:38,152 - #18 print
+INFO  23:33:38,152 - #43 (
+INFO  23:33:38,152 - #24 -
+INFO  23:33:38,152 - #46 4
+INFO  23:33:38,152 - #44 )
+INFO  23:33:38,153 - #7 ;
+INFO  23:33:38,153 - #17 read
+INFO  23:33:38,153 - #43 (
+INFO  23:33:38,153 - #45 niz
+INFO  23:33:38,153 - #9 [
+INFO  23:33:38,153 - #46 0
+INFO  23:33:38,153 - #10 ]
+INFO  23:33:38,153 - #44 )
+INFO  23:33:38,153 - #7 ;
+INFO  23:33:38,153 - #17 read
+INFO  23:33:38,153 - #43 (
+INFO  23:33:38,153 - #45 niz
+INFO  23:33:38,153 - #9 [
+INFO  23:33:38,153 - #46 1
+INFO  23:33:38,153 - #10 ]
+INFO  23:33:38,153 - #44 )
+INFO  23:33:38,153 - #7 ;
+INFO  23:33:38,153 - #17 read
+INFO  23:33:38,153 - #43 (
+INFO  23:33:38,153 - #45 niz
+INFO  23:33:38,153 - #9 [
+INFO  23:33:38,153 - #46 2
+INFO  23:33:38,153 - #10 ]
+INFO  23:33:38,153 - #44 )
+INFO  23:33:38,153 - #7 ;
+INFO  23:33:38,153 - #18 print
+INFO  23:33:38,153 - #43 (
+INFO  23:33:38,153 - #45 eol
+INFO  23:33:38,153 - #44 )
+INFO  23:33:38,153 - #7 ;
+INFO  23:33:38,153 - #18 print
+INFO  23:33:38,153 - #43 (
+INFO  23:33:38,153 - #45 sum
+INFO  23:33:38,153 - #43 (
+INFO  23:33:38,153 - #45 sum
+INFO  23:33:38,153 - #43 (
+INFO  23:33:38,153 - #45 niz
+INFO  23:33:38,153 - #9 [
+INFO  23:33:38,153 - #46 0
+INFO  23:33:38,153 - #10 ]
+INFO  23:33:38,153 - #8 ,
+INFO  23:33:38,153 - #45 niz
+INFO  23:33:38,153 - #9 [
+INFO  23:33:38,153 - #46 1
+INFO  23:33:38,153 - #10 ]
+INFO  23:33:38,153 - #44 )
+INFO  23:33:38,153 - #8 ,
+INFO  23:33:38,153 - #45 niz
+INFO  23:33:38,153 - #9 [
+INFO  23:33:38,154 - #46 2
+INFO  23:33:38,154 - #10 ]
+INFO  23:33:38,154 - #44 )
+INFO  23:33:38,154 - #44 )
+INFO  23:33:38,154 - #7 ;
+INFO  23:33:38,154 - #19 for
+INFO  23:33:38,154 - #43 (
+INFO  23:33:38,154 - #45 i
+INFO  23:33:38,154 - #6 =
+INFO  23:33:38,154 - #46 0
+INFO  23:33:38,154 - #7 ;
+INFO  23:33:38,154 - #45 i
+INFO  23:33:38,154 - #34 <
+INFO  23:33:38,154 - #45 niz
+INFO  23:33:38,154 - #20 .
+INFO  23:33:38,154 - #41 length
+INFO  23:33:38,154 - #7 ;
+INFO  23:33:38,154 - #45 i
+INFO  23:33:38,154 - #37 ++
+INFO  23:33:38,154 - #44 )
+INFO  23:33:38,154 - #3 {
+INFO  23:33:38,154 - #18 print
+INFO  23:33:38,154 - #43 (
+INFO  23:33:38,154 - #45 i
+INFO  23:33:38,154 - #44 )
+INFO  23:33:38,154 - #7 ;
+INFO  23:33:38,154 - #4 }
+INFO  23:33:38,154 - #18 print
+INFO  23:33:38,154 - #43 (
+INFO  23:33:38,154 - #45 eol
+INFO  23:33:38,155 - #44 )
+INFO  23:33:38,155 - #7 ;
+INFO  23:33:38,155 - #18 print
+INFO  23:33:38,155 - #43 (
+INFO  23:33:38,155 - #45 inkrement
+INFO  23:33:38,155 - #43 (
+INFO  23:33:38,155 - #45 niz
+INFO  23:33:38,155 - #9 [
+INFO  23:33:38,155 - #46 2
+INFO  23:33:38,155 - #10 ]
+INFO  23:33:38,155 - #8 ,
+INFO  23:33:38,155 - #46 2
+INFO  23:33:38,155 - #44 )
+INFO  23:33:38,155 - #44 )
+INFO  23:33:38,155 - #7 ;
+INFO  23:33:38,155 - #18 print
+INFO  23:33:38,155 - #43 (
+INFO  23:33:38,155 - #45 verify
+INFO  23:33:38,155 - #43 (
+INFO  23:33:38,155 - #44 )
+INFO  23:33:38,155 - #35 ?
+INFO  23:33:38,155 - #48 t
+INFO  23:33:38,155 - #36 :
+INFO  23:33:38,158 - #48 f
+INFO  23:33:38,158 - #44 )
+INFO  23:33:38,158 - #7 ;
+INFO  23:33:38,158 - #45 niz2
+INFO  23:33:38,158 - #6 =
+INFO  23:33:38,158 - #42 new
+INFO  23:33:38,159 - #45 int
+INFO  23:33:38,159 - #9 [
+INFO  23:33:38,159 - #46 5
+INFO  23:33:38,159 - #10 ]
+INFO  23:33:38,159 - #7 ;
+INFO  23:33:38,159 - #45 niz2
+INFO  23:33:38,159 - #9 [
+INFO  23:33:38,159 - #46 0
+INFO  23:33:38,159 - #10 ]
+INFO  23:33:38,159 - #6 =
+INFO  23:33:38,159 - #46 0
+INFO  23:33:38,159 - #7 ;
+INFO  23:33:38,159 - #45 niz2
+INFO  23:33:38,159 - #9 [
+INFO  23:33:38,159 - #46 1
+INFO  23:33:38,159 - #10 ]
+INFO  23:33:38,159 - #6 =
+INFO  23:33:38,159 - #46 1
+INFO  23:33:38,159 - #7 ;
+INFO  23:33:38,159 - #45 niz2
+INFO  23:33:38,159 - #9 [
+INFO  23:33:38,159 - #46 2
+INFO  23:33:38,159 - #10 ]
+INFO  23:33:38,159 - #6 =
+INFO  23:33:38,159 - #46 2
+INFO  23:33:38,159 - #7 ;
+INFO  23:33:38,159 - #45 niz2
+INFO  23:33:38,159 - #9 [
+INFO  23:33:38,159 - #46 3
+INFO  23:33:38,159 - #10 ]
+INFO  23:33:38,159 - #6 =
+INFO  23:33:38,160 - #46 3
+INFO  23:33:38,160 - #7 ;
+INFO  23:33:38,160 - #45 niz2
+INFO  23:33:38,160 - #9 [
+INFO  23:33:38,160 - #46 4
+INFO  23:33:38,160 - #10 ]
+INFO  23:33:38,160 - #6 =
+INFO  23:33:38,160 - #46 4
+INFO  23:33:38,160 - #7 ;
+INFO  23:33:38,160 - #45 niz3
+INFO  23:33:38,160 - #6 =
+INFO  23:33:38,160 - #45 niz2
+INFO  23:33:38,160 - #20 .
+INFO  23:33:38,160 - #22 map
+INFO  23:33:38,160 - #43 (
+INFO  23:33:38,160 - #45 i
+INFO  23:33:38,161 - #21 =>
+INFO  23:33:38,161 - #45 i
+INFO  23:33:38,162 - #26 *
+INFO  23:33:38,162 - #46 5
+INFO  23:33:38,163 - #44 )
+INFO  23:33:38,163 - #7 ;
+INFO  23:33:38,163 - #19 for
+INFO  23:33:38,163 - #43 (
+INFO  23:33:38,163 - #45 i
+INFO  23:33:38,163 - #6 =
+INFO  23:33:38,163 - #46 0
+INFO  23:33:38,163 - #7 ;
+INFO  23:33:38,163 - #45 i
+INFO  23:33:38,163 - #34 <
+INFO  23:33:38,163 - #45 niz3
+INFO  23:33:38,163 - #20 .
+INFO  23:33:38,163 - #41 length
+INFO  23:33:38,163 - #7 ;
+INFO  23:33:38,163 - #45 i
+INFO  23:33:38,163 - #37 ++
+INFO  23:33:38,163 - #44 )
+INFO  23:33:38,164 - #3 {
+INFO  23:33:38,164 - #18 print
+INFO  23:33:38,164 - #43 (
+INFO  23:33:38,164 - #45 niz3
+INFO  23:33:38,164 - #9 [
+INFO  23:33:38,164 - #45 i
+INFO  23:33:38,164 - #10 ]
+INFO  23:33:38,164 - #44 )
+INFO  23:33:38,164 - #7 ;
+INFO  23:33:38,164 - #18 print
+INFO  23:33:38,164 - #43 (
+INFO  23:33:38,164 - #45 eol
+INFO  23:33:38,164 - #44 )
+INFO  23:33:38,164 - #7 ;
+INFO  23:33:38,164 - #4 }
+INFO  23:33:38,164 - #17 read
+INFO  23:33:38,164 - #43 (
+INFO  23:33:38,164 - #45 j
+INFO  23:33:38,164 - #44 )
+INFO  23:33:38,164 - #7 ;
+INFO  23:33:38,164 - #45 niz4
+INFO  23:33:38,164 - #6 =
+INFO  23:33:38,164 - #45 niz2
+INFO  23:33:38,164 - #20 .
+INFO  23:33:38,164 - #22 map
+INFO  23:33:38,164 - #43 (
+INFO  23:33:38,164 - #45 i
+INFO  23:33:38,164 - #21 =>
+INFO  23:33:38,164 - #45 i
+INFO  23:33:38,164 - #23 +
+INFO  23:33:38,164 - #45 j
+INFO  23:33:38,164 - #44 )
+INFO  23:33:38,164 - #7 ;
+INFO  23:33:38,164 - #19 for
+INFO  23:33:38,164 - #43 (
+INFO  23:33:38,164 - #45 i
+INFO  23:33:38,164 - #6 =
+INFO  23:33:38,164 - #46 0
+INFO  23:33:38,165 - #7 ;
+INFO  23:33:38,165 - #45 i
+INFO  23:33:38,165 - #34 <
+INFO  23:33:38,165 - #45 niz4
+INFO  23:33:38,165 - #20 .
+INFO  23:33:38,165 - #41 length
+INFO  23:33:38,165 - #7 ;
+INFO  23:33:38,165 - #45 i
+INFO  23:33:38,165 - #37 ++
+INFO  23:33:38,165 - #44 )
+INFO  23:33:38,165 - #3 {
+INFO  23:33:38,165 - #18 print
+INFO  23:33:38,165 - #43 (
+INFO  23:33:38,165 - #45 niz4
+INFO  23:33:38,165 - #9 [
+INFO  23:33:38,165 - #45 i
+INFO  23:33:38,165 - #10 ]
+INFO  23:33:38,165 - #44 )
+INFO  23:33:38,165 - #7 ;
+INFO  23:33:38,165 - #18 print
+INFO  23:33:38,165 - #43 (
+INFO  23:33:38,165 - #45 eol
+INFO  23:33:38,165 - #44 )
+INFO  23:33:38,165 - #7 ;
+INFO  23:33:38,165 - #4 }
+INFO  23:33:38,165 - #4 }
+INFO  23:33:38,165 - #4 }
+INFO  23:33:38,200 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  ConstVarList_Var(
+    ConstVarList_Var(
+      ConstVarList_Var(
+        ConstVarList_Const(
+          ConstVarList_Eps(
+          ) [ConstVarList_Eps]
+          ConstList(
+            Type(
+             int
+            ) [Type]
+            ConstItem(
+             jedan
+              ConstVal_num(
+               1
+              ) [ConstVal_num]
+            ) [ConstItem]
+            RConstItem_eps(
+            ) [RConstItem_eps]
+          ) [ConstList]
+        ) [ConstVarList_Const]
+        VarList(
+          Type(
+           int
+          ) [Type]
+          VarItem_var(
+           i
+          ) [VarItem_var]
+          RVarItem_rep(
+            VarItem_var(
+             j
+            ) [VarItem_var]
+            RVarItem_eps(
+            ) [RVarItem_eps]
+          ) [RVarItem_rep]
+        ) [VarList]
+      ) [ConstVarList_Var]
+      VarList(
+        Type(
+         bool
+        ) [Type]
+        VarItem_var(
+         ibool
+        ) [VarItem_var]
+        RVarItem_eps(
+        ) [RVarItem_eps]
+      ) [VarList]
+    ) [ConstVarList_Var]
+    VarList(
+      Type(
+       int
+      ) [Type]
+      VarItem_arr(
+       niz
+      ) [VarItem_arr]
+      RVarItem_rep(
+        VarItem_arr(
+         niz2
+        ) [VarItem_arr]
+        RVarItem_rep(
+          VarItem_arr(
+           niz3
+          ) [VarItem_arr]
+          RVarItem_rep(
+            VarItem_arr(
+             niz4
+            ) [VarItem_arr]
+            RVarItem_eps(
+            ) [RVarItem_eps]
+          ) [RVarItem_rep]
+        ) [RVarItem_rep]
+      ) [RVarItem_rep]
+    ) [VarList]
+  ) [ConstVarList_Var]
+  MethodList_rep(
+    MethodList_rep(
+      MethodList_rep(
+        MethodList_rep(
+          MethodList_eps(
+          ) [MethodList_eps]
+          MethodDecl(
+            MethodType_t(
+              Type(
+               int
+              ) [Type]
+            ) [MethodType_t]
+            MethodName(
+             sum
+            ) [MethodName]
+            ParamList_comma(
+              ParamList_it(
+                ParamItem_var(
+                  Type(
+                   int
+                  ) [Type]
+                 z
+                ) [ParamItem_var]
+              ) [ParamList_it]
+              ParamItem_var(
+                Type(
+                 int
+                ) [Type]
+               d
+              ) [ParamItem_var]
+            ) [ParamList_comma]
+            RVarList_eps(
+            ) [RVarList_eps]
+            StatementList_rep(
+              StatementList_eps(
+              ) [StatementList_eps]
+              Statement_ret1(
+                Expr_aritm(
+                  RAdd_rep(
+                    RAdd_term(
+                      Term(
+                        RMul_fac(
+                          Factor_pos(
+                            Factor_d(
+                              Designator_var(
+                               z
+                              ) [Designator_var]
+                            ) [Factor_d]
+                          ) [Factor_pos]
+                        ) [RMul_fac]
+                      ) [Term]
+                    ) [RAdd_term]
+                    Addop_p(
+                    ) [Addop_p]
+                    Term(
+                      RMul_fac(
+                        Factor_pos(
+                          Factor_d(
+                            Designator_var(
+                             d
+                            ) [Designator_var]
+                          ) [Factor_d]
+                        ) [Factor_pos]
+                      ) [RMul_fac]
+                    ) [Term]
+                  ) [RAdd_rep]
+                ) [Expr_aritm]
+              ) [Statement_ret1]
+            ) [StatementList_rep]
+          ) [MethodDecl]
+        ) [MethodList_rep]
+        MethodDecl(
+          MethodType_t(
+            Type(
+             int
+            ) [Type]
+          ) [MethodType_t]
+          MethodName(
+           inkrement
+          ) [MethodName]
+          ParamList_comma(
+            ParamList_it(
+              ParamItem_var(
+                Type(
+                 int
+                ) [Type]
+               a
+              ) [ParamItem_var]
+            ) [ParamList_it]
+            ParamItem_var(
+              Type(
+               int
+              ) [Type]
+             inc
+            ) [ParamItem_var]
+          ) [ParamList_comma]
+          RVarList_rep(
+            VarListList_single(
+              VarList(
+                Type(
+                 int
+                ) [Type]
+                VarItem_var(
+                 pom
+                ) [VarItem_var]
+                RVarItem_eps(
+                ) [RVarItem_eps]
+              ) [VarList]
+            ) [VarListList_single]
+          ) [RVarList_rep]
+          StatementList_rep(
+            StatementList_rep(
+              StatementList_eps(
+              ) [StatementList_eps]
+              Statement_if(
+                IfStart(
+                ) [IfStart]
+                Condition(
+                  CondTerm(
+                    CondFact_r(
+                      RAdd_term(
+                        Term(
+                          RMul_fac(
+                            Factor_pos(
+                              Factor_d(
+                                Designator_var(
+                                 inc
+                                ) [Designator_var]
+                              ) [Factor_d]
+                            ) [Factor_pos]
+                          ) [RMul_fac]
+                        ) [Term]
+                      ) [RAdd_term]
+                      Relop_eq(
+                      ) [Relop_eq]
+                      RAdd_term(
+                        Term(
+                          RMul_fac(
+                            Factor_pos(
+                              Factor_d(
+                                Designator_var(
+                                 jedan
+                                ) [Designator_var]
+                              ) [Factor_d]
+                            ) [Factor_pos]
+                          ) [RMul_fac]
+                        ) [Term]
+                      ) [RAdd_term]
+                    ) [CondFact_r]
+                    RCondFact_eps(
+                    ) [RCondFact_eps]
+                  ) [CondTerm]
+                  RCondTerm_eps(
+                  ) [RCondTerm_eps]
+                ) [Condition]
+                Statement_desig(
+                  DesigStatement_exp(
+                    Designator_var(
+                     pom
+                    ) [Designator_var]
+                    Expr_aritm(
+                      RAdd_term(
+                        Term(
+                          RMul_fac(
+                            Factor_pos(
+                              Factor_n(
+                               1
+                              ) [Factor_n]
+                            ) [Factor_pos]
+                          ) [RMul_fac]
+                        ) [Term]
+                      ) [RAdd_term]
+                    ) [Expr_aritm]
+                  ) [DesigStatement_exp]
+                ) [Statement_desig]
+                BranchDecisioner(
+                ) [BranchDecisioner]
+                ElseStatement_e(
+                  Statement_if(
+                    IfStart(
+                    ) [IfStart]
+                    Condition(
+                      CondTerm(
+                        CondFact_r(
+                          RAdd_term(
+                            Term(
+                              RMul_fac(
+                                Factor_pos(
+                                  Factor_d(
+                                    Designator_var(
+                                     inc
+                                    ) [Designator_var]
+                                  ) [Factor_d]
+                                ) [Factor_pos]
+                              ) [RMul_fac]
+                            ) [Term]
+                          ) [RAdd_term]
+                          Relop_eq(
+                          ) [Relop_eq]
+                          RAdd_term(
+                            Term(
+                              RMul_fac(
+                                Factor_pos(
+                                  Factor_n(
+                                   2
+                                  ) [Factor_n]
+                                ) [Factor_pos]
+                              ) [RMul_fac]
+                            ) [Term]
+                          ) [RAdd_term]
+                        ) [CondFact_r]
+                        RCondFact_eps(
+                        ) [RCondFact_eps]
+                      ) [CondTerm]
+                      RCondTerm_eps(
+                      ) [RCondTerm_eps]
+                    ) [Condition]
+                    Statement_desig(
+                      DesigStatement_exp(
+                        Designator_var(
+                         pom
+                        ) [Designator_var]
+                        Expr_aritm(
+                          RAdd_term(
+                            Term(
+                              RMul_fac(
+                                Factor_pos(
+                                  Factor_d(
+                                    Designator_var(
+                                     a
+                                    ) [Designator_var]
+                                  ) [Factor_d]
+                                ) [Factor_pos]
+                              ) [RMul_fac]
+                            ) [Term]
+                          ) [RAdd_term]
+                        ) [Expr_aritm]
+                      ) [DesigStatement_exp]
+                    ) [Statement_desig]
+                    BranchDecisioner(
+                    ) [BranchDecisioner]
+                    ElseStatement_eps(
+                    ) [ElseStatement_eps]
+                  ) [Statement_if]
+                ) [ElseStatement_e]
+              ) [Statement_if]
+            ) [StatementList_rep]
+            Statement_ret1(
+              Expr_aritm(
+                RAdd_term(
+                  Term(
+                    RMul_fac(
+                      Factor_pos(
+                        Factor_fparam(
+                          Designator_var(
+                           sum
+                          ) [Designator_var]
+                          ActualParams(
+                            ActParBegin(
+                            ) [ActParBegin]
+                            ActPar(
+                              Expr_aritm(
+                                RAdd_term(
+                                  Term(
+                                    RMul_fac(
+                                      Factor_pos(
+                                        Factor_d(
+                                          Designator_var(
+                                           a
+                                          ) [Designator_var]
+                                        ) [Factor_d]
+                                      ) [Factor_pos]
+                                    ) [RMul_fac]
+                                  ) [Term]
+                                ) [RAdd_term]
+                              ) [Expr_aritm]
+                            ) [ActPar]
+                            RActPar_rep(
+                              ActPar(
+                                Expr_aritm(
+                                  RAdd_term(
+                                    Term(
+                                      RMul_fac(
+                                        Factor_pos(
+                                          Factor_d(
+                                            Designator_var(
+                                             pom
+                                            ) [Designator_var]
+                                          ) [Factor_d]
+                                        ) [Factor_pos]
+                                      ) [RMul_fac]
+                                    ) [Term]
+                                  ) [RAdd_term]
+                                ) [Expr_aritm]
+                              ) [ActPar]
+                              RActPar_eps(
+                              ) [RActPar_eps]
+                            ) [RActPar_rep]
+                          ) [ActualParams]
+                        ) [Factor_fparam]
+                      ) [Factor_pos]
+                    ) [RMul_fac]
+                  ) [Term]
+                ) [RAdd_term]
+              ) [Expr_aritm]
+            ) [Statement_ret1]
+          ) [StatementList_rep]
+        ) [MethodDecl]
+      ) [MethodList_rep]
+      MethodDecl(
+        MethodType_t(
+          Type(
+           bool
+          ) [Type]
+        ) [MethodType_t]
+        MethodName(
+         verify
+        ) [MethodName]
+        ParamList_eps(
+        ) [ParamList_eps]
+        RVarList_eps(
+        ) [RVarList_eps]
+        StatementList_rep(
+          StatementList_rep(
+            StatementList_eps(
+            ) [StatementList_eps]
+            Statement_print1(
+              Expr_aritm(
+                RAdd_term(
+                  Term(
+                    RMul_fac(
+                      Factor_pos(
+                        Factor_c(
+                         v
+                        ) [Factor_c]
+                      ) [Factor_pos]
+                    ) [RMul_fac]
+                  ) [Term]
+                ) [RAdd_term]
+              ) [Expr_aritm]
+            ) [Statement_print1]
+          ) [StatementList_rep]
+          Statement_ret1(
+            Expr_aritm(
+              RAdd_term(
+                Term(
+                  RMul_fac(
+                    Factor_pos(
+                      Factor_b(
+                       0
+                      ) [Factor_b]
+                    ) [Factor_pos]
+                  ) [RMul_fac]
+                ) [Term]
+              ) [RAdd_term]
+            ) [Expr_aritm]
+          ) [Statement_ret1]
+        ) [StatementList_rep]
+      ) [MethodDecl]
+    ) [MethodList_rep]
+    MethodDecl(
+      MethodType_v(
+      ) [MethodType_v]
+      MethodName(
+       main
+      ) [MethodName]
+      ParamList_eps(
+      ) [ParamList_eps]
+      RVarList_eps(
+      ) [RVarList_eps]
+      StatementList_rep(
+        StatementList_rep(
+          StatementList_rep(
+            StatementList_rep(
+              StatementList_rep(
+                StatementList_rep(
+                  StatementList_rep(
+                    StatementList_rep(
+                      StatementList_rep(
+                        StatementList_rep(
+                          StatementList_rep(
+                            StatementList_rep(
+                              StatementList_rep(
+                                StatementList_rep(
+                                  StatementList_rep(
+                                    StatementList_rep(
+                                      StatementList_rep(
+                                        StatementList_rep(
+                                          StatementList_rep(
+                                            StatementList_rep(
+                                              StatementList_rep(
+                                                StatementList_rep(
+                                                  StatementList_rep(
+                                                    StatementList_rep(
+                                                      StatementList_rep(
+                                                        StatementList_rep(
+                                                          StatementList_rep(
+                                                            StatementList_rep(
+                                                              StatementList_rep(
+                                                                StatementList_rep(
+                                                                  StatementList_rep(
+                                                                    StatementList_rep(
+                                                                      StatementList_rep(
+                                                                        StatementList_rep(
+                                                                          StatementList_eps(
+                                                                          ) [StatementList_eps]
+                                                                          Statement_if(
+                                                                            IfStart(
+                                                                            ) [IfStart]
+                                                                            Condition(
+                                                                              CondTerm(
+                                                                                CondFact_r(
+                                                                                  RAdd_term(
+                                                                                    Term(
+                                                                                      RMul_fac(
+                                                                                        Factor_pos(
+                                                                                          Factor_n(
+                                                                                           1
+                                                                                          ) [Factor_n]
+                                                                                        ) [Factor_pos]
+                                                                                      ) [RMul_fac]
+                                                                                    ) [Term]
+                                                                                  ) [RAdd_term]
+                                                                                  Relop_neq(
+                                                                                  ) [Relop_neq]
+                                                                                  RAdd_term(
+                                                                                    Term(
+                                                                                      RMul_fac(
+                                                                                        Factor_pos(
+                                                                                          Factor_n(
+                                                                                           1
+                                                                                          ) [Factor_n]
+                                                                                        ) [Factor_pos]
+                                                                                      ) [RMul_fac]
+                                                                                    ) [Term]
+                                                                                  ) [RAdd_term]
+                                                                                ) [CondFact_r]
+                                                                                RCondFact_eps(
+                                                                                ) [RCondFact_eps]
+                                                                              ) [CondTerm]
+                                                                              RCondTerm_eps(
+                                                                              ) [RCondTerm_eps]
+                                                                            ) [Condition]
+                                                                            Statement_print1(
+                                                                              Expr_aritm(
+                                                                                RAdd_term(
+                                                                                  Term(
+                                                                                    RMul_fac(
+                                                                                      Factor_neg(
+                                                                                        Factor_n(
+                                                                                         6
+                                                                                        ) [Factor_n]
+                                                                                      ) [Factor_neg]
+                                                                                    ) [RMul_fac]
+                                                                                  ) [Term]
+                                                                                ) [RAdd_term]
+                                                                              ) [Expr_aritm]
+                                                                            ) [Statement_print1]
+                                                                            BranchDecisioner(
+                                                                            ) [BranchDecisioner]
+                                                                            ElseStatement_e(
+                                                                              Statement_print1(
+                                                                                Expr_aritm(
+                                                                                  RAdd_term(
+                                                                                    Term(
+                                                                                      RMul_fac(
+                                                                                        Factor_pos(
+                                                                                          Factor_n(
+                                                                                           0
+                                                                                          ) [Factor_n]
+                                                                                        ) [Factor_pos]
+                                                                                      ) [RMul_fac]
+                                                                                    ) [Term]
+                                                                                  ) [RAdd_term]
+                                                                                ) [Expr_aritm]
+                                                                              ) [Statement_print1]
+                                                                            ) [ElseStatement_e]
+                                                                          ) [Statement_if]
+                                                                        ) [StatementList_rep]
+                                                                        Statement_desig(
+                                                                          DesigStatement_exp(
+                                                                            Designator_var(
+                                                                             ibool
+                                                                            ) [Designator_var]
+                                                                            Expr_aritm(
+                                                                              RAdd_term(
+                                                                                Term(
+                                                                                  RMul_fac(
+                                                                                    Factor_pos(
+                                                                                      Factor_b(
+                                                                                       0
+                                                                                      ) [Factor_b]
+                                                                                    ) [Factor_pos]
+                                                                                  ) [RMul_fac]
+                                                                                ) [Term]
+                                                                              ) [RAdd_term]
+                                                                            ) [Expr_aritm]
+                                                                          ) [DesigStatement_exp]
+                                                                        ) [Statement_desig]
+                                                                      ) [StatementList_rep]
+                                                                      Statement_desig(
+                                                                        DesigStatement_exp(
+                                                                          Designator_var(
+                                                                           i
+                                                                          ) [Designator_var]
+                                                                          Expr_aritm(
+                                                                            RAdd_term(
+                                                                              Term(
+                                                                                RMul_fac(
+                                                                                  Factor_pos(
+                                                                                    Factor_n(
+                                                                                     0
+                                                                                    ) [Factor_n]
+                                                                                  ) [Factor_pos]
+                                                                                ) [RMul_fac]
+                                                                              ) [Term]
+                                                                            ) [RAdd_term]
+                                                                          ) [Expr_aritm]
+                                                                        ) [DesigStatement_exp]
+                                                                      ) [Statement_desig]
+                                                                    ) [StatementList_rep]
+                                                                    Statement_for(
+                                                                      ForNonterm(
+                                                                      ) [ForNonterm]
+                                                                      ForDesigStatementStart_ds(
+                                                                        DesigStatement_exp(
+                                                                          Designator_var(
+                                                                           i
+                                                                          ) [Designator_var]
+                                                                          Expr_aritm(
+                                                                            RAdd_term(
+                                                                              Term(
+                                                                                RMul_fac(
+                                                                                  Factor_pos(
+                                                                                    Factor_n(
+                                                                                     0
+                                                                                    ) [Factor_n]
+                                                                                  ) [Factor_pos]
+                                                                                ) [RMul_fac]
+                                                                              ) [Term]
+                                                                            ) [RAdd_term]
+                                                                          ) [Expr_aritm]
+                                                                        ) [DesigStatement_exp]
+                                                                      ) [ForDesigStatementStart_ds]
+                                                                      ForCondition_cond(
+                                                                        Condition(
+                                                                          CondTerm(
+                                                                            CondFact_r(
+                                                                              RAdd_term(
+                                                                                Term(
+                                                                                  RMul_fac(
+                                                                                    Factor_pos(
+                                                                                      Factor_d(
+                                                                                        Designator_var(
+                                                                                         i
+                                                                                        ) [Designator_var]
+                                                                                      ) [Factor_d]
+                                                                                    ) [Factor_pos]
+                                                                                  ) [RMul_fac]
+                                                                                ) [Term]
+                                                                              ) [RAdd_term]
+                                                                              Relop_ls(
+                                                                              ) [Relop_ls]
+                                                                              RAdd_term(
+                                                                                Term(
+                                                                                  RMul_fac(
+                                                                                    Factor_pos(
+                                                                                      Factor_n(
+                                                                                       5
+                                                                                      ) [Factor_n]
+                                                                                    ) [Factor_pos]
+                                                                                  ) [RMul_fac]
+                                                                                ) [Term]
+                                                                              ) [RAdd_term]
+                                                                            ) [CondFact_r]
+                                                                            RCondFact_eps(
+                                                                            ) [RCondFact_eps]
+                                                                          ) [CondTerm]
+                                                                          RCondTerm_eps(
+                                                                          ) [RCondTerm_eps]
+                                                                        ) [Condition]
+                                                                      ) [ForCondition_cond]
+                                                                      ForDesigStatementEnd_ds(
+                                                                        DesigStatement_i(
+                                                                          Designator_var(
+                                                                           i
+                                                                          ) [Designator_var]
+                                                                        ) [DesigStatement_i]
+                                                                      ) [ForDesigStatementEnd_ds]
+                                                                      Statement_stat(
+                                                                        StatementList_rep(
+                                                                          StatementList_eps(
+                                                                          ) [StatementList_eps]
+                                                                          Statement_if(
+                                                                            IfStart(
+                                                                            ) [IfStart]
+                                                                            Condition(
+                                                                              CondTerm(
+                                                                                CondFact_r(
+                                                                                  RAdd_term(
+                                                                                    Term(
+                                                                                      RMul_fac(
+                                                                                        Factor_pos(
+                                                                                          Factor_d(
+                                                                                            Designator_var(
+                                                                                             i
+                                                                                            ) [Designator_var]
+                                                                                          ) [Factor_d]
+                                                                                        ) [Factor_pos]
+                                                                                      ) [RMul_fac]
+                                                                                    ) [Term]
+                                                                                  ) [RAdd_term]
+                                                                                  Relop_eq(
+                                                                                  ) [Relop_eq]
+                                                                                  RAdd_term(
+                                                                                    Term(
+                                                                                      RMul_fac(
+                                                                                        Factor_pos(
+                                                                                          Factor_n(
+                                                                                           2
+                                                                                          ) [Factor_n]
+                                                                                        ) [Factor_pos]
+                                                                                      ) [RMul_fac]
+                                                                                    ) [Term]
+                                                                                  ) [RAdd_term]
+                                                                                ) [CondFact_r]
+                                                                                RCondFact_eps(
+                                                                                ) [RCondFact_eps]
+                                                                              ) [CondTerm]
+                                                                              RCondTerm_eps(
+                                                                              ) [RCondTerm_eps]
+                                                                            ) [Condition]
+                                                                            Statement_desig(
+                                                                              DesigStatement_exp(
+                                                                                Designator_var(
+                                                                                 ibool
+                                                                                ) [Designator_var]
+                                                                                Expr_aritm(
+                                                                                  RAdd_term(
+                                                                                    Term(
+                                                                                      RMul_fac(
+                                                                                        Factor_pos(
+                                                                                          Factor_b(
+                                                                                           1
+                                                                                          ) [Factor_b]
+                                                                                        ) [Factor_pos]
+                                                                                      ) [RMul_fac]
+                                                                                    ) [Term]
+                                                                                  ) [RAdd_term]
+                                                                                ) [Expr_aritm]
+                                                                              ) [DesigStatement_exp]
+                                                                            ) [Statement_desig]
+                                                                            BranchDecisioner(
+                                                                            ) [BranchDecisioner]
+                                                                            ElseStatement_eps(
+                                                                            ) [ElseStatement_eps]
+                                                                          ) [Statement_if]
+                                                                        ) [StatementList_rep]
+                                                                      ) [Statement_stat]
+                                                                    ) [Statement_for]
+                                                                  ) [StatementList_rep]
+                                                                  Statement_if(
+                                                                    IfStart(
+                                                                    ) [IfStart]
+                                                                    Condition(
+                                                                      CondTerm(
+                                                                        CondFact_e(
+                                                                          RAdd_term(
+                                                                            Term(
+                                                                              RMul_fac(
+                                                                                Factor_pos(
+                                                                                  Factor_d(
+                                                                                    Designator_var(
+                                                                                     ibool
+                                                                                    ) [Designator_var]
+                                                                                  ) [Factor_d]
+                                                                                ) [Factor_pos]
+                                                                              ) [RMul_fac]
+                                                                            ) [Term]
+                                                                          ) [RAdd_term]
+                                                                        ) [CondFact_e]
+                                                                        RCondFact_eps(
+                                                                        ) [RCondFact_eps]
+                                                                      ) [CondTerm]
+                                                                      RCondTerm_eps(
+                                                                      ) [RCondTerm_eps]
+                                                                    ) [Condition]
+                                                                    Statement_if(
+                                                                      IfStart(
+                                                                      ) [IfStart]
+                                                                      Condition(
+                                                                        CondTerm(
+                                                                          CondFact_r(
+                                                                            RAdd_term(
+                                                                              Term(
+                                                                                RMul_fac(
+                                                                                  Factor_pos(
+                                                                                    Factor_d(
+                                                                                      Designator_var(
+                                                                                       i
+                                                                                      ) [Designator_var]
+                                                                                    ) [Factor_d]
+                                                                                  ) [Factor_pos]
+                                                                                ) [RMul_fac]
+                                                                              ) [Term]
+                                                                            ) [RAdd_term]
+                                                                            Relop_eq(
+                                                                            ) [Relop_eq]
+                                                                            RAdd_term(
+                                                                              Term(
+                                                                                RMul_fac(
+                                                                                  Factor_pos(
+                                                                                    Factor_n(
+                                                                                     5
+                                                                                    ) [Factor_n]
+                                                                                  ) [Factor_pos]
+                                                                                ) [RMul_fac]
+                                                                              ) [Term]
+                                                                            ) [RAdd_term]
+                                                                          ) [CondFact_r]
+                                                                          RCondFact_eps(
+                                                                          ) [RCondFact_eps]
+                                                                        ) [CondTerm]
+                                                                        RCondTerm_eps(
+                                                                        ) [RCondTerm_eps]
+                                                                      ) [Condition]
+                                                                      Statement_print1(
+                                                                        Expr_aritm(
+                                                                          RAdd_term(
+                                                                            Term(
+                                                                              RMul_fac(
+                                                                                Factor_pos(
+                                                                                  Factor_n(
+                                                                                   1
+                                                                                  ) [Factor_n]
+                                                                                ) [Factor_pos]
+                                                                              ) [RMul_fac]
+                                                                            ) [Term]
+                                                                          ) [RAdd_term]
+                                                                        ) [Expr_aritm]
+                                                                      ) [Statement_print1]
+                                                                      BranchDecisioner(
+                                                                      ) [BranchDecisioner]
+                                                                      ElseStatement_e(
+                                                                        Statement_print1(
+                                                                          Expr_aritm(
+                                                                            RAdd_term(
+                                                                              Term(
+                                                                                RMul_fac(
+                                                                                  Factor_neg(
+                                                                                    Factor_n(
+                                                                                     1
+                                                                                    ) [Factor_n]
+                                                                                  ) [Factor_neg]
+                                                                                ) [RMul_fac]
+                                                                              ) [Term]
+                                                                            ) [RAdd_term]
+                                                                          ) [Expr_aritm]
+                                                                        ) [Statement_print1]
+                                                                      ) [ElseStatement_e]
+                                                                    ) [Statement_if]
+                                                                    BranchDecisioner(
+                                                                    ) [BranchDecisioner]
+                                                                    ElseStatement_eps(
+                                                                    ) [ElseStatement_eps]
+                                                                  ) [Statement_if]
+                                                                ) [StatementList_rep]
+                                                                Statement_desig(
+                                                                  DesigStatement_exp(
+                                                                    Designator_var(
+                                                                     niz
+                                                                    ) [Designator_var]
+                                                                    Expr_aritm(
+                                                                      RAdd_term(
+                                                                        Term(
+                                                                          RMul_fac(
+                                                                            Factor_pos(
+                                                                              Factor_newarr(
+                                                                                Type(
+                                                                                 int
+                                                                                ) [Type]
+                                                                                Expr_aritm(
+                                                                                  RAdd_term(
+                                                                                    Term(
+                                                                                      RMul_fac(
+                                                                                        Factor_pos(
+                                                                                          Factor_n(
+                                                                                           3
+                                                                                          ) [Factor_n]
+                                                                                        ) [Factor_pos]
+                                                                                      ) [RMul_fac]
+                                                                                    ) [Term]
+                                                                                  ) [RAdd_term]
+                                                                                ) [Expr_aritm]
+                                                                              ) [Factor_newarr]
+                                                                            ) [Factor_pos]
+                                                                          ) [RMul_fac]
+                                                                        ) [Term]
+                                                                      ) [RAdd_term]
+                                                                    ) [Expr_aritm]
+                                                                  ) [DesigStatement_exp]
+                                                                ) [Statement_desig]
+                                                              ) [StatementList_rep]
+                                                              Statement_desig(
+                                                                DesigStatement_exp(
+                                                                  Designator_el(
+                                                                    ArrayName(
+                                                                     niz
+                                                                    ) [ArrayName]
+                                                                    Expr_aritm(
+                                                                      RAdd_term(
+                                                                        Term(
+                                                                          RMul_fac(
+                                                                            Factor_pos(
+                                                                              Factor_n(
+                                                                               0
+                                                                              ) [Factor_n]
+                                                                            ) [Factor_pos]
+                                                                          ) [RMul_fac]
+                                                                        ) [Term]
+                                                                      ) [RAdd_term]
+                                                                    ) [Expr_aritm]
+                                                                  ) [Designator_el]
+                                                                  Expr_aritm(
+                                                                    RAdd_term(
+                                                                      Term(
+                                                                        RMul_fac(
+                                                                          Factor_pos(
+                                                                            Factor_n(
+                                                                             1
+                                                                            ) [Factor_n]
+                                                                          ) [Factor_pos]
+                                                                        ) [RMul_fac]
+                                                                      ) [Term]
+                                                                    ) [RAdd_term]
+                                                                  ) [Expr_aritm]
+                                                                ) [DesigStatement_exp]
+                                                              ) [Statement_desig]
+                                                            ) [StatementList_rep]
+                                                            Statement_desig(
+                                                              DesigStatement_exp(
+                                                                Designator_el(
+                                                                  ArrayName(
+                                                                   niz
+                                                                  ) [ArrayName]
+                                                                  Expr_aritm(
+                                                                    RAdd_term(
+                                                                      Term(
+                                                                        RMul_fac(
+                                                                          Factor_pos(
+                                                                            Factor_n(
+                                                                             1
+                                                                            ) [Factor_n]
+                                                                          ) [Factor_pos]
+                                                                        ) [RMul_fac]
+                                                                      ) [Term]
+                                                                    ) [RAdd_term]
+                                                                  ) [Expr_aritm]
+                                                                ) [Designator_el]
+                                                                Expr_aritm(
+                                                                  RAdd_term(
+                                                                    Term(
+                                                                      RMul_fac(
+                                                                        Factor_pos(
+                                                                          Factor_n(
+                                                                           2
+                                                                          ) [Factor_n]
+                                                                        ) [Factor_pos]
+                                                                      ) [RMul_fac]
+                                                                    ) [Term]
+                                                                  ) [RAdd_term]
+                                                                ) [Expr_aritm]
+                                                              ) [DesigStatement_exp]
+                                                            ) [Statement_desig]
+                                                          ) [StatementList_rep]
+                                                          Statement_desig(
+                                                            DesigStatement_exp(
+                                                              Designator_el(
+                                                                ArrayName(
+                                                                 niz
+                                                                ) [ArrayName]
+                                                                Expr_aritm(
+                                                                  RAdd_term(
+                                                                    Term(
+                                                                      RMul_fac(
+                                                                        Factor_pos(
+                                                                          Factor_n(
+                                                                           2
+                                                                          ) [Factor_n]
+                                                                        ) [Factor_pos]
+                                                                      ) [RMul_fac]
+                                                                    ) [Term]
+                                                                  ) [RAdd_term]
+                                                                ) [Expr_aritm]
+                                                              ) [Designator_el]
+                                                              Expr_aritm(
+                                                                RAdd_rep(
+                                                                  RAdd_term(
+                                                                    Term(
+                                                                      RMul_fac(
+                                                                        Factor_pos(
+                                                                          Factor_fparam(
+                                                                            Designator_var(
+                                                                             sum
+                                                                            ) [Designator_var]
+                                                                            ActualParams(
+                                                                              ActParBegin(
+                                                                              ) [ActParBegin]
+                                                                              ActPar(
+                                                                                Expr_aritm(
+                                                                                  RAdd_term(
+                                                                                    Term(
+                                                                                      RMul_fac(
+                                                                                        Factor_pos(
+                                                                                          Factor_d(
+                                                                                            Designator_el(
+                                                                                              ArrayName(
+                                                                                               niz
+                                                                                              ) [ArrayName]
+                                                                                              Expr_aritm(
+                                                                                                RAdd_term(
+                                                                                                  Term(
+                                                                                                    RMul_fac(
+                                                                                                      Factor_pos(
+                                                                                                        Factor_n(
+                                                                                                         1
+                                                                                                        ) [Factor_n]
+                                                                                                      ) [Factor_pos]
+                                                                                                    ) [RMul_fac]
+                                                                                                  ) [Term]
+                                                                                                ) [RAdd_term]
+                                                                                              ) [Expr_aritm]
+                                                                                            ) [Designator_el]
+                                                                                          ) [Factor_d]
+                                                                                        ) [Factor_pos]
+                                                                                      ) [RMul_fac]
+                                                                                    ) [Term]
+                                                                                  ) [RAdd_term]
+                                                                                ) [Expr_aritm]
+                                                                              ) [ActPar]
+                                                                              RActPar_rep(
+                                                                                ActPar(
+                                                                                  Expr_aritm(
+                                                                                    RAdd_term(
+                                                                                      Term(
+                                                                                        RMul_fac(
+                                                                                          Factor_pos(
+                                                                                            Factor_d(
+                                                                                              Designator_el(
+                                                                                                ArrayName(
+                                                                                                 niz
+                                                                                                ) [ArrayName]
+                                                                                                Expr_aritm(
+                                                                                                  RAdd_term(
+                                                                                                    Term(
+                                                                                                      RMul_fac(
+                                                                                                        Factor_pos(
+                                                                                                          Factor_n(
+                                                                                                           0
+                                                                                                          ) [Factor_n]
+                                                                                                        ) [Factor_pos]
+                                                                                                      ) [RMul_fac]
+                                                                                                    ) [Term]
+                                                                                                  ) [RAdd_term]
+                                                                                                ) [Expr_aritm]
+                                                                                              ) [Designator_el]
+                                                                                            ) [Factor_d]
+                                                                                          ) [Factor_pos]
+                                                                                        ) [RMul_fac]
+                                                                                      ) [Term]
+                                                                                    ) [RAdd_term]
+                                                                                  ) [Expr_aritm]
+                                                                                ) [ActPar]
+                                                                                RActPar_eps(
+                                                                                ) [RActPar_eps]
+                                                                              ) [RActPar_rep]
+                                                                            ) [ActualParams]
+                                                                          ) [Factor_fparam]
+                                                                        ) [Factor_pos]
+                                                                      ) [RMul_fac]
+                                                                    ) [Term]
+                                                                  ) [RAdd_term]
+                                                                  Addop_p(
+                                                                  ) [Addop_p]
+                                                                  Term(
+                                                                    RMul_fac(
+                                                                      Factor_pos(
+                                                                        Factor_n(
+                                                                         1
+                                                                        ) [Factor_n]
+                                                                      ) [Factor_pos]
+                                                                    ) [RMul_fac]
+                                                                  ) [Term]
+                                                                ) [RAdd_rep]
+                                                              ) [Expr_aritm]
+                                                            ) [DesigStatement_exp]
+                                                          ) [Statement_desig]
+                                                        ) [StatementList_rep]
+                                                        Statement_if(
+                                                          IfStart(
+                                                          ) [IfStart]
+                                                          Condition(
+                                                            CondTerm(
+                                                              CondFact_r(
+                                                                RAdd_term(
+                                                                  Term(
+                                                                    RMul_fac(
+                                                                      Factor_pos(
+                                                                        Factor_d(
+                                                                          Designator_el(
+                                                                            ArrayName(
+                                                                             niz
+                                                                            ) [ArrayName]
+                                                                            Expr_aritm(
+                                                                              RAdd_term(
+                                                                                Term(
+                                                                                  RMul_fac(
+                                                                                    Factor_pos(
+                                                                                      Factor_n(
+                                                                                       2
+                                                                                      ) [Factor_n]
+                                                                                    ) [Factor_pos]
+                                                                                  ) [RMul_fac]
+                                                                                ) [Term]
+                                                                              ) [RAdd_term]
+                                                                            ) [Expr_aritm]
+                                                                          ) [Designator_el]
+                                                                        ) [Factor_d]
+                                                                      ) [Factor_pos]
+                                                                    ) [RMul_fac]
+                                                                  ) [Term]
+                                                                ) [RAdd_term]
+                                                                Relop_eq(
+                                                                ) [Relop_eq]
+                                                                RAdd_term(
+                                                                  Term(
+                                                                    RMul_fac(
+                                                                      Factor_pos(
+                                                                        Factor_n(
+                                                                         4
+                                                                        ) [Factor_n]
+                                                                      ) [Factor_pos]
+                                                                    ) [RMul_fac]
+                                                                  ) [Term]
+                                                                ) [RAdd_term]
+                                                              ) [CondFact_r]
+                                                              RCondFact_eps(
+                                                              ) [RCondFact_eps]
+                                                            ) [CondTerm]
+                                                            RCondTerm_rep(
+                                                              CondTerm(
+                                                                CondFact_e(
+                                                                  RAdd_term(
+                                                                    Term(
+                                                                      RMul_fac(
+                                                                        Factor_pos(
+                                                                          Factor_f(
+                                                                            Designator_var(
+                                                                             verify
+                                                                            ) [Designator_var]
+                                                                          ) [Factor_f]
+                                                                        ) [Factor_pos]
+                                                                      ) [RMul_fac]
+                                                                    ) [Term]
+                                                                  ) [RAdd_term]
+                                                                ) [CondFact_e]
+                                                                RCondFact_eps(
+                                                                ) [RCondFact_eps]
+                                                              ) [CondTerm]
+                                                              RCondTerm_eps(
+                                                              ) [RCondTerm_eps]
+                                                            ) [RCondTerm_rep]
+                                                          ) [Condition]
+                                                          Statement_print1(
+                                                            Expr_aritm(
+                                                              RAdd_term(
+                                                                Term(
+                                                                  RMul_fac(
+                                                                    Factor_pos(
+                                                                      Factor_fparam(
+                                                                        Designator_var(
+                                                                         ord
+                                                                        ) [Designator_var]
+                                                                        ActualParams(
+                                                                          ActParBegin(
+                                                                          ) [ActParBegin]
+                                                                          ActPar(
+                                                                            Expr_aritm(
+                                                                              RAdd_term(
+                                                                                Term(
+                                                                                  RMul_fac(
+                                                                                    Factor_pos(
+                                                                                      Factor_c(
+                                                                                       A
+                                                                                      ) [Factor_c]
+                                                                                    ) [Factor_pos]
+                                                                                  ) [RMul_fac]
+                                                                                ) [Term]
+                                                                              ) [RAdd_term]
+                                                                            ) [Expr_aritm]
+                                                                          ) [ActPar]
+                                                                          RActPar_eps(
+                                                                          ) [RActPar_eps]
+                                                                        ) [ActualParams]
+                                                                      ) [Factor_fparam]
+                                                                    ) [Factor_pos]
+                                                                  ) [RMul_fac]
+                                                                ) [Term]
+                                                              ) [RAdd_term]
+                                                            ) [Expr_aritm]
+                                                          ) [Statement_print1]
+                                                          BranchDecisioner(
+                                                          ) [BranchDecisioner]
+                                                          ElseStatement_e(
+                                                            Statement_print1(
+                                                              Expr_aritm(
+                                                                RAdd_term(
+                                                                  Term(
+                                                                    RMul_fac(
+                                                                      Factor_pos(
+                                                                        Factor_fparam(
+                                                                          Designator_var(
+                                                                           ord
+                                                                          ) [Designator_var]
+                                                                          ActualParams(
+                                                                            ActParBegin(
+                                                                            ) [ActParBegin]
+                                                                            ActPar(
+                                                                              Expr_aritm(
+                                                                                RAdd_term(
+                                                                                  Term(
+                                                                                    RMul_fac(
+                                                                                      Factor_pos(
+                                                                                        Factor_c(
+                                                                                         a
+                                                                                        ) [Factor_c]
+                                                                                      ) [Factor_pos]
+                                                                                    ) [RMul_fac]
+                                                                                  ) [Term]
+                                                                                ) [RAdd_term]
+                                                                              ) [Expr_aritm]
+                                                                            ) [ActPar]
+                                                                            RActPar_eps(
+                                                                            ) [RActPar_eps]
+                                                                          ) [ActualParams]
+                                                                        ) [Factor_fparam]
+                                                                      ) [Factor_pos]
+                                                                    ) [RMul_fac]
+                                                                  ) [Term]
+                                                                ) [RAdd_term]
+                                                              ) [Expr_aritm]
+                                                            ) [Statement_print1]
+                                                          ) [ElseStatement_e]
+                                                        ) [Statement_if]
+                                                      ) [StatementList_rep]
+                                                      Statement_print1(
+                                                        Expr_aritm(
+                                                          RAdd_term(
+                                                            Term(
+                                                              RMul_fac(
+                                                                Factor_pos(
+                                                                  Factor_d(
+                                                                    Designator_var(
+                                                                     eol
+                                                                    ) [Designator_var]
+                                                                  ) [Factor_d]
+                                                                ) [Factor_pos]
+                                                              ) [RMul_fac]
+                                                            ) [Term]
+                                                          ) [RAdd_term]
+                                                        ) [Expr_aritm]
+                                                      ) [Statement_print1]
+                                                    ) [StatementList_rep]
+                                                    Statement_desig(
+                                                      DesigStatement_exp(
+                                                        Designator_var(
+                                                         i
+                                                        ) [Designator_var]
+                                                        Expr_aritm(
+                                                          RAdd_term(
+                                                            Term(
+                                                              RMul_fac(
+                                                                Factor_pos(
+                                                                  Factor_n(
+                                                                   0
+                                                                  ) [Factor_n]
+                                                                ) [Factor_pos]
+                                                              ) [RMul_fac]
+                                                            ) [Term]
+                                                          ) [RAdd_term]
+                                                        ) [Expr_aritm]
+                                                      ) [DesigStatement_exp]
+                                                    ) [Statement_desig]
+                                                  ) [StatementList_rep]
+                                                  Statement_for(
+                                                    ForNonterm(
+                                                    ) [ForNonterm]
+                                                    ForDesigStatementStart_eps(
+                                                    ) [ForDesigStatementStart_eps]
+                                                    ForCondition_cond(
+                                                      Condition(
+                                                        CondTerm(
+                                                          CondFact_r(
+                                                            RAdd_term(
+                                                              Term(
+                                                                RMul_fac(
+                                                                  Factor_pos(
+                                                                    Factor_d(
+                                                                      Designator_var(
+                                                                       i
+                                                                      ) [Designator_var]
+                                                                    ) [Factor_d]
+                                                                  ) [Factor_pos]
+                                                                ) [RMul_fac]
+                                                              ) [Term]
+                                                            ) [RAdd_term]
+                                                            Relop_ls(
+                                                            ) [Relop_ls]
+                                                            RAdd_term(
+                                                              Term(
+                                                                RMul_fac(
+                                                                  Factor_pos(
+                                                                    Factor_n(
+                                                                     10
+                                                                    ) [Factor_n]
+                                                                  ) [Factor_pos]
+                                                                ) [RMul_fac]
+                                                              ) [Term]
+                                                            ) [RAdd_term]
+                                                          ) [CondFact_r]
+                                                          RCondFact_eps(
+                                                          ) [RCondFact_eps]
+                                                        ) [CondTerm]
+                                                        RCondTerm_eps(
+                                                        ) [RCondTerm_eps]
+                                                      ) [Condition]
+                                                    ) [ForCondition_cond]
+                                                    ForDesigStatementEnd_eps(
+                                                    ) [ForDesigStatementEnd_eps]
+                                                    Statement_stat(
+                                                      StatementList_rep(
+                                                        StatementList_rep(
+                                                          StatementList_rep(
+                                                            StatementList_eps(
+                                                            ) [StatementList_eps]
+                                                            Statement_if(
+                                                              IfStart(
+                                                              ) [IfStart]
+                                                              Condition(
+                                                                CondTerm(
+                                                                  CondFact_r(
+                                                                    RAdd_term(
+                                                                      Term(
+                                                                        RMul_fac(
+                                                                          Factor_pos(
+                                                                            Factor_d(
+                                                                              Designator_var(
+                                                                               i
+                                                                              ) [Designator_var]
+                                                                            ) [Factor_d]
+                                                                          ) [Factor_pos]
+                                                                        ) [RMul_fac]
+                                                                      ) [Term]
+                                                                    ) [RAdd_term]
+                                                                    Relop_eq(
+                                                                    ) [Relop_eq]
+                                                                    RAdd_term(
+                                                                      Term(
+                                                                        RMul_fac(
+                                                                          Factor_pos(
+                                                                            Factor_n(
+                                                                             3
+                                                                            ) [Factor_n]
+                                                                          ) [Factor_pos]
+                                                                        ) [RMul_fac]
+                                                                      ) [Term]
+                                                                    ) [RAdd_term]
+                                                                  ) [CondFact_r]
+                                                                  RCondFact_eps(
+                                                                  ) [RCondFact_eps]
+                                                                ) [CondTerm]
+                                                                RCondTerm_eps(
+                                                                ) [RCondTerm_eps]
+                                                              ) [Condition]
+                                                              Statement_stat(
+                                                                StatementList_rep(
+                                                                  StatementList_rep(
+                                                                    StatementList_eps(
+                                                                    ) [StatementList_eps]
+                                                                    Statement_desig(
+                                                                      DesigStatement_i(
+                                                                        Designator_var(
+                                                                         i
+                                                                        ) [Designator_var]
+                                                                      ) [DesigStatement_i]
+                                                                    ) [Statement_desig]
+                                                                  ) [StatementList_rep]
+                                                                  Statement_conti(
+                                                                  ) [Statement_conti]
+                                                                ) [StatementList_rep]
+                                                              ) [Statement_stat]
+                                                              BranchDecisioner(
+                                                              ) [BranchDecisioner]
+                                                              ElseStatement_eps(
+                                                              ) [ElseStatement_eps]
+                                                            ) [Statement_if]
+                                                          ) [StatementList_rep]
+                                                          Statement_if(
+                                                            IfStart(
+                                                            ) [IfStart]
+                                                            Condition(
+                                                              CondTerm(
+                                                                CondFact_r(
+                                                                  RAdd_term(
+                                                                    Term(
+                                                                      RMul_fac(
+                                                                        Factor_pos(
+                                                                          Factor_d(
+                                                                            Designator_var(
+                                                                             i
+                                                                            ) [Designator_var]
+                                                                          ) [Factor_d]
+                                                                        ) [Factor_pos]
+                                                                      ) [RMul_fac]
+                                                                    ) [Term]
+                                                                  ) [RAdd_term]
+                                                                  Relop_eq(
+                                                                  ) [Relop_eq]
+                                                                  RAdd_term(
+                                                                    Term(
+                                                                      RMul_fac(
+                                                                        Factor_pos(
+                                                                          Factor_n(
+                                                                           4
+                                                                          ) [Factor_n]
+                                                                        ) [Factor_pos]
+                                                                      ) [RMul_fac]
+                                                                    ) [Term]
+                                                                  ) [RAdd_term]
+                                                                ) [CondFact_r]
+                                                                RCondFact_eps(
+                                                                ) [RCondFact_eps]
+                                                              ) [CondTerm]
+                                                              RCondTerm_eps(
+                                                              ) [RCondTerm_eps]
+                                                            ) [Condition]
+                                                            Statement_break(
+                                                            ) [Statement_break]
+                                                            BranchDecisioner(
+                                                            ) [BranchDecisioner]
+                                                            ElseStatement_eps(
+                                                            ) [ElseStatement_eps]
+                                                          ) [Statement_if]
+                                                        ) [StatementList_rep]
+                                                        Statement_desig(
+                                                          DesigStatement_exp(
+                                                            Designator_var(
+                                                             i
+                                                            ) [Designator_var]
+                                                            Expr_aritm(
+                                                              RAdd_term(
+                                                                Term(
+                                                                  RMul_fac(
+                                                                    Factor_pos(
+                                                                      Factor_fparam(
+                                                                        Designator_var(
+                                                                         inkrement
+                                                                        ) [Designator_var]
+                                                                        ActualParams(
+                                                                          ActParBegin(
+                                                                          ) [ActParBegin]
+                                                                          ActPar(
+                                                                            Expr_aritm(
+                                                                              RAdd_term(
+                                                                                Term(
+                                                                                  RMul_fac(
+                                                                                    Factor_pos(
+                                                                                      Factor_d(
+                                                                                        Designator_var(
+                                                                                         i
+                                                                                        ) [Designator_var]
+                                                                                      ) [Factor_d]
+                                                                                    ) [Factor_pos]
+                                                                                  ) [RMul_fac]
+                                                                                ) [Term]
+                                                                              ) [RAdd_term]
+                                                                            ) [Expr_aritm]
+                                                                          ) [ActPar]
+                                                                          RActPar_rep(
+                                                                            ActPar(
+                                                                              Expr_aritm(
+                                                                                RAdd_term(
+                                                                                  Term(
+                                                                                    RMul_fac(
+                                                                                      Factor_pos(
+                                                                                        Factor_n(
+                                                                                         1
+                                                                                        ) [Factor_n]
+                                                                                      ) [Factor_pos]
+                                                                                    ) [RMul_fac]
+                                                                                  ) [Term]
+                                                                                ) [RAdd_term]
+                                                                              ) [Expr_aritm]
+                                                                            ) [ActPar]
+                                                                            RActPar_eps(
+                                                                            ) [RActPar_eps]
+                                                                          ) [RActPar_rep]
+                                                                        ) [ActualParams]
+                                                                      ) [Factor_fparam]
+                                                                    ) [Factor_pos]
+                                                                  ) [RMul_fac]
+                                                                ) [Term]
+                                                              ) [RAdd_term]
+                                                            ) [Expr_aritm]
+                                                          ) [DesigStatement_exp]
+                                                        ) [Statement_desig]
+                                                      ) [StatementList_rep]
+                                                    ) [Statement_stat]
+                                                  ) [Statement_for]
+                                                ) [StatementList_rep]
+                                                Statement_if(
+                                                  IfStart(
+                                                  ) [IfStart]
+                                                  Condition(
+                                                    CondTerm(
+                                                      CondFact_r(
+                                                        RAdd_term(
+                                                          Term(
+                                                            RMul_fac(
+                                                              Factor_pos(
+                                                                Factor_d(
+                                                                  Designator_var(
+                                                                   i
+                                                                  ) [Designator_var]
+                                                                ) [Factor_d]
+                                                              ) [Factor_pos]
+                                                            ) [RMul_fac]
+                                                          ) [Term]
+                                                        ) [RAdd_term]
+                                                        Relop_eq(
+                                                        ) [Relop_eq]
+                                                        RAdd_term(
+                                                          Term(
+                                                            RMul_fac(
+                                                              Factor_pos(
+                                                                Factor_n(
+                                                                 3
+                                                                ) [Factor_n]
+                                                              ) [Factor_pos]
+                                                            ) [RMul_fac]
+                                                          ) [Term]
+                                                        ) [RAdd_term]
+                                                      ) [CondFact_r]
+                                                      RCondFact_rep(
+                                                        CondFact_e(
+                                                          RAdd_term(
+                                                            Term(
+                                                              RMul_fac(
+                                                                Factor_pos(
+                                                                  Factor_f(
+                                                                    Designator_var(
+                                                                     verify
+                                                                    ) [Designator_var]
+                                                                  ) [Factor_f]
+                                                                ) [Factor_pos]
+                                                              ) [RMul_fac]
+                                                            ) [Term]
+                                                          ) [RAdd_term]
+                                                        ) [CondFact_e]
+                                                        RCondFact_eps(
+                                                        ) [RCondFact_eps]
+                                                      ) [RCondFact_rep]
+                                                    ) [CondTerm]
+                                                    RCondTerm_eps(
+                                                    ) [RCondTerm_eps]
+                                                  ) [Condition]
+                                                  Statement_print1(
+                                                    Expr_aritm(
+                                                      RAdd_term(
+                                                        Term(
+                                                          RMul_fac(
+                                                            Factor_pos(
+                                                              Factor_n(
+                                                               4
+                                                              ) [Factor_n]
+                                                            ) [Factor_pos]
+                                                          ) [RMul_fac]
+                                                        ) [Term]
+                                                      ) [RAdd_term]
+                                                    ) [Expr_aritm]
+                                                  ) [Statement_print1]
+                                                  BranchDecisioner(
+                                                  ) [BranchDecisioner]
+                                                  ElseStatement_e(
+                                                    Statement_print1(
+                                                      Expr_aritm(
+                                                        RAdd_term(
+                                                          Term(
+                                                            RMul_fac(
+                                                              Factor_neg(
+                                                                Factor_n(
+                                                                 4
+                                                                ) [Factor_n]
+                                                              ) [Factor_neg]
+                                                            ) [RMul_fac]
+                                                          ) [Term]
+                                                        ) [RAdd_term]
+                                                      ) [Expr_aritm]
+                                                    ) [Statement_print1]
+                                                  ) [ElseStatement_e]
+                                                ) [Statement_if]
+                                              ) [StatementList_rep]
+                                              Statement_read(
+                                                Designator_el(
+                                                  ArrayName(
+                                                   niz
+                                                  ) [ArrayName]
+                                                  Expr_aritm(
+                                                    RAdd_term(
+                                                      Term(
+                                                        RMul_fac(
+                                                          Factor_pos(
+                                                            Factor_n(
+                                                             0
+                                                            ) [Factor_n]
+                                                          ) [Factor_pos]
+                                                        ) [RMul_fac]
+                                                      ) [Term]
+                                                    ) [RAdd_term]
+                                                  ) [Expr_aritm]
+                                                ) [Designator_el]
+                                              ) [Statement_read]
+                                            ) [StatementList_rep]
+                                            Statement_read(
+                                              Designator_el(
+                                                ArrayName(
+                                                 niz
+                                                ) [ArrayName]
+                                                Expr_aritm(
+                                                  RAdd_term(
+                                                    Term(
+                                                      RMul_fac(
+                                                        Factor_pos(
+                                                          Factor_n(
+                                                           1
+                                                          ) [Factor_n]
+                                                        ) [Factor_pos]
+                                                      ) [RMul_fac]
+                                                    ) [Term]
+                                                  ) [RAdd_term]
+                                                ) [Expr_aritm]
+                                              ) [Designator_el]
+                                            ) [Statement_read]
+                                          ) [StatementList_rep]
+                                          Statement_read(
+                                            Designator_el(
+                                              ArrayName(
+                                               niz
+                                              ) [ArrayName]
+                                              Expr_aritm(
+                                                RAdd_term(
+                                                  Term(
+                                                    RMul_fac(
+                                                      Factor_pos(
+                                                        Factor_n(
+                                                         2
+                                                        ) [Factor_n]
+                                                      ) [Factor_pos]
+                                                    ) [RMul_fac]
+                                                  ) [Term]
+                                                ) [RAdd_term]
+                                              ) [Expr_aritm]
+                                            ) [Designator_el]
+                                          ) [Statement_read]
+                                        ) [StatementList_rep]
+                                        Statement_print1(
+                                          Expr_aritm(
+                                            RAdd_term(
+                                              Term(
+                                                RMul_fac(
+                                                  Factor_pos(
+                                                    Factor_d(
+                                                      Designator_var(
+                                                       eol
+                                                      ) [Designator_var]
+                                                    ) [Factor_d]
+                                                  ) [Factor_pos]
+                                                ) [RMul_fac]
+                                              ) [Term]
+                                            ) [RAdd_term]
+                                          ) [Expr_aritm]
+                                        ) [Statement_print1]
+                                      ) [StatementList_rep]
+                                      Statement_print1(
+                                        Expr_aritm(
+                                          RAdd_term(
+                                            Term(
+                                              RMul_fac(
+                                                Factor_pos(
+                                                  Factor_fparam(
+                                                    Designator_var(
+                                                     sum
+                                                    ) [Designator_var]
+                                                    ActualParams(
+                                                      ActParBegin(
+                                                      ) [ActParBegin]
+                                                      ActPar(
+                                                        Expr_aritm(
+                                                          RAdd_term(
+                                                            Term(
+                                                              RMul_fac(
+                                                                Factor_pos(
+                                                                  Factor_fparam(
+                                                                    Designator_var(
+                                                                     sum
+                                                                    ) [Designator_var]
+                                                                    ActualParams(
+                                                                      ActParBegin(
+                                                                      ) [ActParBegin]
+                                                                      ActPar(
+                                                                        Expr_aritm(
+                                                                          RAdd_term(
+                                                                            Term(
+                                                                              RMul_fac(
+                                                                                Factor_pos(
+                                                                                  Factor_d(
+                                                                                    Designator_el(
+                                                                                      ArrayName(
+                                                                                       niz
+                                                                                      ) [ArrayName]
+                                                                                      Expr_aritm(
+                                                                                        RAdd_term(
+                                                                                          Term(
+                                                                                            RMul_fac(
+                                                                                              Factor_pos(
+                                                                                                Factor_n(
+                                                                                                 0
+                                                                                                ) [Factor_n]
+                                                                                              ) [Factor_pos]
+                                                                                            ) [RMul_fac]
+                                                                                          ) [Term]
+                                                                                        ) [RAdd_term]
+                                                                                      ) [Expr_aritm]
+                                                                                    ) [Designator_el]
+                                                                                  ) [Factor_d]
+                                                                                ) [Factor_pos]
+                                                                              ) [RMul_fac]
+                                                                            ) [Term]
+                                                                          ) [RAdd_term]
+                                                                        ) [Expr_aritm]
+                                                                      ) [ActPar]
+                                                                      RActPar_rep(
+                                                                        ActPar(
+                                                                          Expr_aritm(
+                                                                            RAdd_term(
+                                                                              Term(
+                                                                                RMul_fac(
+                                                                                  Factor_pos(
+                                                                                    Factor_d(
+                                                                                      Designator_el(
+                                                                                        ArrayName(
+                                                                                         niz
+                                                                                        ) [ArrayName]
+                                                                                        Expr_aritm(
+                                                                                          RAdd_term(
+                                                                                            Term(
+                                                                                              RMul_fac(
+                                                                                                Factor_pos(
+                                                                                                  Factor_n(
+                                                                                                   1
+                                                                                                  ) [Factor_n]
+                                                                                                ) [Factor_pos]
+                                                                                              ) [RMul_fac]
+                                                                                            ) [Term]
+                                                                                          ) [RAdd_term]
+                                                                                        ) [Expr_aritm]
+                                                                                      ) [Designator_el]
+                                                                                    ) [Factor_d]
+                                                                                  ) [Factor_pos]
+                                                                                ) [RMul_fac]
+                                                                              ) [Term]
+                                                                            ) [RAdd_term]
+                                                                          ) [Expr_aritm]
+                                                                        ) [ActPar]
+                                                                        RActPar_eps(
+                                                                        ) [RActPar_eps]
+                                                                      ) [RActPar_rep]
+                                                                    ) [ActualParams]
+                                                                  ) [Factor_fparam]
+                                                                ) [Factor_pos]
+                                                              ) [RMul_fac]
+                                                            ) [Term]
+                                                          ) [RAdd_term]
+                                                        ) [Expr_aritm]
+                                                      ) [ActPar]
+                                                      RActPar_rep(
+                                                        ActPar(
+                                                          Expr_aritm(
+                                                            RAdd_term(
+                                                              Term(
+                                                                RMul_fac(
+                                                                  Factor_pos(
+                                                                    Factor_d(
+                                                                      Designator_el(
+                                                                        ArrayName(
+                                                                         niz
+                                                                        ) [ArrayName]
+                                                                        Expr_aritm(
+                                                                          RAdd_term(
+                                                                            Term(
+                                                                              RMul_fac(
+                                                                                Factor_pos(
+                                                                                  Factor_n(
+                                                                                   2
+                                                                                  ) [Factor_n]
+                                                                                ) [Factor_pos]
+                                                                              ) [RMul_fac]
+                                                                            ) [Term]
+                                                                          ) [RAdd_term]
+                                                                        ) [Expr_aritm]
+                                                                      ) [Designator_el]
+                                                                    ) [Factor_d]
+                                                                  ) [Factor_pos]
+                                                                ) [RMul_fac]
+                                                              ) [Term]
+                                                            ) [RAdd_term]
+                                                          ) [Expr_aritm]
+                                                        ) [ActPar]
+                                                        RActPar_eps(
+                                                        ) [RActPar_eps]
+                                                      ) [RActPar_rep]
+                                                    ) [ActualParams]
+                                                  ) [Factor_fparam]
+                                                ) [Factor_pos]
+                                              ) [RMul_fac]
+                                            ) [Term]
+                                          ) [RAdd_term]
+                                        ) [Expr_aritm]
+                                      ) [Statement_print1]
+                                    ) [StatementList_rep]
+                                    Statement_for(
+                                      ForNonterm(
+                                      ) [ForNonterm]
+                                      ForDesigStatementStart_ds(
+                                        DesigStatement_exp(
+                                          Designator_var(
+                                           i
+                                          ) [Designator_var]
+                                          Expr_aritm(
+                                            RAdd_term(
+                                              Term(
+                                                RMul_fac(
+                                                  Factor_pos(
+                                                    Factor_n(
+                                                     0
+                                                    ) [Factor_n]
+                                                  ) [Factor_pos]
+                                                ) [RMul_fac]
+                                              ) [Term]
+                                            ) [RAdd_term]
+                                          ) [Expr_aritm]
+                                        ) [DesigStatement_exp]
+                                      ) [ForDesigStatementStart_ds]
+                                      ForCondition_cond(
+                                        Condition(
+                                          CondTerm(
+                                            CondFact_r(
+                                              RAdd_term(
+                                                Term(
+                                                  RMul_fac(
+                                                    Factor_pos(
+                                                      Factor_d(
+                                                        Designator_var(
+                                                         i
+                                                        ) [Designator_var]
+                                                      ) [Factor_d]
+                                                    ) [Factor_pos]
+                                                  ) [RMul_fac]
+                                                ) [Term]
+                                              ) [RAdd_term]
+                                              Relop_ls(
+                                              ) [Relop_ls]
+                                              RAdd_term(
+                                                Term(
+                                                  RMul_fac(
+                                                    Factor_pos(
+                                                      Factor_d(
+                                                        Designator_len(
+                                                          ArrayName(
+                                                           niz
+                                                          ) [ArrayName]
+                                                        ) [Designator_len]
+                                                      ) [Factor_d]
+                                                    ) [Factor_pos]
+                                                  ) [RMul_fac]
+                                                ) [Term]
+                                              ) [RAdd_term]
+                                            ) [CondFact_r]
+                                            RCondFact_eps(
+                                            ) [RCondFact_eps]
+                                          ) [CondTerm]
+                                          RCondTerm_eps(
+                                          ) [RCondTerm_eps]
+                                        ) [Condition]
+                                      ) [ForCondition_cond]
+                                      ForDesigStatementEnd_ds(
+                                        DesigStatement_i(
+                                          Designator_var(
+                                           i
+                                          ) [Designator_var]
+                                        ) [DesigStatement_i]
+                                      ) [ForDesigStatementEnd_ds]
+                                      Statement_stat(
+                                        StatementList_rep(
+                                          StatementList_eps(
+                                          ) [StatementList_eps]
+                                          Statement_print1(
+                                            Expr_aritm(
+                                              RAdd_term(
+                                                Term(
+                                                  RMul_fac(
+                                                    Factor_pos(
+                                                      Factor_d(
+                                                        Designator_var(
+                                                         i
+                                                        ) [Designator_var]
+                                                      ) [Factor_d]
+                                                    ) [Factor_pos]
+                                                  ) [RMul_fac]
+                                                ) [Term]
+                                              ) [RAdd_term]
+                                            ) [Expr_aritm]
+                                          ) [Statement_print1]
+                                        ) [StatementList_rep]
+                                      ) [Statement_stat]
+                                    ) [Statement_for]
+                                  ) [StatementList_rep]
+                                  Statement_print1(
+                                    Expr_aritm(
+                                      RAdd_term(
+                                        Term(
+                                          RMul_fac(
+                                            Factor_pos(
+                                              Factor_d(
+                                                Designator_var(
+                                                 eol
+                                                ) [Designator_var]
+                                              ) [Factor_d]
+                                            ) [Factor_pos]
+                                          ) [RMul_fac]
+                                        ) [Term]
+                                      ) [RAdd_term]
+                                    ) [Expr_aritm]
+                                  ) [Statement_print1]
+                                ) [StatementList_rep]
+                                Statement_print1(
+                                  Expr_aritm(
+                                    RAdd_term(
+                                      Term(
+                                        RMul_fac(
+                                          Factor_pos(
+                                            Factor_fparam(
+                                              Designator_var(
+                                               inkrement
+                                              ) [Designator_var]
+                                              ActualParams(
+                                                ActParBegin(
+                                                ) [ActParBegin]
+                                                ActPar(
+                                                  Expr_aritm(
+                                                    RAdd_term(
+                                                      Term(
+                                                        RMul_fac(
+                                                          Factor_pos(
+                                                            Factor_d(
+                                                              Designator_el(
+                                                                ArrayName(
+                                                                 niz
+                                                                ) [ArrayName]
+                                                                Expr_aritm(
+                                                                  RAdd_term(
+                                                                    Term(
+                                                                      RMul_fac(
+                                                                        Factor_pos(
+                                                                          Factor_n(
+                                                                           2
+                                                                          ) [Factor_n]
+                                                                        ) [Factor_pos]
+                                                                      ) [RMul_fac]
+                                                                    ) [Term]
+                                                                  ) [RAdd_term]
+                                                                ) [Expr_aritm]
+                                                              ) [Designator_el]
+                                                            ) [Factor_d]
+                                                          ) [Factor_pos]
+                                                        ) [RMul_fac]
+                                                      ) [Term]
+                                                    ) [RAdd_term]
+                                                  ) [Expr_aritm]
+                                                ) [ActPar]
+                                                RActPar_rep(
+                                                  ActPar(
+                                                    Expr_aritm(
+                                                      RAdd_term(
+                                                        Term(
+                                                          RMul_fac(
+                                                            Factor_pos(
+                                                              Factor_n(
+                                                               2
+                                                              ) [Factor_n]
+                                                            ) [Factor_pos]
+                                                          ) [RMul_fac]
+                                                        ) [Term]
+                                                      ) [RAdd_term]
+                                                    ) [Expr_aritm]
+                                                  ) [ActPar]
+                                                  RActPar_eps(
+                                                  ) [RActPar_eps]
+                                                ) [RActPar_rep]
+                                              ) [ActualParams]
+                                            ) [Factor_fparam]
+                                          ) [Factor_pos]
+                                        ) [RMul_fac]
+                                      ) [Term]
+                                    ) [RAdd_term]
+                                  ) [Expr_aritm]
+                                ) [Statement_print1]
+                              ) [StatementList_rep]
+                              Statement_print1(
+                                Expr_tern(
+                                  Condition(
+                                    CondTerm(
+                                      CondFact_e(
+                                        RAdd_term(
+                                          Term(
+                                            RMul_fac(
+                                              Factor_pos(
+                                                Factor_f(
+                                                  Designator_var(
+                                                   verify
+                                                  ) [Designator_var]
+                                                ) [Factor_f]
+                                              ) [Factor_pos]
+                                            ) [RMul_fac]
+                                          ) [Term]
+                                        ) [RAdd_term]
+                                      ) [CondFact_e]
+                                      RCondFact_eps(
+                                      ) [RCondFact_eps]
+                                    ) [CondTerm]
+                                    RCondTerm_eps(
+                                    ) [RCondTerm_eps]
+                                  ) [Condition]
+                                  Expr_aritm(
+                                    RAdd_term(
+                                      Term(
+                                        RMul_fac(
+                                          Factor_pos(
+                                            Factor_c(
+                                             t
+                                            ) [Factor_c]
+                                          ) [Factor_pos]
+                                        ) [RMul_fac]
+                                      ) [Term]
+                                    ) [RAdd_term]
+                                  ) [Expr_aritm]
+                                  ExprDecisioner(
+                                  ) [ExprDecisioner]
+                                  Expr_aritm(
+                                    RAdd_term(
+                                      Term(
+                                        RMul_fac(
+                                          Factor_pos(
+                                            Factor_c(
+                                             f
+                                            ) [Factor_c]
+                                          ) [Factor_pos]
+                                        ) [RMul_fac]
+                                      ) [Term]
+                                    ) [RAdd_term]
+                                  ) [Expr_aritm]
+                                ) [Expr_tern]
+                              ) [Statement_print1]
+                            ) [StatementList_rep]
+                            Statement_desig(
+                              DesigStatement_exp(
+                                Designator_var(
+                                 niz2
+                                ) [Designator_var]
+                                Expr_aritm(
+                                  RAdd_term(
+                                    Term(
+                                      RMul_fac(
+                                        Factor_pos(
+                                          Factor_newarr(
+                                            Type(
+                                             int
+                                            ) [Type]
+                                            Expr_aritm(
+                                              RAdd_term(
+                                                Term(
+                                                  RMul_fac(
+                                                    Factor_pos(
+                                                      Factor_n(
+                                                       5
+                                                      ) [Factor_n]
+                                                    ) [Factor_pos]
+                                                  ) [RMul_fac]
+                                                ) [Term]
+                                              ) [RAdd_term]
+                                            ) [Expr_aritm]
+                                          ) [Factor_newarr]
+                                        ) [Factor_pos]
+                                      ) [RMul_fac]
+                                    ) [Term]
+                                  ) [RAdd_term]
+                                ) [Expr_aritm]
+                              ) [DesigStatement_exp]
+                            ) [Statement_desig]
+                          ) [StatementList_rep]
+                          Statement_desig(
+                            DesigStatement_exp(
+                              Designator_el(
+                                ArrayName(
+                                 niz2
+                                ) [ArrayName]
+                                Expr_aritm(
+                                  RAdd_term(
+                                    Term(
+                                      RMul_fac(
+                                        Factor_pos(
+                                          Factor_n(
+                                           0
+                                          ) [Factor_n]
+                                        ) [Factor_pos]
+                                      ) [RMul_fac]
+                                    ) [Term]
+                                  ) [RAdd_term]
+                                ) [Expr_aritm]
+                              ) [Designator_el]
+                              Expr_aritm(
+                                RAdd_term(
+                                  Term(
+                                    RMul_fac(
+                                      Factor_pos(
+                                        Factor_n(
+                                         0
+                                        ) [Factor_n]
+                                      ) [Factor_pos]
+                                    ) [RMul_fac]
+                                  ) [Term]
+                                ) [RAdd_term]
+                              ) [Expr_aritm]
+                            ) [DesigStatement_exp]
+                          ) [Statement_desig]
+                        ) [StatementList_rep]
+                        Statement_desig(
+                          DesigStatement_exp(
+                            Designator_el(
+                              ArrayName(
+                               niz2
+                              ) [ArrayName]
+                              Expr_aritm(
+                                RAdd_term(
+                                  Term(
+                                    RMul_fac(
+                                      Factor_pos(
+                                        Factor_n(
+                                         1
+                                        ) [Factor_n]
+                                      ) [Factor_pos]
+                                    ) [RMul_fac]
+                                  ) [Term]
+                                ) [RAdd_term]
+                              ) [Expr_aritm]
+                            ) [Designator_el]
+                            Expr_aritm(
+                              RAdd_term(
+                                Term(
+                                  RMul_fac(
+                                    Factor_pos(
+                                      Factor_n(
+                                       1
+                                      ) [Factor_n]
+                                    ) [Factor_pos]
+                                  ) [RMul_fac]
+                                ) [Term]
+                              ) [RAdd_term]
+                            ) [Expr_aritm]
+                          ) [DesigStatement_exp]
+                        ) [Statement_desig]
+                      ) [StatementList_rep]
+                      Statement_desig(
+                        DesigStatement_exp(
+                          Designator_el(
+                            ArrayName(
+                             niz2
+                            ) [ArrayName]
+                            Expr_aritm(
+                              RAdd_term(
+                                Term(
+                                  RMul_fac(
+                                    Factor_pos(
+                                      Factor_n(
+                                       2
+                                      ) [Factor_n]
+                                    ) [Factor_pos]
+                                  ) [RMul_fac]
+                                ) [Term]
+                              ) [RAdd_term]
+                            ) [Expr_aritm]
+                          ) [Designator_el]
+                          Expr_aritm(
+                            RAdd_term(
+                              Term(
+                                RMul_fac(
+                                  Factor_pos(
+                                    Factor_n(
+                                     2
+                                    ) [Factor_n]
+                                  ) [Factor_pos]
+                                ) [RMul_fac]
+                              ) [Term]
+                            ) [RAdd_term]
+                          ) [Expr_aritm]
+                        ) [DesigStatement_exp]
+                      ) [Statement_desig]
+                    ) [StatementList_rep]
+                    Statement_desig(
+                      DesigStatement_exp(
+                        Designator_el(
+                          ArrayName(
+                           niz2
+                          ) [ArrayName]
+                          Expr_aritm(
+                            RAdd_term(
+                              Term(
+                                RMul_fac(
+                                  Factor_pos(
+                                    Factor_n(
+                                     3
+                                    ) [Factor_n]
+                                  ) [Factor_pos]
+                                ) [RMul_fac]
+                              ) [Term]
+                            ) [RAdd_term]
+                          ) [Expr_aritm]
+                        ) [Designator_el]
+                        Expr_aritm(
+                          RAdd_term(
+                            Term(
+                              RMul_fac(
+                                Factor_pos(
+                                  Factor_n(
+                                   3
+                                  ) [Factor_n]
+                                ) [Factor_pos]
+                              ) [RMul_fac]
+                            ) [Term]
+                          ) [RAdd_term]
+                        ) [Expr_aritm]
+                      ) [DesigStatement_exp]
+                    ) [Statement_desig]
+                  ) [StatementList_rep]
+                  Statement_desig(
+                    DesigStatement_exp(
+                      Designator_el(
+                        ArrayName(
+                         niz2
+                        ) [ArrayName]
+                        Expr_aritm(
+                          RAdd_term(
+                            Term(
+                              RMul_fac(
+                                Factor_pos(
+                                  Factor_n(
+                                   4
+                                  ) [Factor_n]
+                                ) [Factor_pos]
+                              ) [RMul_fac]
+                            ) [Term]
+                          ) [RAdd_term]
+                        ) [Expr_aritm]
+                      ) [Designator_el]
+                      Expr_aritm(
+                        RAdd_term(
+                          Term(
+                            RMul_fac(
+                              Factor_pos(
+                                Factor_n(
+                                 4
+                                ) [Factor_n]
+                              ) [Factor_pos]
+                            ) [RMul_fac]
+                          ) [Term]
+                        ) [RAdd_term]
+                      ) [Expr_aritm]
+                    ) [DesigStatement_exp]
+                  ) [Statement_desig]
+                ) [StatementList_rep]
+                Statement_desig(
+                  DesigStatement_exp(
+                    Designator_var(
+                     niz3
+                    ) [Designator_var]
+                    Expr_aritm(
+                      RAdd_term(
+                        Term(
+                          RMul_fac(
+                            Factor_pos(
+                              Factor_d(
+                                Designator_map(
+                                  ArrayName(
+                                   niz2
+                                  ) [ArrayName]
+                                  MapLoop(
+                                  ) [MapLoop]
+                                  MapIdent(
+                                   i
+                                  ) [MapIdent]
+                                  Expr_aritm(
+                                    RAdd_term(
+                                      Term(
+                                        RMul_rep(
+                                          RMul_fac(
+                                            Factor_pos(
+                                              Factor_d(
+                                                Designator_var(
+                                                 i
+                                                ) [Designator_var]
+                                              ) [Factor_d]
+                                            ) [Factor_pos]
+                                          ) [RMul_fac]
+                                          Mulop_as(
+                                          ) [Mulop_as]
+                                          Factor_pos(
+                                            Factor_n(
+                                             5
+                                            ) [Factor_n]
+                                          ) [Factor_pos]
+                                        ) [RMul_rep]
+                                      ) [Term]
+                                    ) [RAdd_term]
+                                  ) [Expr_aritm]
+                                ) [Designator_map]
+                              ) [Factor_d]
+                            ) [Factor_pos]
+                          ) [RMul_fac]
+                        ) [Term]
+                      ) [RAdd_term]
+                    ) [Expr_aritm]
+                  ) [DesigStatement_exp]
+                ) [Statement_desig]
+              ) [StatementList_rep]
+              Statement_for(
+                ForNonterm(
+                ) [ForNonterm]
+                ForDesigStatementStart_ds(
+                  DesigStatement_exp(
+                    Designator_var(
+                     i
+                    ) [Designator_var]
+                    Expr_aritm(
+                      RAdd_term(
+                        Term(
+                          RMul_fac(
+                            Factor_pos(
+                              Factor_n(
+                               0
+                              ) [Factor_n]
+                            ) [Factor_pos]
+                          ) [RMul_fac]
+                        ) [Term]
+                      ) [RAdd_term]
+                    ) [Expr_aritm]
+                  ) [DesigStatement_exp]
+                ) [ForDesigStatementStart_ds]
+                ForCondition_cond(
+                  Condition(
+                    CondTerm(
+                      CondFact_r(
+                        RAdd_term(
+                          Term(
+                            RMul_fac(
+                              Factor_pos(
+                                Factor_d(
+                                  Designator_var(
+                                   i
+                                  ) [Designator_var]
+                                ) [Factor_d]
+                              ) [Factor_pos]
+                            ) [RMul_fac]
+                          ) [Term]
+                        ) [RAdd_term]
+                        Relop_ls(
+                        ) [Relop_ls]
+                        RAdd_term(
+                          Term(
+                            RMul_fac(
+                              Factor_pos(
+                                Factor_d(
+                                  Designator_len(
+                                    ArrayName(
+                                     niz3
+                                    ) [ArrayName]
+                                  ) [Designator_len]
+                                ) [Factor_d]
+                              ) [Factor_pos]
+                            ) [RMul_fac]
+                          ) [Term]
+                        ) [RAdd_term]
+                      ) [CondFact_r]
+                      RCondFact_eps(
+                      ) [RCondFact_eps]
+                    ) [CondTerm]
+                    RCondTerm_eps(
+                    ) [RCondTerm_eps]
+                  ) [Condition]
+                ) [ForCondition_cond]
+                ForDesigStatementEnd_ds(
+                  DesigStatement_i(
+                    Designator_var(
+                     i
+                    ) [Designator_var]
+                  ) [DesigStatement_i]
+                ) [ForDesigStatementEnd_ds]
+                Statement_stat(
+                  StatementList_rep(
+                    StatementList_rep(
+                      StatementList_eps(
+                      ) [StatementList_eps]
+                      Statement_print1(
+                        Expr_aritm(
+                          RAdd_term(
+                            Term(
+                              RMul_fac(
+                                Factor_pos(
+                                  Factor_d(
+                                    Designator_el(
+                                      ArrayName(
+                                       niz3
+                                      ) [ArrayName]
+                                      Expr_aritm(
+                                        RAdd_term(
+                                          Term(
+                                            RMul_fac(
+                                              Factor_pos(
+                                                Factor_d(
+                                                  Designator_var(
+                                                   i
+                                                  ) [Designator_var]
+                                                ) [Factor_d]
+                                              ) [Factor_pos]
+                                            ) [RMul_fac]
+                                          ) [Term]
+                                        ) [RAdd_term]
+                                      ) [Expr_aritm]
+                                    ) [Designator_el]
+                                  ) [Factor_d]
+                                ) [Factor_pos]
+                              ) [RMul_fac]
+                            ) [Term]
+                          ) [RAdd_term]
+                        ) [Expr_aritm]
+                      ) [Statement_print1]
+                    ) [StatementList_rep]
+                    Statement_print1(
+                      Expr_aritm(
+                        RAdd_term(
+                          Term(
+                            RMul_fac(
+                              Factor_pos(
+                                Factor_d(
+                                  Designator_var(
+                                   eol
+                                  ) [Designator_var]
+                                ) [Factor_d]
+                              ) [Factor_pos]
+                            ) [RMul_fac]
+                          ) [Term]
+                        ) [RAdd_term]
+                      ) [Expr_aritm]
+                    ) [Statement_print1]
+                  ) [StatementList_rep]
+                ) [Statement_stat]
+              ) [Statement_for]
+            ) [StatementList_rep]
+            Statement_read(
+              Designator_var(
+               j
+              ) [Designator_var]
+            ) [Statement_read]
+          ) [StatementList_rep]
+          Statement_desig(
+            DesigStatement_exp(
+              Designator_var(
+               niz4
+              ) [Designator_var]
+              Expr_aritm(
+                RAdd_term(
+                  Term(
+                    RMul_fac(
+                      Factor_pos(
+                        Factor_d(
+                          Designator_map(
+                            ArrayName(
+                             niz2
+                            ) [ArrayName]
+                            MapLoop(
+                            ) [MapLoop]
+                            MapIdent(
+                             i
+                            ) [MapIdent]
+                            Expr_aritm(
+                              RAdd_rep(
+                                RAdd_term(
+                                  Term(
+                                    RMul_fac(
+                                      Factor_pos(
+                                        Factor_d(
+                                          Designator_var(
+                                           i
+                                          ) [Designator_var]
+                                        ) [Factor_d]
+                                      ) [Factor_pos]
+                                    ) [RMul_fac]
+                                  ) [Term]
+                                ) [RAdd_term]
+                                Addop_p(
+                                ) [Addop_p]
+                                Term(
+                                  RMul_fac(
+                                    Factor_pos(
+                                      Factor_d(
+                                        Designator_var(
+                                         j
+                                        ) [Designator_var]
+                                      ) [Factor_d]
+                                    ) [Factor_pos]
+                                  ) [RMul_fac]
+                                ) [Term]
+                              ) [RAdd_rep]
+                            ) [Expr_aritm]
+                          ) [Designator_map]
+                        ) [Factor_d]
+                      ) [Factor_pos]
+                    ) [RMul_fac]
+                  ) [Term]
+                ) [RAdd_term]
+              ) [Expr_aritm]
+            ) [DesigStatement_exp]
+          ) [Statement_desig]
+        ) [StatementList_rep]
+        Statement_for(
+          ForNonterm(
+          ) [ForNonterm]
+          ForDesigStatementStart_ds(
+            DesigStatement_exp(
+              Designator_var(
+               i
+              ) [Designator_var]
+              Expr_aritm(
+                RAdd_term(
+                  Term(
+                    RMul_fac(
+                      Factor_pos(
+                        Factor_n(
+                         0
+                        ) [Factor_n]
+                      ) [Factor_pos]
+                    ) [RMul_fac]
+                  ) [Term]
+                ) [RAdd_term]
+              ) [Expr_aritm]
+            ) [DesigStatement_exp]
+          ) [ForDesigStatementStart_ds]
+          ForCondition_cond(
+            Condition(
+              CondTerm(
+                CondFact_r(
+                  RAdd_term(
+                    Term(
+                      RMul_fac(
+                        Factor_pos(
+                          Factor_d(
+                            Designator_var(
+                             i
+                            ) [Designator_var]
+                          ) [Factor_d]
+                        ) [Factor_pos]
+                      ) [RMul_fac]
+                    ) [Term]
+                  ) [RAdd_term]
+                  Relop_ls(
+                  ) [Relop_ls]
+                  RAdd_term(
+                    Term(
+                      RMul_fac(
+                        Factor_pos(
+                          Factor_d(
+                            Designator_len(
+                              ArrayName(
+                               niz4
+                              ) [ArrayName]
+                            ) [Designator_len]
+                          ) [Factor_d]
+                        ) [Factor_pos]
+                      ) [RMul_fac]
+                    ) [Term]
+                  ) [RAdd_term]
+                ) [CondFact_r]
+                RCondFact_eps(
+                ) [RCondFact_eps]
+              ) [CondTerm]
+              RCondTerm_eps(
+              ) [RCondTerm_eps]
+            ) [Condition]
+          ) [ForCondition_cond]
+          ForDesigStatementEnd_ds(
+            DesigStatement_i(
+              Designator_var(
+               i
+              ) [Designator_var]
+            ) [DesigStatement_i]
+          ) [ForDesigStatementEnd_ds]
+          Statement_stat(
+            StatementList_rep(
+              StatementList_rep(
+                StatementList_eps(
+                ) [StatementList_eps]
+                Statement_print1(
+                  Expr_aritm(
+                    RAdd_term(
+                      Term(
+                        RMul_fac(
+                          Factor_pos(
+                            Factor_d(
+                              Designator_el(
+                                ArrayName(
+                                 niz4
+                                ) [ArrayName]
+                                Expr_aritm(
+                                  RAdd_term(
+                                    Term(
+                                      RMul_fac(
+                                        Factor_pos(
+                                          Factor_d(
+                                            Designator_var(
+                                             i
+                                            ) [Designator_var]
+                                          ) [Factor_d]
+                                        ) [Factor_pos]
+                                      ) [RMul_fac]
+                                    ) [Term]
+                                  ) [RAdd_term]
+                                ) [Expr_aritm]
+                              ) [Designator_el]
+                            ) [Factor_d]
+                          ) [Factor_pos]
+                        ) [RMul_fac]
+                      ) [Term]
+                    ) [RAdd_term]
+                  ) [Expr_aritm]
+                ) [Statement_print1]
+              ) [StatementList_rep]
+              Statement_print1(
+                Expr_aritm(
+                  RAdd_term(
+                    Term(
+                      RMul_fac(
+                        Factor_pos(
+                          Factor_d(
+                            Designator_var(
+                             eol
+                            ) [Designator_var]
+                          ) [Factor_d]
+                        ) [Factor_pos]
+                      ) [RMul_fac]
+                    ) [Term]
+                  ) [RAdd_term]
+                ) [Expr_aritm]
+              ) [Statement_print1]
+            ) [StatementList_rep]
+          ) [Statement_stat]
+        ) [Statement_for]
+      ) [StatementList_rep]
+    ) [MethodDecl]
+  ) [MethodList_rep]
+) [Program]
+INFO  23:33:38,202 - ===================================
+INFO  23:33:38,217 - Pristup formalnom parametru z [Kind: 1] na liniji 15
+INFO  23:33:38,217 - Pristup formalnom parametru d [Kind: 1] na liniji 15
+INFO  23:33:38,217 - Pristup formalnom parametru inc [Kind: 1] na liniji 20
+INFO  23:33:38,218 - Pristup simbolickoj konstanti jedan [Kind: 0] na liniji 20
+INFO  23:33:38,218 - Pristup lokalnoj promenljivoj pom [Kind: 1] na liniji 20
+INFO  23:33:38,218 - Pristup formalnom parametru inc [Kind: 1] na liniji 21
+INFO  23:33:38,218 - Pristup lokalnoj promenljivoj pom [Kind: 1] na liniji 21
+INFO  23:33:38,218 - Pristup formalnom parametru a [Kind: 1] na liniji 21
+INFO  23:33:38,218 - Pristup formalnom parametru a [Kind: 1] na liniji 23
+INFO  23:33:38,218 - Pristup lokalnoj promenljivoj pom [Kind: 1] na liniji 23
+INFO  23:33:38,220 - Poziv funkcije sum [Kind: 3] na liniji 23
+INFO  23:33:38,220 - Pristup globalnoj promenljivoj ibool [Kind: 1] na liniji 36
+INFO  23:33:38,220 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 37
+INFO  23:33:38,220 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 38
+INFO  23:33:38,220 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 38
+INFO  23:33:38,220 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 38
+INFO  23:33:38,220 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 40
+INFO  23:33:38,220 - Pristup globalnoj promenljivoj ibool [Kind: 1] na liniji 40
+INFO  23:33:38,220 - Pristup globalnoj promenljivoj ibool [Kind: 1] na liniji 43
+INFO  23:33:38,220 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 44
+INFO  23:33:38,220 - Pristup globalnoj promenljivoj niz [Kind: 1] na liniji 47
+INFO  23:33:38,220 - Pristup elementu niza niz [Kind: 1] na liniji 48
+INFO  23:33:38,220 - Pristup elementu niza niz [Kind: 1] na liniji 49
+INFO  23:33:38,220 - Pristup elementu niza niz [Kind: 1] na liniji 50
+INFO  23:33:38,220 - Pristup elementu niza niz [Kind: 1] na liniji 50
+INFO  23:33:38,220 - Pristup elementu niza niz [Kind: 1] na liniji 50
+INFO  23:33:38,220 - Poziv funkcije sum [Kind: 3] na liniji 50
+INFO  23:33:38,220 - Pristup elementu niza niz [Kind: 1] na liniji 51
+INFO  23:33:38,221 - Poziv funkcije verify [Kind: 3] na liniji 51
+INFO  23:33:38,221 - Poziv funkcije ord [Kind: 3] na liniji 51
+INFO  23:33:38,221 - Poziv funkcije ord [Kind: 3] na liniji 52
+INFO  23:33:38,221 - Pristup simbolickoj konstanti eol [Kind: 0] na liniji 54
+INFO  23:33:38,221 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 55
+INFO  23:33:38,221 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 56
+INFO  23:33:38,221 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 58
+INFO  23:33:38,221 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 60
+INFO  23:33:38,221 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 63
+INFO  23:33:38,221 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 64
+INFO  23:33:38,221 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 64
+INFO  23:33:38,221 - Poziv funkcije inkrement [Kind: 3] na liniji 64
+INFO  23:33:38,221 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 67
+INFO  23:33:38,221 - Poziv funkcije verify [Kind: 3] na liniji 67
+INFO  23:33:38,221 - Pristup elementu niza niz [Kind: 1] na liniji 70
+INFO  23:33:38,221 - Pristup elementu niza niz [Kind: 1] na liniji 71
+INFO  23:33:38,221 - Pristup elementu niza niz [Kind: 1] na liniji 72
+INFO  23:33:38,221 - Pristup simbolickoj konstanti eol [Kind: 0] na liniji 73
+INFO  23:33:38,221 - Pristup elementu niza niz [Kind: 1] na liniji 75
+INFO  23:33:38,221 - Pristup elementu niza niz [Kind: 1] na liniji 75
+INFO  23:33:38,221 - Poziv funkcije sum [Kind: 3] na liniji 75
+INFO  23:33:38,221 - Pristup elementu niza niz [Kind: 1] na liniji 75
+INFO  23:33:38,221 - Poziv funkcije sum [Kind: 3] na liniji 75
+INFO  23:33:38,221 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 77
+INFO  23:33:38,221 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 77
+INFO  23:33:38,221 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 77
+INFO  23:33:38,221 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 78
+INFO  23:33:38,221 - Pristup simbolickoj konstanti eol [Kind: 0] na liniji 81
+INFO  23:33:38,221 - Pristup elementu niza niz [Kind: 1] na liniji 82
+INFO  23:33:38,221 - Poziv funkcije inkrement [Kind: 3] na liniji 82
+INFO  23:33:38,221 - Poziv funkcije verify [Kind: 3] na liniji 83
+INFO  23:33:38,221 - Pristup globalnoj promenljivoj niz2 [Kind: 1] na liniji 85
+INFO  23:33:38,221 - Pristup elementu niza niz2 [Kind: 1] na liniji 86
+INFO  23:33:38,221 - Pristup elementu niza niz2 [Kind: 1] na liniji 86
+INFO  23:33:38,221 - Pristup elementu niza niz2 [Kind: 1] na liniji 86
+INFO  23:33:38,221 - Pristup elementu niza niz2 [Kind: 1] na liniji 86
+INFO  23:33:38,221 - Pristup elementu niza niz2 [Kind: 1] na liniji 86
+INFO  23:33:38,221 - Pristup globalnoj promenljivoj niz3 [Kind: 1] na liniji 88
+INFO  23:33:38,223 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 88
+INFO  23:33:38,223 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 89
+INFO  23:33:38,223 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 89
+INFO  23:33:38,223 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 89
+INFO  23:33:38,223 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 90
+INFO  23:33:38,223 - Pristup elementu niza niz3 [Kind: 1] na liniji 90
+INFO  23:33:38,223 - Pristup simbolickoj konstanti eol [Kind: 0] na liniji 91
+INFO  23:33:38,223 - Pristup globalnoj promenljivoj j [Kind: 1] na liniji 94
+INFO  23:33:38,223 - Pristup globalnoj promenljivoj niz4 [Kind: 1] na liniji 95
+INFO  23:33:38,223 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 95
+INFO  23:33:38,223 - Pristup globalnoj promenljivoj j [Kind: 1] na liniji 95
+INFO  23:33:38,223 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 96
+INFO  23:33:38,223 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 96
+INFO  23:33:38,223 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 96
+INFO  23:33:38,223 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 97
+INFO  23:33:38,223 - Pristup elementu niza niz4 [Kind: 1] na liniji 97
+INFO  23:33:38,223 - Pristup simbolickoj konstanti eol [Kind: 0] na liniji 98
+INFO  23:33:38,223 - ===================================
+INFO  23:33:38,251 - Parsiranje uspesno zavrseno!

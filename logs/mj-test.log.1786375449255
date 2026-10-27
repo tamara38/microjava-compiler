@@ -1,0 +1,48 @@
+INFO  16:59:05,043 - Compiling source file: C:\Users\tamara\eclipse-workspace\MJCompiler\test\program.mj
+INFO  16:59:05,086 - #2 program
+INFO  16:59:05,086 - #44 Keske
+INFO  16:59:05,086 - #5 const
+INFO  16:59:05,087 - #44 int
+INFO  16:59:05,087 - #44 pi
+INFO  16:59:05,088 - #6 =
+INFO  16:59:05,088 - #45 3
+INFO  16:59:05,088 - #7 ;
+INFO  16:59:05,088 - #3 {
+INFO  16:59:05,088 - #11 void
+INFO  16:59:05,088 - #44 main
+INFO  16:59:05,090 - #42 (
+INFO  16:59:05,090 - #43 )
+INFO  16:59:05,090 - #3 {
+INFO  16:59:05,091 - #4 }
+INFO  16:59:05,091 - #4 }
+INFO  16:59:05,093 - Program(
+ Keske
+  ConstVarList_Const(
+    ConstVarList_Eps(
+    ) [ConstVarList_Eps]
+    ConstList(
+      Type(
+       int
+      ) [Type]
+      ConstItem_it(
+       pi
+        ConstVal_num(
+         3
+        ) [ConstVal_num]
+      ) [ConstItem_it]
+    ) [ConstList]
+  ) [ConstVarList_Const]
+  MethodList_full(
+    MethodType_v(
+    ) [MethodType_v]
+   main
+    ParamList_eps(
+    ) [ParamList_eps]
+    VarList_eps(
+    ) [VarList_eps]
+    StatementList_eps(
+    ) [StatementList_eps]
+  ) [MethodList_full]
+) [Program]
+INFO  16:59:05,127 - ===================================
+INFO  16:59:05,127 - Parsiranje uspesno zavrseno!

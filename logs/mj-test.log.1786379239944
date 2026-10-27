@@ -1,0 +1,146 @@
+INFO  18:27:09,138 - Compiling source file: C:\Users\tamara\eclipse-workspace\MJCompiler\test\program.mj
+INFO  18:27:09,172 - #2 program
+INFO  18:27:09,173 - #44 test312
+INFO  18:27:09,173 - #44 int
+INFO  18:27:09,173 - #44 x
+INFO  18:27:09,174 - #7 ;
+INFO  18:27:09,175 - #3 {
+INFO  18:27:09,175 - #11 void
+INFO  18:27:09,176 - #44 postavi
+INFO  18:27:09,176 - #42 (
+INFO  18:27:09,176 - #43 )
+INFO  18:27:09,177 - #3 {
+INFO  18:27:09,177 - #44 x
+INFO  18:27:09,177 - #6 =
+INFO  18:27:09,179 - #45 10
+INFO  18:27:09,179 - #7 ;
+INFO  18:27:09,181 - #16 return
+INFO  18:27:09,182 - #7 ;
+INFO  18:27:09,182 - #4 }
+INFO  18:27:09,182 - #11 void
+INFO  18:27:09,183 - #44 main
+INFO  18:27:09,183 - #42 (
+INFO  18:27:09,183 - #43 )
+INFO  18:27:09,208 - #3 {
+INFO  18:27:09,208 - #44 postavi
+INFO  18:27:09,208 - #42 (
+INFO  18:27:09,208 - #43 )
+INFO  18:27:09,208 - #7 ;
+INFO  18:27:09,209 - #18 print
+INFO  18:27:09,209 - #42 (
+INFO  18:27:09,209 - #44 x
+INFO  18:27:09,209 - #43 )
+INFO  18:27:09,209 - #7 ;
+INFO  18:27:09,209 - #4 }
+INFO  18:27:09,209 - #4 }
+INFO  18:27:09,212 - Program(
+ test312
+  ConstVarList_Var(
+    ConstVarList_Eps(
+    ) [ConstVarList_Eps]
+    VarItem(
+      Type(
+       int
+      ) [Type]
+     x
+      Brackets_false(
+      ) [Brackets_false]
+      RVarItem_eps(
+      ) [RVarItem_eps]
+    ) [VarItem]
+  ) [ConstVarList_Var]
+  MethodList_rep(
+    MethodList_rep(
+      MethodList_eps(
+      ) [MethodList_eps]
+      MethodDecl(
+        MethodType_v(
+        ) [MethodType_v]
+       postavi
+        ParamList_eps(
+        ) [ParamList_eps]
+        VarList_eps(
+        ) [VarList_eps]
+        StatementList_rep(
+          StatementList_rep(
+            StatementList_eps(
+            ) [StatementList_eps]
+            Statement_desig(
+              DesigStatement_exp(
+                Designator(
+                 x
+                  DesignatorLoop_eps(
+                  ) [DesignatorLoop_eps]
+                ) [Designator]
+                Expr_aritm(
+                  AddExpr(
+                    Term(
+                      Factor_pos(
+                        Factor_n(
+                         10
+                        ) [Factor_n]
+                      ) [Factor_pos]
+                      RMul_eps(
+                      ) [RMul_eps]
+                    ) [Term]
+                    RAdd_eps(
+                    ) [RAdd_eps]
+                  ) [AddExpr]
+                ) [Expr_aritm]
+              ) [DesigStatement_exp]
+            ) [Statement_desig]
+          ) [StatementList_rep]
+          Statement_ret2(
+          ) [Statement_ret2]
+        ) [StatementList_rep]
+      ) [MethodDecl]
+    ) [MethodList_rep]
+    MethodDecl(
+      MethodType_v(
+      ) [MethodType_v]
+     main
+      ParamList_eps(
+      ) [ParamList_eps]
+      VarList_eps(
+      ) [VarList_eps]
+      StatementList_rep(
+        StatementList_rep(
+          StatementList_eps(
+          ) [StatementList_eps]
+          Statement_desig(
+            DesigStatement_emp(
+              Designator(
+               postavi
+                DesignatorLoop_eps(
+                ) [DesignatorLoop_eps]
+              ) [Designator]
+            ) [DesigStatement_emp]
+          ) [Statement_desig]
+        ) [StatementList_rep]
+        Statement_print1(
+          Expr_aritm(
+            AddExpr(
+              Term(
+                Factor_pos(
+                  Factor_d(
+                    Designator(
+                     x
+                      DesignatorLoop_eps(
+                      ) [DesignatorLoop_eps]
+                    ) [Designator]
+                  ) [Factor_d]
+                ) [Factor_pos]
+                RMul_eps(
+                ) [RMul_eps]
+              ) [Term]
+              RAdd_eps(
+              ) [RAdd_eps]
+            ) [AddExpr]
+          ) [Expr_aritm]
+        ) [Statement_print1]
+      ) [StatementList_rep]
+    ) [MethodDecl]
+  ) [MethodList_rep]
+) [Program]
+INFO  18:27:09,213 - ===================================
+INFO  18:27:09,213 - Parsiranje uspesno zavrseno!

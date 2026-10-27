@@ -1,0 +1,362 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+
+// import java.io.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+	
+	boolean errorDetected = false;
+	
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	//errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+    
+    public void report_info(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.info(msg.toString());
+    }
+    
+:}
+
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+
+
+terminal PROG, LBRACE, RBRACE, CONST, ASSIGN, SEMICOLON, COMMA, LSQUARE, RSQUARE; 
+terminal VOID, IF, ELSE, BREAK, CONTINUE, RETURN, READ, PRINT, FOR, DOT, ARROW, MAP, PLUS, MINUS, FINDANY;
+terminal ASTERISK, SLASH, PERCENT, EQU, NEQ, GTE, LTE, GT, LS, QUESTIONMARK, COLON, INC, DEC, OR;
+terminal AND, LENGTH, NEW, LBRACKET, RBRACKET;
+terminal String IDENT;
+terminal Integer NUMBER, BOOL;
+terminal Character CHARACTER;
+
+nonterminal Program, ConstVarList, MethodList, MethodDecl, ConstList, VarList, VarListList, RVarList, ConstItem, RConstItem, ConstVal, VarItem;
+nonterminal MethodType, ParamList, ParamItem, Statement, ElseStatement, DesigStatement;
+nonterminal Mulop, Addop, Relop, ActualParams, ActPar, RActPar, ActParBegin;
+nonterminal RVarItem, StatementList, ForDesigStatementStart, ForDesigStatementEnd;
+nonterminal ProgramName, ForNonterm, MapLoop, BranchDecisioner, ExprDecisioner, FindAny, FindAnyCheck, IfStart, GlobEnd, IfCondError;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Factor, SubFactor, Expr, Term, RMul, RAdd, Type;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Designator, ArrayName, MethodName, MapIdent;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Condition, CondTerm, RCondTerm, CondFact, RCondFact, ForCondition;
+
+precedence left ELSE;
+
+Program ::= (Program) PROG ProgramName ConstVarList GlobEnd LBRACE MethodList RBRACE ;
+
+GlobEnd ::= (GlobEnd) ;
+
+ProgramName ::= (ProgramName) IDENT;
+
+ConstVarList ::= (ConstVarList_Const) ConstVarList ConstList
+				 |
+				 (ConstVarList_Var) ConstVarList VarList
+				 |
+				 (ConstVarList_Eps)
+				 ;
+
+ConstList ::= (ConstList) CONST Type ConstItem RConstItem SEMICOLON;
+
+
+ConstItem ::= (ConstItem) IDENT ASSIGN ConstVal;
+			  
+RConstItem ::= (RConstItem_rep) COMMA ConstItem RConstItem
+			   |
+			   (RConstItem_eps)
+			   ;
+
+ConstVal ::= (ConstVal_num) NUMBER
+			 |
+			 (ConstVal_char) CHARACTER
+			 |
+			 (ConstVal_bool) BOOL
+			 ;
+			 
+Type ::= (Type) IDENT;
+
+VarList ::= (VarList) Type VarItem RVarItem SEMICOLON;
+
+VarListList ::= (VarListList_rep) VarListList VarList
+                |
+                (VarListList_single) VarList
+                ;
+
+VarItem ::= (VarItem_var) IDENT 
+			|
+			(VarItem_arr) IDENT LSQUARE RSQUARE
+			|
+			(VarItem_error) error:e
+			{: parser.report_error("Oporavak od greske u VarItem. Linija: " + eleft, null); :}
+			;
+
+RVarItem ::= (RVarItem_rep) COMMA VarItem RVarItem
+			 |
+			 (RVarItem_eps)
+			 ;
+			
+
+MethodList ::= (MethodList_rep) MethodList MethodDecl
+			   |
+			   (MethodList_eps)
+			   ;
+
+MethodDecl ::= (MethodDecl) MethodType MethodName LBRACKET ParamList RBRACKET RVarList LBRACE StatementList RBRACE;
+
+MethodName ::= (MethodName) IDENT;
+
+MethodType ::= (MethodType_t) Type
+			   |
+			   (MethodType_v) VOID
+			   ;
+			   
+			   
+RVarList ::= (RVarList_rep) VarListList
+			 |
+			 (RVarList_eps)
+			 ;
+
+ParamList ::= (ParamList_comma) ParamList COMMA ParamItem
+			  |
+			  (ParamList_it) ParamItem
+			  |
+			  (ParamList_eps)
+			  ;
+
+
+ParamItem ::= (ParamItem_var) Type IDENT 
+			  |
+			  (ParamItem_arr) Type IDENT LSQUARE RSQUARE
+			  |
+			  (ParamItem_error) error:e
+			  {: parser.report_error("Oporavak od greske u ParamItem. Linija: " + eleft, null); :}
+			  ;
+
+
+Statement ::= (Statement_desig) DesigStatement SEMICOLON
+			  |
+			  (Statement_if) IF IfStart LBRACKET Condition RBRACKET Statement BranchDecisioner ElseStatement
+			  |
+			  (Statement_if_error) IF IfStart LBRACKET IfCondError RBRACKET Statement BranchDecisioner ElseStatement
+			  |
+			  (Statement_break) BREAK SEMICOLON
+			  |
+			  (Statement_conti) CONTINUE SEMICOLON
+			  |
+			  (Statement_ret1) RETURN Expr SEMICOLON
+			  |
+			  (Statement_ret2) RETURN SEMICOLON
+			  |
+			  (Statement_read) READ LBRACKET Designator RBRACKET SEMICOLON
+			  |
+			  (Statement_print1) PRINT LBRACKET Expr RBRACKET SEMICOLON
+			  |
+			  (Statement_print2) PRINT LBRACKET Expr COMMA NUMBER RBRACKET SEMICOLON 
+			  |
+			  (Statement_for) ForNonterm LBRACKET ForDesigStatementStart SEMICOLON ForCondition SEMICOLON ForDesigStatementEnd RBRACKET Statement
+			  |
+			  (Statement_stat) LBRACE StatementList RBRACE
+			  ;
+			  
+IfCondError ::= (IfCondError) error:e
+                {: parser.report_error("Oporavak od greske u if Conditionu. Linija: " + eleft, null); :}
+                ;
+			  
+IfStart ::= (IfStart) ;
+			  
+BranchDecisioner ::= (BranchDecisioner) ;
+			  
+ForNonterm ::= (ForNonterm) FOR;
+			  
+StatementList ::= (StatementList_rep) StatementList Statement
+				  |
+				  (StatementList_eps)
+				  ;
+			  
+DesigStatement ::= (DesigStatement_exp) Designator ASSIGN Expr
+				   |
+				   (DesigStatement_error) error:e
+				   {: parser.report_error("Oporavak od greske u Designator Statementu. Linija: " + eleft, null); :}
+				   |
+				   (DesigStatement_emp) Designator LBRACKET RBRACKET
+				   |
+				   (DesigStatement_a) Designator LBRACKET ActualParams RBRACKET
+				   |
+				   (DesigStatement_i) Designator INC
+				   |
+				   (DesigStatement_d) Designator DEC
+				   ;
+				   
+
+ForDesigStatementStart ::= (ForDesigStatementStart_ds) DesigStatement
+					  	   |
+					  	   (ForDesigStatementStart_eps)
+					       ;
+					       
+ForDesigStatementEnd ::= (ForDesigStatementEnd_ds) DesigStatement
+					  	 |
+					  	 (ForDesigStatementEnd_eps)
+					     ;
+					  
+ForCondition ::= (ForCondition_cond) Condition  
+				 |
+				 (ForCondition_eps)
+				 ;
+				 
+Condition ::= (Condition) CondTerm RCondTerm;
+			 
+
+RCondTerm ::= (RCondTerm_rep) OR CondTerm RCondTerm
+			  |
+			  (RCondTerm_eps)
+			  ;
+
+CondTerm ::= (CondTerm) CondFact RCondFact;
+
+RCondFact ::= (RCondFact_rep) AND CondFact RCondFact
+			  |
+			  (RCondFact_eps)
+			  ;
+			  
+			  
+CondFact ::= (CondFact_e) RAdd
+			 |
+			 (CondFact_r) RAdd Relop RAdd
+			 ;
+
+ElseStatement ::= (ElseStatement_e) ELSE Statement
+				  | 
+				  (ElseStatement_eps)
+				  ; 
+
+Expr ::= (Expr_aritm) RAdd
+		 |
+		 (Expr_tern) Condition QUESTIONMARK Expr ExprDecisioner COLON Expr 
+		 ;
+
+
+ExprDecisioner ::= (ExprDecisioner) ;
+			 
+
+ActualParams ::= (ActualParams) ActParBegin ActPar RActPar;
+
+ActParBegin ::= (ActParBegin) ;
+
+RActPar ::= (RActPar_rep) COMMA ActPar RActPar
+		    |
+		    (RActPar_eps)
+		    ;
+		  
+ActPar ::= (ActPar) Expr;
+				
+RAdd ::= (RAdd_rep) RAdd Addop Term 
+		 |
+		 (RAdd_term) Term
+		 ;
+				
+Term ::= (Term) RMul;
+
+RMul ::= (RMul_rep) RMul Mulop Factor 
+		 |
+		 (RMul_fac) Factor
+		 ;
+		 
+Factor ::= (Factor_pos) SubFactor
+		   |
+		   (Factor_neg) MINUS SubFactor
+		   ;
+				
+SubFactor ::= (Factor_d) Designator
+			  |
+			  (Factor_f) Designator LBRACKET RBRACKET
+			  |
+		   	  (Factor_fparam) Designator LBRACKET ActualParams RBRACKET 
+		      |
+			  (Factor_n) NUMBER
+			  |
+			  (Factor_c) CHARACTER
+			  |
+			  (Factor_b) BOOL
+			  |
+			  (Factor_newarr) NEW Type LSQUARE Expr RSQUARE 
+			  |
+			  (Factor_exp) LBRACKET Expr RBRACKET 
+			  ;
+
+Designator ::= (Designator_var) IDENT
+			   |
+			   (Designator_len) ArrayName DOT LENGTH
+			   |
+			   (Designator_findAny) ArrayName DOT FindAny LBRACKET Expr FindAnyCheck RBRACKET 
+			   |
+			   (Designator_map) ArrayName DOT MAP LBRACKET MapLoop MapIdent ARROW Expr RBRACKET
+			   |
+			   (Designator_el) ArrayName LSQUARE Expr RSQUARE
+			   ;
+			   
+ArrayName ::= (ArrayName) IDENT;
+
+MapIdent ::= (MapIdent) IDENT;
+
+MapLoop ::= (MapLoop) ;
+
+FindAny ::= (FindAny) FINDANY;
+
+FindAnyCheck ::= (FindAnyCheck) ;
+
+
+Relop ::= (Relop_eq) EQU
+          |
+          (Relop_neq) NEQ
+          |
+          (Relop_gt) GT
+          |
+          (Relop_gte) GTE
+          |
+          (Relop_ls) LS
+          |
+          (Relop_lte) LTE
+          ;
+
+Mulop ::= (Mulop_as) ASTERISK
+		  |
+		  (Mulop_div) SLASH
+		  |
+		  (Mulop_mod) PERCENT
+		  ;
+		 
+Addop ::= (Addop_p) PLUS
+ 		  |
+ 		  (Addop_m) MINUS
+ 		  ;

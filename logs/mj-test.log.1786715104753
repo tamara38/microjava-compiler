@@ -1,0 +1,167 @@
+INFO  15:44:44,134 - Compiling source file: C:\Users\tamara\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:44:44,190 - #2 program
+INFO  15:44:44,191 - #44 test317
+INFO  15:44:44,191 - #5 const
+INFO  15:44:44,193 - #44 int
+INFO  15:44:44,193 - #44 x
+INFO  15:44:44,194 - #6 =
+INFO  15:44:44,194 - #45 1
+INFO  15:44:44,194 - #8 ,
+INFO  15:44:44,195 - #44 y
+INFO  15:44:44,195 - #6 =
+INFO  15:44:44,196 - #45 2
+INFO  15:44:44,196 - #7 ;
+INFO  15:44:44,196 - #44 int
+INFO  15:44:44,197 - #44 var
+INFO  15:44:44,197 - #8 ,
+INFO  15:44:44,197 - #44 func
+INFO  15:44:44,197 - #8 ,
+INFO  15:44:44,197 - #44 arr1
+INFO  15:44:44,197 - #9 [
+INFO  15:44:44,197 - #10 ]
+INFO  15:44:44,198 - #8 ,
+INFO  15:44:44,198 - #44 arr2
+INFO  15:44:44,221 - #9 [
+INFO  15:44:44,221 - #10 ]
+INFO  15:44:44,221 - #7 ;
+INFO  15:44:44,222 - #44 char
+INFO  15:44:44,223 - #44 c
+INFO  15:44:44,223 - #8 ,
+INFO  15:44:44,223 - #44 arrc
+INFO  15:44:44,223 - #9 [
+INFO  15:44:44,223 - #10 ]
+INFO  15:44:44,224 - #7 ;
+INFO  15:44:44,224 - #3 {
+INFO  15:44:44,224 - #11 void
+INFO  15:44:44,225 - #44 main
+INFO  15:44:44,225 - #42 (
+INFO  15:44:44,226 - #43 )
+INFO  15:44:44,226 - #3 {
+INFO  15:44:44,227 - #44 arr1
+INFO  15:44:44,227 - #9 [
+INFO  15:44:44,228 - #45 2
+INFO  15:44:44,228 - #10 ]
+INFO  15:44:44,231 - #36 ++
+INFO  15:44:44,231 - #7 ;
+INFO  15:44:44,231 - #4 }
+INFO  15:44:44,232 - #4 }
+INFO  15:44:44,236 - Program(
+  ProgramName(
+   test317
+  ) [ProgramName]
+  ConstVarList_Var(
+    ConstVarList_Var(
+      ConstVarList_Const(
+        ConstVarList_Eps(
+        ) [ConstVarList_Eps]
+        ConstList(
+          Type(
+           int
+          ) [Type]
+          ConstItem(
+           x
+            ConstVal_num(
+             1
+            ) [ConstVal_num]
+          ) [ConstItem]
+          RConstItem_rep(
+            ConstItem(
+             y
+              ConstVal_num(
+               2
+              ) [ConstVal_num]
+            ) [ConstItem]
+            RConstItem_eps(
+            ) [RConstItem_eps]
+          ) [RConstItem_rep]
+        ) [ConstList]
+      ) [ConstVarList_Const]
+      VarList(
+        Type(
+         int
+        ) [Type]
+        VarItem_var(
+         var
+        ) [VarItem_var]
+        RVarItem_rep(
+          VarItem_var(
+           func
+          ) [VarItem_var]
+          RVarItem_rep(
+            VarItem_arr(
+             arr1
+            ) [VarItem_arr]
+            RVarItem_rep(
+              VarItem_arr(
+               arr2
+              ) [VarItem_arr]
+              RVarItem_eps(
+              ) [RVarItem_eps]
+            ) [RVarItem_rep]
+          ) [RVarItem_rep]
+        ) [RVarItem_rep]
+      ) [VarList]
+    ) [ConstVarList_Var]
+    VarList(
+      Type(
+       char
+      ) [Type]
+      VarItem_var(
+       c
+      ) [VarItem_var]
+      RVarItem_rep(
+        VarItem_arr(
+         arrc
+        ) [VarItem_arr]
+        RVarItem_eps(
+        ) [RVarItem_eps]
+      ) [RVarItem_rep]
+    ) [VarList]
+  ) [ConstVarList_Var]
+  MethodList_rep(
+    MethodList_eps(
+    ) [MethodList_eps]
+    MethodDecl(
+      MethodType_v(
+      ) [MethodType_v]
+      MethodName(
+       main
+      ) [MethodName]
+      ParamList_eps(
+      ) [ParamList_eps]
+      RVarList_eps(
+      ) [RVarList_eps]
+      StatementList_rep(
+        StatementList_eps(
+        ) [StatementList_eps]
+        Statement_desig(
+          DesigStatement_i(
+            Designator_el(
+              ArrayName(
+               arr1
+              ) [ArrayName]
+              Expr_aritm(
+                AddExpr(
+                  Term(
+                    Factor_pos(
+                      Factor_n(
+                       2
+                      ) [Factor_n]
+                    ) [Factor_pos]
+                    RMul_eps(
+                    ) [RMul_eps]
+                  ) [Term]
+                  RAdd_eps(
+                  ) [RAdd_eps]
+                ) [AddExpr]
+              ) [Expr_aritm]
+            ) [Designator_el]
+          ) [DesigStatement_i]
+        ) [Statement_desig]
+      ) [StatementList_rep]
+    ) [MethodDecl]
+  ) [MethodList_rep]
+) [Program]
+INFO  15:44:44,237 - ===================================
+INFO  15:44:44,244 - ===================================
+INFO  15:44:44,245 - Parsiranje uspesno zavrseno!

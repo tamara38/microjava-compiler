@@ -1,0 +1,191 @@
+INFO  23:42:03,883 - Compiling source file: C:\Users\tamara\eclipse-workspace\MJCompiler\test\program.mj
+INFO  23:42:03,917 - #2 program
+INFO  23:42:03,917 - #44 test317
+INFO  23:42:03,917 - #5 const
+INFO  23:42:03,918 - #44 int
+INFO  23:42:03,918 - #44 x
+INFO  23:42:03,918 - #6 =
+INFO  23:42:03,918 - #45 1
+INFO  23:42:03,918 - #8 ,
+INFO  23:42:03,919 - #44 y
+INFO  23:42:03,919 - #6 =
+INFO  23:42:03,919 - #45 2
+INFO  23:42:03,919 - #7 ;
+INFO  23:42:03,920 - #44 int
+INFO  23:42:03,920 - #44 var
+INFO  23:42:03,920 - #8 ,
+INFO  23:42:03,920 - #44 func
+INFO  23:42:03,920 - #8 ,
+INFO  23:42:03,920 - #44 arr1
+INFO  23:42:03,920 - #9 [
+INFO  23:42:03,920 - #10 ]
+INFO  23:42:03,920 - #8 ,
+INFO  23:42:03,920 - #44 arr2
+INFO  23:42:03,945 - #9 [
+INFO  23:42:03,945 - #10 ]
+INFO  23:42:03,945 - #7 ;
+INFO  23:42:03,947 - #44 char
+INFO  23:42:03,947 - #44 c
+INFO  23:42:03,947 - #8 ,
+INFO  23:42:03,947 - #44 arrc
+INFO  23:42:03,948 - #9 [
+INFO  23:42:03,948 - #10 ]
+INFO  23:42:03,948 - #7 ;
+INFO  23:42:03,948 - #3 {
+INFO  23:42:03,948 - #44 int
+INFO  23:42:03,948 - #44 sum
+INFO  23:42:03,948 - #42 (
+INFO  23:42:03,949 - #44 int
+INFO  23:42:03,949 - #44 a
+INFO  23:42:03,949 - #8 ,
+INFO  23:42:03,949 - #44 int
+INFO  23:42:03,949 - #44 b
+INFO  23:42:03,949 - #43 )
+INFO  23:42:03,949 - #3 {
+INFO  23:42:03,950 - #4 }
+INFO  23:42:03,950 - #11 void
+INFO  23:42:03,951 - #44 main
+INFO  23:42:03,951 - #42 (
+INFO  23:42:03,951 - #43 )
+INFO  23:42:03,952 - #3 {
+INFO  23:42:03,952 - #44 arr1
+INFO  23:42:03,952 - #36 ++
+INFO  23:42:03,952 - #7 ;
+INFO  23:42:03,952 - #4 }
+INFO  23:42:03,953 - #4 }
+INFO  23:42:03,957 - Program(
+  ProgramName(
+   test317
+  ) [ProgramName]
+  ConstVarList_Var(
+    ConstVarList_Var(
+      ConstVarList_Const(
+        ConstVarList_Eps(
+        ) [ConstVarList_Eps]
+        ConstList(
+          Type(
+           int
+          ) [Type]
+          ConstItem(
+           x
+            ConstVal_num(
+             1
+            ) [ConstVal_num]
+          ) [ConstItem]
+          RConstItem_rep(
+            ConstItem(
+             y
+              ConstVal_num(
+               2
+              ) [ConstVal_num]
+            ) [ConstItem]
+            RConstItem_eps(
+            ) [RConstItem_eps]
+          ) [RConstItem_rep]
+        ) [ConstList]
+      ) [ConstVarList_Const]
+      VarList(
+        Type(
+         int
+        ) [Type]
+        VarItem_var(
+         var
+        ) [VarItem_var]
+        RVarItem_rep(
+          VarItem_var(
+           func
+          ) [VarItem_var]
+          RVarItem_rep(
+            VarItem_arr(
+             arr1
+            ) [VarItem_arr]
+            RVarItem_rep(
+              VarItem_arr(
+               arr2
+              ) [VarItem_arr]
+              RVarItem_eps(
+              ) [RVarItem_eps]
+            ) [RVarItem_rep]
+          ) [RVarItem_rep]
+        ) [RVarItem_rep]
+      ) [VarList]
+    ) [ConstVarList_Var]
+    VarList(
+      Type(
+       char
+      ) [Type]
+      VarItem_var(
+       c
+      ) [VarItem_var]
+      RVarItem_rep(
+        VarItem_arr(
+         arrc
+        ) [VarItem_arr]
+        RVarItem_eps(
+        ) [RVarItem_eps]
+      ) [RVarItem_rep]
+    ) [VarList]
+  ) [ConstVarList_Var]
+  MethodList_rep(
+    MethodList_rep(
+      MethodList_eps(
+      ) [MethodList_eps]
+      MethodDecl(
+        MethodType_t(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType_t]
+        MethodName(
+         sum
+        ) [MethodName]
+        ParamList_comma(
+          ParamList_it(
+            ParamItem_var(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [ParamItem_var]
+          ) [ParamList_it]
+          ParamItem_var(
+            Type(
+             int
+            ) [Type]
+           b
+          ) [ParamItem_var]
+        ) [ParamList_comma]
+        RVarList_eps(
+        ) [RVarList_eps]
+        StatementList_eps(
+        ) [StatementList_eps]
+      ) [MethodDecl]
+    ) [MethodList_rep]
+    MethodDecl(
+      MethodType_v(
+      ) [MethodType_v]
+      MethodName(
+       main
+      ) [MethodName]
+      ParamList_eps(
+      ) [ParamList_eps]
+      RVarList_eps(
+      ) [RVarList_eps]
+      StatementList_rep(
+        StatementList_eps(
+        ) [StatementList_eps]
+        Statement_desig(
+          DesigStatement_i(
+            Designator_var(
+             arr1
+            ) [Designator_var]
+          ) [DesigStatement_i]
+        ) [Statement_desig]
+      ) [StatementList_rep]
+    ) [MethodDecl]
+  ) [MethodList_rep]
+) [Program]
+INFO  23:42:03,957 - ===================================
+ERROR 23:42:03,964 - Opeacije '++' i '--' nad neadekvatnim tipom promenljive: arr1 na liniji 14
+INFO  23:42:03,964 - ===================================
+INFO  23:42:03,965 - Parsiranje NIJE uspesno zavrseno!

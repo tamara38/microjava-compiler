@@ -1,0 +1,180 @@
+INFO  20:04:27,657 - Compiling source file: C:\Users\tamara\eclipse-workspace\MJCompiler\test\program.mj
+INFO  20:04:27,721 - #2 program
+INFO  20:04:27,721 - #44 test317
+INFO  20:04:27,721 - #44 int
+INFO  20:04:27,723 - #44 i
+INFO  20:04:27,724 - #8 ,
+INFO  20:04:27,724 - #44 j
+INFO  20:04:27,724 - #8 ,
+INFO  20:04:27,725 - #44 gvar
+INFO  20:04:27,725 - #8 ,
+INFO  20:04:27,725 - #44 fvar
+INFO  20:04:27,725 - #8 ,
+INFO  20:04:27,725 - #44 arr1
+INFO  20:04:27,725 - #9 [
+INFO  20:04:27,725 - #10 ]
+INFO  20:04:27,725 - #7 ;
+INFO  20:04:27,726 - #5 const
+INFO  20:04:27,727 - #44 int
+INFO  20:04:27,727 - #44 n
+INFO  20:04:27,727 - #6 =
+INFO  20:04:27,728 - #45 3
+INFO  20:04:27,728 - #7 ;
+INFO  20:04:27,730 - #3 {
+INFO  20:04:27,756 - #11 void
+INFO  20:04:27,757 - #44 main
+INFO  20:04:27,757 - #42 (
+INFO  20:04:27,759 - #43 )
+INFO  20:04:27,760 - #44 int
+INFO  20:04:27,760 - #44 a
+INFO  20:04:27,760 - #7 ;
+INFO  20:04:27,760 - #44 char
+INFO  20:04:27,761 - #44 b
+INFO  20:04:27,761 - #9 [
+INFO  20:04:27,761 - #10 ]
+INFO  20:04:27,761 - #7 ;
+INFO  20:04:27,761 - #3 {
+INFO  20:04:27,761 - #17 read
+INFO  20:04:27,762 - #42 (
+INFO  20:04:27,762 - #44 a
+INFO  20:04:27,762 - #43 )
+INFO  20:04:27,763 - #7 ;
+INFO  20:04:27,763 - #18 print
+INFO  20:04:27,763 - #42 (
+INFO  20:04:27,763 - #44 a
+INFO  20:04:27,763 - #43 )
+INFO  20:04:27,764 - #7 ;
+INFO  20:04:27,764 - #16 return
+INFO  20:04:27,764 - #7 ;
+INFO  20:04:27,765 - #4 }
+INFO  20:04:27,765 - #4 }
+INFO  20:04:27,770 - Program(
+  ProgramName(
+   test317
+  ) [ProgramName]
+  ConstVarList_Const(
+    ConstVarList_Var(
+      ConstVarList_Eps(
+      ) [ConstVarList_Eps]
+      VarList(
+        Type(
+         int
+        ) [Type]
+        VarItem_var(
+         i
+        ) [VarItem_var]
+        RVarItem_rep(
+          VarItem_var(
+           j
+          ) [VarItem_var]
+          RVarItem_rep(
+            VarItem_var(
+             gvar
+            ) [VarItem_var]
+            RVarItem_rep(
+              VarItem_var(
+               fvar
+              ) [VarItem_var]
+              RVarItem_rep(
+                VarItem_arr(
+                 arr1
+                ) [VarItem_arr]
+                RVarItem_eps(
+                ) [RVarItem_eps]
+              ) [RVarItem_rep]
+            ) [RVarItem_rep]
+          ) [RVarItem_rep]
+        ) [RVarItem_rep]
+      ) [VarList]
+    ) [ConstVarList_Var]
+    ConstList(
+      Type(
+       int
+      ) [Type]
+      ConstItem(
+       n
+        ConstVal_num(
+         3
+        ) [ConstVal_num]
+      ) [ConstItem]
+      RConstItem_eps(
+      ) [RConstItem_eps]
+    ) [ConstList]
+  ) [ConstVarList_Const]
+  MethodList_rep(
+    MethodList_eps(
+    ) [MethodList_eps]
+    MethodDecl(
+      MethodType_v(
+      ) [MethodType_v]
+      MethodName(
+       main
+      ) [MethodName]
+      ParamList_eps(
+      ) [ParamList_eps]
+      RVarList_rep(
+        VarListList_rep(
+          VarListList_single(
+            VarList(
+              Type(
+               int
+              ) [Type]
+              VarItem_var(
+               a
+              ) [VarItem_var]
+              RVarItem_eps(
+              ) [RVarItem_eps]
+            ) [VarList]
+          ) [VarListList_single]
+          VarList(
+            Type(
+             char
+            ) [Type]
+            VarItem_arr(
+             b
+            ) [VarItem_arr]
+            RVarItem_eps(
+            ) [RVarItem_eps]
+          ) [VarList]
+        ) [VarListList_rep]
+      ) [RVarList_rep]
+      StatementList_rep(
+        StatementList_rep(
+          StatementList_rep(
+            StatementList_eps(
+            ) [StatementList_eps]
+            Statement_read(
+              Designator_var(
+               a
+              ) [Designator_var]
+            ) [Statement_read]
+          ) [StatementList_rep]
+          Statement_print1(
+            Expr_aritm(
+              RAdd_term(
+                Term(
+                  RMul_fac(
+                    Factor_pos(
+                      Factor_d(
+                        Designator_var(
+                         a
+                        ) [Designator_var]
+                      ) [Factor_d]
+                    ) [Factor_pos]
+                  ) [RMul_fac]
+                ) [Term]
+              ) [RAdd_term]
+            ) [Expr_aritm]
+          ) [Statement_print1]
+        ) [StatementList_rep]
+        Statement_ret2(
+        ) [Statement_ret2]
+      ) [StatementList_rep]
+    ) [MethodDecl]
+  ) [MethodList_rep]
+) [Program]
+INFO  20:04:27,771 - ===================================
+INFO  20:04:27,787 - Pristup lokalnoj promenljivoj a [Kind: 1] na liniji 26
+INFO  20:04:27,787 - Pristup lokalnoj promenljivoj a [Kind: 1] na liniji 27
+INFO  20:04:27,787 - ===================================
+INFO  20:04:27,792 - Parsiranje uspesno zavrseno!

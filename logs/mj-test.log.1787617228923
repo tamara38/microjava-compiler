@@ -1,0 +1,680 @@
+INFO  02:17:42,168 - Compiling source file: C:\Users\tamara\eclipse-workspace\MJCompiler\test\program.mj
+INFO  02:17:42,202 - #2 program
+INFO  02:17:42,203 - #45 test301
+INFO  02:17:42,203 - #5 const
+INFO  02:17:42,203 - #45 int
+INFO  02:17:42,203 - #45 nula
+INFO  02:17:42,204 - #6 =
+INFO  02:17:42,204 - #46 0
+INFO  02:17:42,204 - #7 ;
+INFO  02:17:42,205 - #5 const
+INFO  02:17:42,205 - #45 int
+INFO  02:17:42,206 - #45 jedan
+INFO  02:17:42,206 - #6 =
+INFO  02:17:42,206 - #46 1
+INFO  02:17:42,206 - #7 ;
+INFO  02:17:42,206 - #5 const
+INFO  02:17:42,206 - #45 int
+INFO  02:17:42,206 - #45 pet
+INFO  02:17:42,206 - #6 =
+INFO  02:17:42,206 - #46 5
+INFO  02:17:42,206 - #7 ;
+INFO  02:17:42,206 - #45 int
+INFO  02:17:42,207 - #45 niz
+INFO  02:17:42,234 - #9 [
+INFO  02:17:42,234 - #10 ]
+INFO  02:17:42,234 - #7 ;
+INFO  02:17:42,235 - #45 char
+INFO  02:17:42,236 - #45 nizch
+INFO  02:17:42,236 - #9 [
+INFO  02:17:42,236 - #10 ]
+INFO  02:17:42,236 - #7 ;
+INFO  02:17:42,236 - #45 int
+INFO  02:17:42,236 - #45 a
+INFO  02:17:42,236 - #7 ;
+INFO  02:17:42,236 - #3 {
+INFO  02:17:42,236 - #11 void
+INFO  02:17:42,237 - #45 main
+INFO  02:17:42,237 - #43 (
+INFO  02:17:42,238 - #44 )
+INFO  02:17:42,238 - #45 bool
+INFO  02:17:42,238 - #45 bt
+INFO  02:17:42,238 - #7 ;
+INFO  02:17:42,239 - #3 {
+INFO  02:17:42,239 - #45 niz
+INFO  02:17:42,239 - #6 =
+INFO  02:17:42,239 - #42 new
+INFO  02:17:42,239 - #45 int
+INFO  02:17:42,239 - #9 [
+INFO  02:17:42,239 - #46 3
+INFO  02:17:42,239 - #10 ]
+INFO  02:17:42,240 - #7 ;
+INFO  02:17:42,240 - #45 niz
+INFO  02:17:42,240 - #9 [
+INFO  02:17:42,242 - #45 nula
+INFO  02:17:42,242 - #10 ]
+INFO  02:17:42,242 - #6 =
+INFO  02:17:42,242 - #46 2
+INFO  02:17:42,242 - #7 ;
+INFO  02:17:42,242 - #45 niz
+INFO  02:17:42,242 - #9 [
+INFO  02:17:42,242 - #45 jedan
+INFO  02:17:42,242 - #10 ]
+INFO  02:17:42,242 - #6 =
+INFO  02:17:42,242 - #46 3
+INFO  02:17:42,243 - #7 ;
+INFO  02:17:42,243 - #45 niz
+INFO  02:17:42,243 - #9 [
+INFO  02:17:42,243 - #45 niz
+INFO  02:17:42,243 - #9 [
+INFO  02:17:42,243 - #45 nula
+INFO  02:17:42,243 - #10 ]
+INFO  02:17:42,243 - #10 ]
+INFO  02:17:42,243 - #6 =
+INFO  02:17:42,243 - #45 niz
+INFO  02:17:42,243 - #9 [
+INFO  02:17:42,243 - #46 1
+INFO  02:17:42,243 - #10 ]
+INFO  02:17:42,243 - #26 *
+INFO  02:17:42,243 - #46 4
+INFO  02:17:42,244 - #7 ;
+INFO  02:17:42,244 - #45 bt
+INFO  02:17:42,244 - #6 =
+INFO  02:17:42,244 - #47 1
+INFO  02:17:42,244 - #7 ;
+INFO  02:17:42,244 - #45 bt
+INFO  02:17:42,244 - #6 =
+INFO  02:17:42,244 - #45 niz
+INFO  02:17:42,245 - #20 .
+INFO  02:17:42,245 - #25 findAny
+INFO  02:17:42,245 - #43 (
+INFO  02:17:42,245 - #46 12
+INFO  02:17:42,245 - #44 )
+INFO  02:17:42,246 - #7 ;
+INFO  02:17:42,246 - #18 print
+INFO  02:17:42,246 - #43 (
+INFO  02:17:42,246 - #45 bt
+INFO  02:17:42,246 - #44 )
+INFO  02:17:42,246 - #7 ;
+INFO  02:17:42,246 - #18 print
+INFO  02:17:42,247 - #43 (
+INFO  02:17:42,247 - #45 eol
+INFO  02:17:42,247 - #44 )
+INFO  02:17:42,247 - #7 ;
+INFO  02:17:42,247 - #45 bt
+INFO  02:17:42,247 - #6 =
+INFO  02:17:42,247 - #45 niz
+INFO  02:17:42,247 - #20 .
+INFO  02:17:42,247 - #25 findAny
+INFO  02:17:42,247 - #43 (
+INFO  02:17:42,247 - #45 pet
+INFO  02:17:42,247 - #24 -
+INFO  02:17:42,247 - #45 jedan
+INFO  02:17:42,248 - #24 -
+INFO  02:17:42,248 - #45 jedan
+INFO  02:17:42,248 - #44 )
+INFO  02:17:42,248 - #7 ;
+INFO  02:17:42,248 - #18 print
+INFO  02:17:42,248 - #43 (
+INFO  02:17:42,248 - #45 bt
+INFO  02:17:42,248 - #44 )
+INFO  02:17:42,248 - #7 ;
+INFO  02:17:42,249 - #18 print
+INFO  02:17:42,249 - #43 (
+INFO  02:17:42,249 - #45 eol
+INFO  02:17:42,249 - #44 )
+INFO  02:17:42,249 - #7 ;
+INFO  02:17:42,249 - #4 }
+INFO  02:17:42,249 - #4 }
+INFO  02:17:42,255 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  ConstVarList_Var(
+    ConstVarList_Var(
+      ConstVarList_Var(
+        ConstVarList_Const(
+          ConstVarList_Const(
+            ConstVarList_Const(
+              ConstVarList_Eps(
+              ) [ConstVarList_Eps]
+              ConstList(
+                Type(
+                 int
+                ) [Type]
+                ConstItem(
+                 nula
+                  ConstVal_num(
+                   0
+                  ) [ConstVal_num]
+                ) [ConstItem]
+                RConstItem_eps(
+                ) [RConstItem_eps]
+              ) [ConstList]
+            ) [ConstVarList_Const]
+            ConstList(
+              Type(
+               int
+              ) [Type]
+              ConstItem(
+               jedan
+                ConstVal_num(
+                 1
+                ) [ConstVal_num]
+              ) [ConstItem]
+              RConstItem_eps(
+              ) [RConstItem_eps]
+            ) [ConstList]
+          ) [ConstVarList_Const]
+          ConstList(
+            Type(
+             int
+            ) [Type]
+            ConstItem(
+             pet
+              ConstVal_num(
+               5
+              ) [ConstVal_num]
+            ) [ConstItem]
+            RConstItem_eps(
+            ) [RConstItem_eps]
+          ) [ConstList]
+        ) [ConstVarList_Const]
+        VarList(
+          Type(
+           int
+          ) [Type]
+          VarItem_arr(
+           niz
+          ) [VarItem_arr]
+          RVarItem_eps(
+          ) [RVarItem_eps]
+        ) [VarList]
+      ) [ConstVarList_Var]
+      VarList(
+        Type(
+         char
+        ) [Type]
+        VarItem_arr(
+         nizch
+        ) [VarItem_arr]
+        RVarItem_eps(
+        ) [RVarItem_eps]
+      ) [VarList]
+    ) [ConstVarList_Var]
+    VarList(
+      Type(
+       int
+      ) [Type]
+      VarItem_var(
+       a
+      ) [VarItem_var]
+      RVarItem_eps(
+      ) [RVarItem_eps]
+    ) [VarList]
+  ) [ConstVarList_Var]
+  MethodList_rep(
+    MethodList_eps(
+    ) [MethodList_eps]
+    MethodDecl(
+      MethodType_v(
+      ) [MethodType_v]
+      MethodName(
+       main
+      ) [MethodName]
+      ParamList_eps(
+      ) [ParamList_eps]
+      RVarList_rep(
+        VarListList_single(
+          VarList(
+            Type(
+             bool
+            ) [Type]
+            VarItem_var(
+             bt
+            ) [VarItem_var]
+            RVarItem_eps(
+            ) [RVarItem_eps]
+          ) [VarList]
+        ) [VarListList_single]
+      ) [RVarList_rep]
+      StatementList_rep(
+        StatementList_rep(
+          StatementList_rep(
+            StatementList_rep(
+              StatementList_rep(
+                StatementList_rep(
+                  StatementList_rep(
+                    StatementList_rep(
+                      StatementList_rep(
+                        StatementList_rep(
+                          StatementList_rep(
+                            StatementList_eps(
+                            ) [StatementList_eps]
+                            Statement_desig(
+                              DesigStatement_exp(
+                                Designator_var(
+                                 niz
+                                ) [Designator_var]
+                                Expr_aritm(
+                                  RAdd_term(
+                                    Term(
+                                      RMul_fac(
+                                        Factor_pos(
+                                          Factor_newarr(
+                                            Type(
+                                             int
+                                            ) [Type]
+                                            Expr_aritm(
+                                              RAdd_term(
+                                                Term(
+                                                  RMul_fac(
+                                                    Factor_pos(
+                                                      Factor_n(
+                                                       3
+                                                      ) [Factor_n]
+                                                    ) [Factor_pos]
+                                                  ) [RMul_fac]
+                                                ) [Term]
+                                              ) [RAdd_term]
+                                            ) [Expr_aritm]
+                                          ) [Factor_newarr]
+                                        ) [Factor_pos]
+                                      ) [RMul_fac]
+                                    ) [Term]
+                                  ) [RAdd_term]
+                                ) [Expr_aritm]
+                              ) [DesigStatement_exp]
+                            ) [Statement_desig]
+                          ) [StatementList_rep]
+                          Statement_desig(
+                            DesigStatement_exp(
+                              Designator_el(
+                                ArrayName(
+                                 niz
+                                ) [ArrayName]
+                                Expr_aritm(
+                                  RAdd_term(
+                                    Term(
+                                      RMul_fac(
+                                        Factor_pos(
+                                          Factor_d(
+                                            Designator_var(
+                                             nula
+                                            ) [Designator_var]
+                                          ) [Factor_d]
+                                        ) [Factor_pos]
+                                      ) [RMul_fac]
+                                    ) [Term]
+                                  ) [RAdd_term]
+                                ) [Expr_aritm]
+                              ) [Designator_el]
+                              Expr_aritm(
+                                RAdd_term(
+                                  Term(
+                                    RMul_fac(
+                                      Factor_pos(
+                                        Factor_n(
+                                         2
+                                        ) [Factor_n]
+                                      ) [Factor_pos]
+                                    ) [RMul_fac]
+                                  ) [Term]
+                                ) [RAdd_term]
+                              ) [Expr_aritm]
+                            ) [DesigStatement_exp]
+                          ) [Statement_desig]
+                        ) [StatementList_rep]
+                        Statement_desig(
+                          DesigStatement_exp(
+                            Designator_el(
+                              ArrayName(
+                               niz
+                              ) [ArrayName]
+                              Expr_aritm(
+                                RAdd_term(
+                                  Term(
+                                    RMul_fac(
+                                      Factor_pos(
+                                        Factor_d(
+                                          Designator_var(
+                                           jedan
+                                          ) [Designator_var]
+                                        ) [Factor_d]
+                                      ) [Factor_pos]
+                                    ) [RMul_fac]
+                                  ) [Term]
+                                ) [RAdd_term]
+                              ) [Expr_aritm]
+                            ) [Designator_el]
+                            Expr_aritm(
+                              RAdd_term(
+                                Term(
+                                  RMul_fac(
+                                    Factor_pos(
+                                      Factor_n(
+                                       3
+                                      ) [Factor_n]
+                                    ) [Factor_pos]
+                                  ) [RMul_fac]
+                                ) [Term]
+                              ) [RAdd_term]
+                            ) [Expr_aritm]
+                          ) [DesigStatement_exp]
+                        ) [Statement_desig]
+                      ) [StatementList_rep]
+                      Statement_desig(
+                        DesigStatement_exp(
+                          Designator_el(
+                            ArrayName(
+                             niz
+                            ) [ArrayName]
+                            Expr_aritm(
+                              RAdd_term(
+                                Term(
+                                  RMul_fac(
+                                    Factor_pos(
+                                      Factor_d(
+                                        Designator_el(
+                                          ArrayName(
+                                           niz
+                                          ) [ArrayName]
+                                          Expr_aritm(
+                                            RAdd_term(
+                                              Term(
+                                                RMul_fac(
+                                                  Factor_pos(
+                                                    Factor_d(
+                                                      Designator_var(
+                                                       nula
+                                                      ) [Designator_var]
+                                                    ) [Factor_d]
+                                                  ) [Factor_pos]
+                                                ) [RMul_fac]
+                                              ) [Term]
+                                            ) [RAdd_term]
+                                          ) [Expr_aritm]
+                                        ) [Designator_el]
+                                      ) [Factor_d]
+                                    ) [Factor_pos]
+                                  ) [RMul_fac]
+                                ) [Term]
+                              ) [RAdd_term]
+                            ) [Expr_aritm]
+                          ) [Designator_el]
+                          Expr_aritm(
+                            RAdd_term(
+                              Term(
+                                RMul_rep(
+                                  RMul_fac(
+                                    Factor_pos(
+                                      Factor_d(
+                                        Designator_el(
+                                          ArrayName(
+                                           niz
+                                          ) [ArrayName]
+                                          Expr_aritm(
+                                            RAdd_term(
+                                              Term(
+                                                RMul_fac(
+                                                  Factor_pos(
+                                                    Factor_n(
+                                                     1
+                                                    ) [Factor_n]
+                                                  ) [Factor_pos]
+                                                ) [RMul_fac]
+                                              ) [Term]
+                                            ) [RAdd_term]
+                                          ) [Expr_aritm]
+                                        ) [Designator_el]
+                                      ) [Factor_d]
+                                    ) [Factor_pos]
+                                  ) [RMul_fac]
+                                  Mulop_as(
+                                  ) [Mulop_as]
+                                  Factor_pos(
+                                    Factor_n(
+                                     4
+                                    ) [Factor_n]
+                                  ) [Factor_pos]
+                                ) [RMul_rep]
+                              ) [Term]
+                            ) [RAdd_term]
+                          ) [Expr_aritm]
+                        ) [DesigStatement_exp]
+                      ) [Statement_desig]
+                    ) [StatementList_rep]
+                    Statement_desig(
+                      DesigStatement_exp(
+                        Designator_var(
+                         bt
+                        ) [Designator_var]
+                        Expr_aritm(
+                          RAdd_term(
+                            Term(
+                              RMul_fac(
+                                Factor_pos(
+                                  Factor_b(
+                                   1
+                                  ) [Factor_b]
+                                ) [Factor_pos]
+                              ) [RMul_fac]
+                            ) [Term]
+                          ) [RAdd_term]
+                        ) [Expr_aritm]
+                      ) [DesigStatement_exp]
+                    ) [Statement_desig]
+                  ) [StatementList_rep]
+                  Statement_desig(
+                    DesigStatement_exp(
+                      Designator_var(
+                       bt
+                      ) [Designator_var]
+                      Expr_aritm(
+                        RAdd_term(
+                          Term(
+                            RMul_fac(
+                              Factor_pos(
+                                Factor_d(
+                                  Designator_findAny(
+                                    ArrayName(
+                                     niz
+                                    ) [ArrayName]
+                                    FindAny(
+                                    ) [FindAny]
+                                    Expr_aritm(
+                                      RAdd_term(
+                                        Term(
+                                          RMul_fac(
+                                            Factor_pos(
+                                              Factor_n(
+                                               12
+                                              ) [Factor_n]
+                                            ) [Factor_pos]
+                                          ) [RMul_fac]
+                                        ) [Term]
+                                      ) [RAdd_term]
+                                    ) [Expr_aritm]
+                                    FindAnyCheck(
+                                    ) [FindAnyCheck]
+                                  ) [Designator_findAny]
+                                ) [Factor_d]
+                              ) [Factor_pos]
+                            ) [RMul_fac]
+                          ) [Term]
+                        ) [RAdd_term]
+                      ) [Expr_aritm]
+                    ) [DesigStatement_exp]
+                  ) [Statement_desig]
+                ) [StatementList_rep]
+                Statement_print1(
+                  Expr_aritm(
+                    RAdd_term(
+                      Term(
+                        RMul_fac(
+                          Factor_pos(
+                            Factor_d(
+                              Designator_var(
+                               bt
+                              ) [Designator_var]
+                            ) [Factor_d]
+                          ) [Factor_pos]
+                        ) [RMul_fac]
+                      ) [Term]
+                    ) [RAdd_term]
+                  ) [Expr_aritm]
+                ) [Statement_print1]
+              ) [StatementList_rep]
+              Statement_print1(
+                Expr_aritm(
+                  RAdd_term(
+                    Term(
+                      RMul_fac(
+                        Factor_pos(
+                          Factor_d(
+                            Designator_var(
+                             eol
+                            ) [Designator_var]
+                          ) [Factor_d]
+                        ) [Factor_pos]
+                      ) [RMul_fac]
+                    ) [Term]
+                  ) [RAdd_term]
+                ) [Expr_aritm]
+              ) [Statement_print1]
+            ) [StatementList_rep]
+            Statement_desig(
+              DesigStatement_exp(
+                Designator_var(
+                 bt
+                ) [Designator_var]
+                Expr_aritm(
+                  RAdd_term(
+                    Term(
+                      RMul_fac(
+                        Factor_pos(
+                          Factor_d(
+                            Designator_findAny(
+                              ArrayName(
+                               niz
+                              ) [ArrayName]
+                              FindAny(
+                              ) [FindAny]
+                              Expr_aritm(
+                                RAdd_rep(
+                                  RAdd_rep(
+                                    RAdd_term(
+                                      Term(
+                                        RMul_fac(
+                                          Factor_pos(
+                                            Factor_d(
+                                              Designator_var(
+                                               pet
+                                              ) [Designator_var]
+                                            ) [Factor_d]
+                                          ) [Factor_pos]
+                                        ) [RMul_fac]
+                                      ) [Term]
+                                    ) [RAdd_term]
+                                    Addop_m(
+                                    ) [Addop_m]
+                                    Term(
+                                      RMul_fac(
+                                        Factor_pos(
+                                          Factor_d(
+                                            Designator_var(
+                                             jedan
+                                            ) [Designator_var]
+                                          ) [Factor_d]
+                                        ) [Factor_pos]
+                                      ) [RMul_fac]
+                                    ) [Term]
+                                  ) [RAdd_rep]
+                                  Addop_m(
+                                  ) [Addop_m]
+                                  Term(
+                                    RMul_fac(
+                                      Factor_pos(
+                                        Factor_d(
+                                          Designator_var(
+                                           jedan
+                                          ) [Designator_var]
+                                        ) [Factor_d]
+                                      ) [Factor_pos]
+                                    ) [RMul_fac]
+                                  ) [Term]
+                                ) [RAdd_rep]
+                              ) [Expr_aritm]
+                              FindAnyCheck(
+                              ) [FindAnyCheck]
+                            ) [Designator_findAny]
+                          ) [Factor_d]
+                        ) [Factor_pos]
+                      ) [RMul_fac]
+                    ) [Term]
+                  ) [RAdd_term]
+                ) [Expr_aritm]
+              ) [DesigStatement_exp]
+            ) [Statement_desig]
+          ) [StatementList_rep]
+          Statement_print1(
+            Expr_aritm(
+              RAdd_term(
+                Term(
+                  RMul_fac(
+                    Factor_pos(
+                      Factor_d(
+                        Designator_var(
+                         bt
+                        ) [Designator_var]
+                      ) [Factor_d]
+                    ) [Factor_pos]
+                  ) [RMul_fac]
+                ) [Term]
+              ) [RAdd_term]
+            ) [Expr_aritm]
+          ) [Statement_print1]
+        ) [StatementList_rep]
+        Statement_print1(
+          Expr_aritm(
+            RAdd_term(
+              Term(
+                RMul_fac(
+                  Factor_pos(
+                    Factor_d(
+                      Designator_var(
+                       eol
+                      ) [Designator_var]
+                    ) [Factor_d]
+                  ) [Factor_pos]
+                ) [RMul_fac]
+              ) [Term]
+            ) [RAdd_term]
+          ) [Expr_aritm]
+        ) [Statement_print1]
+      ) [StatementList_rep]
+    ) [MethodDecl]
+  ) [MethodList_rep]
+) [Program]
+INFO  02:17:42,256 - ===================================
+INFO  02:17:42,267 - Pristup globalnoj promenljivoj niz [Kind: 1] na liniji 19
+INFO  02:17:42,268 - Pristup simbolickoj konstanti nula [Kind: 0] na liniji 20
+INFO  02:17:42,268 - Pristup elementu niza niz [Kind: 1] na liniji 20
+INFO  02:17:42,268 - Pristup simbolickoj konstanti jedan [Kind: 0] na liniji 21
+INFO  02:17:42,268 - Pristup elementu niza niz [Kind: 1] na liniji 21
+INFO  02:17:42,268 - Pristup simbolickoj konstanti nula [Kind: 0] na liniji 22
+INFO  02:17:42,268 - Pristup elementu niza niz [Kind: 1] na liniji 22
+INFO  02:17:42,268 - Pristup elementu niza niz [Kind: 1] na liniji 22
+INFO  02:17:42,268 - Pristup elementu niza niz [Kind: 1] na liniji 22
+INFO  02:17:42,268 - Pristup lokalnoj promenljivoj bt [Kind: 1] na liniji 26
+INFO  02:17:42,268 - Pristup lokalnoj promenljivoj bt [Kind: 1] na liniji 29
+INFO  02:17:42,269 - Pristup lokalnoj promenljivoj bt [Kind: 1] na liniji 30
+INFO  02:17:42,269 - Pristup simbolickoj konstanti eol [Kind: 0] na liniji 30
+INFO  02:17:42,269 - Pristup lokalnoj promenljivoj bt [Kind: 1] na liniji 31
+INFO  02:17:42,269 - Pristup simbolickoj konstanti pet [Kind: 0] na liniji 31
+INFO  02:17:42,269 - Pristup simbolickoj konstanti jedan [Kind: 0] na liniji 31
+INFO  02:17:42,269 - Pristup simbolickoj konstanti jedan [Kind: 0] na liniji 31
+INFO  02:17:42,269 - Pristup lokalnoj promenljivoj bt [Kind: 1] na liniji 32
+INFO  02:17:42,269 - Pristup simbolickoj konstanti eol [Kind: 0] na liniji 32
+INFO  02:17:42,269 - ===================================
+INFO  02:17:42,274 - Parsiranje uspesno zavrseno!

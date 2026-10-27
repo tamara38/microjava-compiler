@@ -1,0 +1,59 @@
+INFO  22:41:58,158 - Compiling source file: C:\Users\tamara\eclipse-workspace\MJCompiler\test\program.mj
+INFO  22:41:58,186 - #2 program
+INFO  22:41:58,186 - #44 test317
+INFO  22:41:58,186 - #5 const
+INFO  22:41:58,187 - #44 int
+INFO  22:41:58,187 - #44 x
+INFO  22:41:58,188 - #6 =
+INFO  22:41:58,188 - #45 5
+INFO  22:41:58,188 - #7 ;
+INFO  22:41:58,188 - #3 {
+INFO  22:41:58,189 - #11 void
+INFO  22:41:58,189 - #44 main
+INFO  22:41:58,189 - #42 (
+INFO  22:41:58,189 - #43 )
+INFO  22:41:58,190 - #3 {
+INFO  22:41:58,190 - #4 }
+INFO  22:41:58,190 - #4 }
+INFO  22:41:58,192 - Program(
+  ProgramName(
+   test317
+  ) [ProgramName]
+  ConstVarList_Const(
+    ConstVarList_Eps(
+    ) [ConstVarList_Eps]
+    ConstList(
+      Type(
+       int
+      ) [Type]
+      ConstItem(
+       x
+        ConstVal_num(
+         5
+        ) [ConstVal_num]
+      ) [ConstItem]
+      RConstItem_eps(
+      ) [RConstItem_eps]
+    ) [ConstList]
+  ) [ConstVarList_Const]
+  MethodList_rep(
+    MethodList_eps(
+    ) [MethodList_eps]
+    MethodDecl(
+      MethodType_v(
+      ) [MethodType_v]
+      MethodName(
+       main
+      ) [MethodName]
+      ParamList_eps(
+      ) [ParamList_eps]
+      VarList_eps(
+      ) [VarList_eps]
+      StatementList_eps(
+      ) [StatementList_eps]
+    ) [MethodDecl]
+  ) [MethodList_rep]
+) [Program]
+INFO  22:41:58,192 - ===================================
+INFO  22:41:58,195 - ===================================
+INFO  22:41:58,196 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,340 @@
+INFO  19:21:01,359 - Compiling source file: C:\Users\tamara\eclipse-workspace\MJCompiler\test\program.mj
+INFO  19:21:01,403 - #2 program
+INFO  19:21:01,404 - #45 test301
+INFO  19:21:01,404 - #5 const
+INFO  19:21:01,405 - #45 int
+INFO  19:21:01,405 - #45 nula
+INFO  19:21:01,405 - #6 =
+INFO  19:21:01,405 - #46 0
+INFO  19:21:01,406 - #7 ;
+INFO  19:21:01,407 - #5 const
+INFO  19:21:01,407 - #45 int
+INFO  19:21:01,407 - #45 jedan
+INFO  19:21:01,408 - #6 =
+INFO  19:21:01,408 - #46 1
+INFO  19:21:01,408 - #7 ;
+INFO  19:21:01,408 - #5 const
+INFO  19:21:01,408 - #45 int
+INFO  19:21:01,408 - #45 pet
+INFO  19:21:01,408 - #6 =
+INFO  19:21:01,408 - #46 5
+INFO  19:21:01,408 - #7 ;
+INFO  19:21:01,408 - #45 int
+INFO  19:21:01,408 - #45 niz
+INFO  19:21:01,432 - #9 [
+INFO  19:21:01,432 - #10 ]
+INFO  19:21:01,432 - #7 ;
+INFO  19:21:01,433 - #45 char
+INFO  19:21:01,434 - #45 nizch
+INFO  19:21:01,434 - #9 [
+INFO  19:21:01,434 - #10 ]
+INFO  19:21:01,434 - #7 ;
+INFO  19:21:01,434 - #45 int
+INFO  19:21:01,434 - #45 a
+INFO  19:21:01,434 - #7 ;
+INFO  19:21:01,434 - #3 {
+INFO  19:21:01,434 - #11 void
+INFO  19:21:01,435 - #45 main
+INFO  19:21:01,435 - #43 (
+INFO  19:21:01,436 - #44 )
+INFO  19:21:01,436 - #45 int
+INFO  19:21:01,436 - #45 bodovi
+INFO  19:21:01,436 - #7 ;
+INFO  19:21:01,436 - #45 int
+INFO  19:21:01,437 - #45 temp
+INFO  19:21:01,437 - #7 ;
+INFO  19:21:01,437 - #45 bool
+INFO  19:21:01,437 - #45 bt
+INFO  19:21:01,437 - #7 ;
+INFO  19:21:01,437 - #3 {
+INFO  19:21:01,437 - #45 a
+INFO  19:21:01,439 - #6 =
+INFO  19:21:01,439 - #46 65
+INFO  19:21:01,439 - #7 ;
+INFO  19:21:01,440 - #45 nizch
+INFO  19:21:01,440 - #9 [
+INFO  19:21:01,441 - #46 0
+INFO  19:21:01,441 - #10 ]
+INFO  19:21:01,441 - #6 =
+INFO  19:21:01,441 - #45 chr
+INFO  19:21:01,442 - #43 (
+INFO  19:21:01,442 - #45 a
+INFO  19:21:01,442 - #44 )
+INFO  19:21:01,444 - #7 ;
+INFO  19:21:01,444 - #18 print
+INFO  19:21:01,444 - #43 (
+INFO  19:21:01,444 - #45 nizch
+INFO  19:21:01,444 - #9 [
+INFO  19:21:01,444 - #46 0
+INFO  19:21:01,444 - #10 ]
+INFO  19:21:01,444 - #44 )
+INFO  19:21:01,444 - #7 ;
+INFO  19:21:01,444 - #4 }
+INFO  19:21:01,445 - #4 }
+INFO  19:21:01,450 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  ConstVarList_Var(
+    ConstVarList_Var(
+      ConstVarList_Var(
+        ConstVarList_Const(
+          ConstVarList_Const(
+            ConstVarList_Const(
+              ConstVarList_Eps(
+              ) [ConstVarList_Eps]
+              ConstList(
+                Type(
+                 int
+                ) [Type]
+                ConstItem(
+                 nula
+                  ConstVal_num(
+                   0
+                  ) [ConstVal_num]
+                ) [ConstItem]
+                RConstItem_eps(
+                ) [RConstItem_eps]
+              ) [ConstList]
+            ) [ConstVarList_Const]
+            ConstList(
+              Type(
+               int
+              ) [Type]
+              ConstItem(
+               jedan
+                ConstVal_num(
+                 1
+                ) [ConstVal_num]
+              ) [ConstItem]
+              RConstItem_eps(
+              ) [RConstItem_eps]
+            ) [ConstList]
+          ) [ConstVarList_Const]
+          ConstList(
+            Type(
+             int
+            ) [Type]
+            ConstItem(
+             pet
+              ConstVal_num(
+               5
+              ) [ConstVal_num]
+            ) [ConstItem]
+            RConstItem_eps(
+            ) [RConstItem_eps]
+          ) [ConstList]
+        ) [ConstVarList_Const]
+        VarList(
+          Type(
+           int
+          ) [Type]
+          VarItem_arr(
+           niz
+          ) [VarItem_arr]
+          RVarItem_eps(
+          ) [RVarItem_eps]
+        ) [VarList]
+      ) [ConstVarList_Var]
+      VarList(
+        Type(
+         char
+        ) [Type]
+        VarItem_arr(
+         nizch
+        ) [VarItem_arr]
+        RVarItem_eps(
+        ) [RVarItem_eps]
+      ) [VarList]
+    ) [ConstVarList_Var]
+    VarList(
+      Type(
+       int
+      ) [Type]
+      VarItem_var(
+       a
+      ) [VarItem_var]
+      RVarItem_eps(
+      ) [RVarItem_eps]
+    ) [VarList]
+  ) [ConstVarList_Var]
+  MethodList_rep(
+    MethodList_eps(
+    ) [MethodList_eps]
+    MethodDecl(
+      MethodType_v(
+      ) [MethodType_v]
+      MethodName(
+       main
+      ) [MethodName]
+      ParamList_eps(
+      ) [ParamList_eps]
+      RVarList_rep(
+        VarListList_rep(
+          VarListList_rep(
+            VarListList_single(
+              VarList(
+                Type(
+                 int
+                ) [Type]
+                VarItem_var(
+                 bodovi
+                ) [VarItem_var]
+                RVarItem_eps(
+                ) [RVarItem_eps]
+              ) [VarList]
+            ) [VarListList_single]
+            VarList(
+              Type(
+               int
+              ) [Type]
+              VarItem_var(
+               temp
+              ) [VarItem_var]
+              RVarItem_eps(
+              ) [RVarItem_eps]
+            ) [VarList]
+          ) [VarListList_rep]
+          VarList(
+            Type(
+             bool
+            ) [Type]
+            VarItem_var(
+             bt
+            ) [VarItem_var]
+            RVarItem_eps(
+            ) [RVarItem_eps]
+          ) [VarList]
+        ) [VarListList_rep]
+      ) [RVarList_rep]
+      StatementList_rep(
+        StatementList_rep(
+          StatementList_rep(
+            StatementList_eps(
+            ) [StatementList_eps]
+            Statement_desig(
+              DesigStatement_exp(
+                Designator_var(
+                 a
+                ) [Designator_var]
+                Expr_aritm(
+                  RAdd_term(
+                    Term(
+                      RMul_fac(
+                        Factor_pos(
+                          Factor_n(
+                           65
+                          ) [Factor_n]
+                        ) [Factor_pos]
+                      ) [RMul_fac]
+                    ) [Term]
+                  ) [RAdd_term]
+                ) [Expr_aritm]
+              ) [DesigStatement_exp]
+            ) [Statement_desig]
+          ) [StatementList_rep]
+          Statement_desig(
+            DesigStatement_exp(
+              Designator_el(
+                ArrayName(
+                 nizch
+                ) [ArrayName]
+                Expr_aritm(
+                  RAdd_term(
+                    Term(
+                      RMul_fac(
+                        Factor_pos(
+                          Factor_n(
+                           0
+                          ) [Factor_n]
+                        ) [Factor_pos]
+                      ) [RMul_fac]
+                    ) [Term]
+                  ) [RAdd_term]
+                ) [Expr_aritm]
+              ) [Designator_el]
+              Expr_aritm(
+                RAdd_term(
+                  Term(
+                    RMul_fac(
+                      Factor_pos(
+                        Factor_fparam(
+                          Designator_var(
+                           chr
+                          ) [Designator_var]
+                          ActualParams(
+                            ActParBegin(
+                            ) [ActParBegin]
+                            ActPar(
+                              Expr_aritm(
+                                RAdd_term(
+                                  Term(
+                                    RMul_fac(
+                                      Factor_pos(
+                                        Factor_d(
+                                          Designator_var(
+                                           a
+                                          ) [Designator_var]
+                                        ) [Factor_d]
+                                      ) [Factor_pos]
+                                    ) [RMul_fac]
+                                  ) [Term]
+                                ) [RAdd_term]
+                              ) [Expr_aritm]
+                            ) [ActPar]
+                            RActPar_eps(
+                            ) [RActPar_eps]
+                          ) [ActualParams]
+                        ) [Factor_fparam]
+                      ) [Factor_pos]
+                    ) [RMul_fac]
+                  ) [Term]
+                ) [RAdd_term]
+              ) [Expr_aritm]
+            ) [DesigStatement_exp]
+          ) [Statement_desig]
+        ) [StatementList_rep]
+        Statement_print1(
+          Expr_aritm(
+            RAdd_term(
+              Term(
+                RMul_fac(
+                  Factor_pos(
+                    Factor_d(
+                      Designator_el(
+                        ArrayName(
+                         nizch
+                        ) [ArrayName]
+                        Expr_aritm(
+                          RAdd_term(
+                            Term(
+                              RMul_fac(
+                                Factor_pos(
+                                  Factor_n(
+                                   0
+                                  ) [Factor_n]
+                                ) [Factor_pos]
+                              ) [RMul_fac]
+                            ) [Term]
+                          ) [RAdd_term]
+                        ) [Expr_aritm]
+                      ) [Designator_el]
+                    ) [Factor_d]
+                  ) [Factor_pos]
+                ) [RMul_fac]
+              ) [Term]
+            ) [RAdd_term]
+          ) [Expr_aritm]
+        ) [Statement_print1]
+      ) [StatementList_rep]
+    ) [MethodDecl]
+  ) [MethodList_rep]
+) [Program]
+INFO  19:21:01,451 - ===================================
+INFO  19:21:01,464 - Pristup globalnoj promenljivoj a [Kind: 1] na liniji 20
+INFO  19:21:01,465 - Pristup elementu niza nizch [Kind: 1] na liniji 21
+INFO  19:21:01,465 - Pristup globalnoj promenljivoj a [Kind: 1] na liniji 21
+INFO  19:21:01,466 - Poziv funkcije chr [Kind: 3] na liniji 21
+INFO  19:21:01,466 - Pristup elementu niza nizch [Kind: 1] na liniji 22
+INFO  19:21:01,466 - ===================================
+INFO  19:21:01,470 - Parsiranje uspesno zavrseno!

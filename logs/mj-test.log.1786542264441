@@ -1,0 +1,122 @@
+INFO  15:44:05,742 - Compiling source file: C:\Users\tamara\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:44:05,778 - #2 program
+INFO  15:44:05,778 - #44 test317
+INFO  15:44:05,778 - #5 const
+INFO  15:44:05,779 - #44 int
+INFO  15:44:05,779 - #44 x
+INFO  15:44:05,780 - #6 =
+INFO  15:44:05,780 - #45 1
+INFO  15:44:05,780 - #7 ;
+INFO  15:44:05,780 - #3 {
+INFO  15:44:05,781 - #44 int
+INFO  15:44:05,781 - #44 sum
+INFO  15:44:05,781 - #42 (
+INFO  15:44:05,782 - #44 int
+INFO  15:44:05,782 - #44 a
+INFO  15:44:05,782 - #8 ,
+INFO  15:44:05,782 - #44 bool
+INFO  15:44:05,782 - #44 b
+INFO  15:44:05,782 - #8 ,
+INFO  15:44:05,782 - #44 char
+INFO  15:44:05,782 - #44 c
+INFO  15:44:05,783 - #43 )
+INFO  15:44:05,783 - #3 {
+INFO  15:44:05,808 - #4 }
+INFO  15:44:05,809 - #11 void
+INFO  15:44:05,809 - #44 main
+INFO  15:44:05,810 - #42 (
+INFO  15:44:05,810 - #44 int
+INFO  15:44:05,810 - #44 p
+INFO  15:44:05,810 - #43 )
+INFO  15:44:05,810 - #3 {
+INFO  15:44:05,810 - #4 }
+INFO  15:44:05,810 - #4 }
+INFO  15:44:05,814 - Program(
+  ProgramName(
+   test317
+  ) [ProgramName]
+  ConstVarList_Const(
+    ConstVarList_Eps(
+    ) [ConstVarList_Eps]
+    ConstList(
+      Type(
+       int
+      ) [Type]
+      ConstItem(
+       x
+        ConstVal_num(
+         1
+        ) [ConstVal_num]
+      ) [ConstItem]
+      RConstItem_eps(
+      ) [RConstItem_eps]
+    ) [ConstList]
+  ) [ConstVarList_Const]
+  MethodList_rep(
+    MethodList_rep(
+      MethodList_eps(
+      ) [MethodList_eps]
+      MethodDecl(
+        MethodType_t(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType_t]
+        MethodName(
+         sum
+        ) [MethodName]
+        ParamList_comma(
+          ParamList_comma(
+            ParamList_it(
+              ParamItem_var(
+                Type(
+                 int
+                ) [Type]
+               a
+              ) [ParamItem_var]
+            ) [ParamList_it]
+            ParamItem_var(
+              Type(
+               bool
+              ) [Type]
+             b
+            ) [ParamItem_var]
+          ) [ParamList_comma]
+          ParamItem_var(
+            Type(
+             char
+            ) [Type]
+           c
+          ) [ParamItem_var]
+        ) [ParamList_comma]
+        RVarList_eps(
+        ) [RVarList_eps]
+        StatementList_eps(
+        ) [StatementList_eps]
+      ) [MethodDecl]
+    ) [MethodList_rep]
+    MethodDecl(
+      MethodType_v(
+      ) [MethodType_v]
+      MethodName(
+       main
+      ) [MethodName]
+      ParamList_it(
+        ParamItem_var(
+          Type(
+           int
+          ) [Type]
+         p
+        ) [ParamItem_var]
+      ) [ParamList_it]
+      RVarList_eps(
+      ) [RVarList_eps]
+      StatementList_eps(
+      ) [StatementList_eps]
+    ) [MethodDecl]
+  ) [MethodList_rep]
+) [Program]
+INFO  15:44:05,814 - ===================================
+ERROR 15:44:05,820 - Program nema odgovarajucu main metodu na liniji 3
+INFO  15:44:05,821 - ===================================
+INFO  15:44:05,821 - Parsiranje NIJE uspesno zavrseno!

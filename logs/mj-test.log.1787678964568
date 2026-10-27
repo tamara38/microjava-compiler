@@ -1,0 +1,244 @@
+INFO  19:29:12,762 - Compiling source file: C:\Users\tamara\eclipse-workspace\MJCompiler\test\program.mj
+INFO  19:29:12,795 - #2 program
+INFO  19:29:12,795 - #45 test301
+INFO  19:29:12,795 - #5 const
+INFO  19:29:12,796 - #45 int
+INFO  19:29:12,796 - #45 nula
+INFO  19:29:12,796 - #6 =
+INFO  19:29:12,796 - #46 0
+INFO  19:29:12,796 - #7 ;
+INFO  19:29:12,797 - #5 const
+INFO  19:29:12,799 - #45 int
+INFO  19:29:12,799 - #45 jedan
+INFO  19:29:12,799 - #6 =
+INFO  19:29:12,799 - #46 1
+INFO  19:29:12,799 - #7 ;
+INFO  19:29:12,799 - #5 const
+INFO  19:29:12,799 - #45 int
+INFO  19:29:12,799 - #45 pet
+INFO  19:29:12,799 - #6 =
+INFO  19:29:12,799 - #46 5
+INFO  19:29:12,799 - #7 ;
+INFO  19:29:12,800 - #45 int
+INFO  19:29:12,800 - #45 niz
+INFO  19:29:12,823 - #9 [
+INFO  19:29:12,823 - #10 ]
+INFO  19:29:12,823 - #7 ;
+INFO  19:29:12,824 - #45 char
+INFO  19:29:12,825 - #45 nizch
+INFO  19:29:12,825 - #9 [
+INFO  19:29:12,825 - #10 ]
+INFO  19:29:12,825 - #7 ;
+INFO  19:29:12,825 - #45 int
+INFO  19:29:12,825 - #45 a
+INFO  19:29:12,825 - #7 ;
+INFO  19:29:12,825 - #3 {
+INFO  19:29:12,825 - #11 void
+INFO  19:29:12,826 - #45 main
+INFO  19:29:12,826 - #43 (
+INFO  19:29:12,826 - #44 )
+INFO  19:29:12,827 - #45 int
+INFO  19:29:12,827 - #45 bodovi
+INFO  19:29:12,827 - #7 ;
+INFO  19:29:12,827 - #45 int
+INFO  19:29:12,827 - #45 temp
+INFO  19:29:12,827 - #7 ;
+INFO  19:29:12,827 - #45 bool
+INFO  19:29:12,827 - #45 bt
+INFO  19:29:12,827 - #7 ;
+INFO  19:29:12,827 - #3 {
+INFO  19:29:12,829 - #45 a
+INFO  19:29:12,829 - #6 =
+INFO  19:29:12,829 - #46 65
+INFO  19:29:12,829 - #7 ;
+INFO  19:29:12,830 - #18 print
+INFO  19:29:12,830 - #43 (
+INFO  19:29:12,830 - #46 65
+INFO  19:29:12,830 - #44 )
+INFO  19:29:12,830 - #7 ;
+INFO  19:29:12,830 - #4 }
+INFO  19:29:12,830 - #4 }
+INFO  19:29:12,835 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  ConstVarList_Var(
+    ConstVarList_Var(
+      ConstVarList_Var(
+        ConstVarList_Const(
+          ConstVarList_Const(
+            ConstVarList_Const(
+              ConstVarList_Eps(
+              ) [ConstVarList_Eps]
+              ConstList(
+                Type(
+                 int
+                ) [Type]
+                ConstItem(
+                 nula
+                  ConstVal_num(
+                   0
+                  ) [ConstVal_num]
+                ) [ConstItem]
+                RConstItem_eps(
+                ) [RConstItem_eps]
+              ) [ConstList]
+            ) [ConstVarList_Const]
+            ConstList(
+              Type(
+               int
+              ) [Type]
+              ConstItem(
+               jedan
+                ConstVal_num(
+                 1
+                ) [ConstVal_num]
+              ) [ConstItem]
+              RConstItem_eps(
+              ) [RConstItem_eps]
+            ) [ConstList]
+          ) [ConstVarList_Const]
+          ConstList(
+            Type(
+             int
+            ) [Type]
+            ConstItem(
+             pet
+              ConstVal_num(
+               5
+              ) [ConstVal_num]
+            ) [ConstItem]
+            RConstItem_eps(
+            ) [RConstItem_eps]
+          ) [ConstList]
+        ) [ConstVarList_Const]
+        VarList(
+          Type(
+           int
+          ) [Type]
+          VarItem_arr(
+           niz
+          ) [VarItem_arr]
+          RVarItem_eps(
+          ) [RVarItem_eps]
+        ) [VarList]
+      ) [ConstVarList_Var]
+      VarList(
+        Type(
+         char
+        ) [Type]
+        VarItem_arr(
+         nizch
+        ) [VarItem_arr]
+        RVarItem_eps(
+        ) [RVarItem_eps]
+      ) [VarList]
+    ) [ConstVarList_Var]
+    VarList(
+      Type(
+       int
+      ) [Type]
+      VarItem_var(
+       a
+      ) [VarItem_var]
+      RVarItem_eps(
+      ) [RVarItem_eps]
+    ) [VarList]
+  ) [ConstVarList_Var]
+  MethodList_rep(
+    MethodList_eps(
+    ) [MethodList_eps]
+    MethodDecl(
+      MethodType_v(
+      ) [MethodType_v]
+      MethodName(
+       main
+      ) [MethodName]
+      ParamList_eps(
+      ) [ParamList_eps]
+      RVarList_rep(
+        VarListList_rep(
+          VarListList_rep(
+            VarListList_single(
+              VarList(
+                Type(
+                 int
+                ) [Type]
+                VarItem_var(
+                 bodovi
+                ) [VarItem_var]
+                RVarItem_eps(
+                ) [RVarItem_eps]
+              ) [VarList]
+            ) [VarListList_single]
+            VarList(
+              Type(
+               int
+              ) [Type]
+              VarItem_var(
+               temp
+              ) [VarItem_var]
+              RVarItem_eps(
+              ) [RVarItem_eps]
+            ) [VarList]
+          ) [VarListList_rep]
+          VarList(
+            Type(
+             bool
+            ) [Type]
+            VarItem_var(
+             bt
+            ) [VarItem_var]
+            RVarItem_eps(
+            ) [RVarItem_eps]
+          ) [VarList]
+        ) [VarListList_rep]
+      ) [RVarList_rep]
+      StatementList_rep(
+        StatementList_rep(
+          StatementList_eps(
+          ) [StatementList_eps]
+          Statement_desig(
+            DesigStatement_exp(
+              Designator_var(
+               a
+              ) [Designator_var]
+              Expr_aritm(
+                RAdd_term(
+                  Term(
+                    RMul_fac(
+                      Factor_pos(
+                        Factor_n(
+                         65
+                        ) [Factor_n]
+                      ) [Factor_pos]
+                    ) [RMul_fac]
+                  ) [Term]
+                ) [RAdd_term]
+              ) [Expr_aritm]
+            ) [DesigStatement_exp]
+          ) [Statement_desig]
+        ) [StatementList_rep]
+        Statement_print1(
+          Expr_aritm(
+            RAdd_term(
+              Term(
+                RMul_fac(
+                  Factor_pos(
+                    Factor_n(
+                     65
+                    ) [Factor_n]
+                  ) [Factor_pos]
+                ) [RMul_fac]
+              ) [Term]
+            ) [RAdd_term]
+          ) [Expr_aritm]
+        ) [Statement_print1]
+      ) [StatementList_rep]
+    ) [MethodDecl]
+  ) [MethodList_rep]
+) [Program]
+INFO  19:29:12,835 - ===================================
+INFO  19:29:12,847 - Pristup globalnoj promenljivoj a [Kind: 1] na liniji 20
+INFO  19:29:12,848 - ===================================
+INFO  19:29:12,852 - Parsiranje uspesno zavrseno!

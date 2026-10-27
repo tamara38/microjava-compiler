@@ -1,0 +1,191 @@
+INFO  17:41:13,575 - Compiling source file: C:\Users\tamara\eclipse-workspace\MJCompiler\test\program.mj
+INFO  17:41:13,608 - #2 program
+INFO  17:41:13,608 - #44 test317
+INFO  17:41:13,608 - #5 const
+INFO  17:41:13,609 - #44 char
+INFO  17:41:13,609 - #44 x
+INFO  17:41:13,610 - #6 =
+INFO  17:41:13,610 - #45 1
+INFO  17:41:13,610 - #8 ,
+INFO  17:41:13,611 - #44 y
+INFO  17:41:13,611 - #6 =
+INFO  17:41:13,611 - #45 2
+INFO  17:41:13,611 - #7 ;
+INFO  17:41:13,612 - #44 int
+INFO  17:41:13,612 - #44 var
+INFO  17:41:13,612 - #8 ,
+INFO  17:41:13,613 - #44 func
+INFO  17:41:13,613 - #8 ,
+INFO  17:41:13,613 - #44 arr
+INFO  17:41:13,613 - #9 [
+INFO  17:41:13,613 - #10 ]
+INFO  17:41:13,613 - #7 ;
+INFO  17:41:13,614 - #3 {
+INFO  17:41:13,639 - #44 int
+INFO  17:41:13,640 - #44 sum
+INFO  17:41:13,640 - #42 (
+INFO  17:41:13,641 - #44 int
+INFO  17:41:13,641 - #44 a
+INFO  17:41:13,641 - #8 ,
+INFO  17:41:13,641 - #44 int
+INFO  17:41:13,641 - #44 b
+INFO  17:41:13,641 - #43 )
+INFO  17:41:13,642 - #3 {
+INFO  17:41:13,642 - #4 }
+INFO  17:41:13,643 - #11 void
+INFO  17:41:13,643 - #44 main
+INFO  17:41:13,643 - #42 (
+INFO  17:41:13,643 - #43 )
+INFO  17:41:13,644 - #3 {
+INFO  17:41:13,644 - #44 var
+INFO  17:41:13,644 - #6 =
+INFO  17:41:13,644 - #45 2
+INFO  17:41:13,644 - #23 +
+INFO  17:41:13,645 - #44 x
+INFO  17:41:13,646 - #7 ;
+INFO  17:41:13,647 - #4 }
+INFO  17:41:13,647 - #4 }
+INFO  17:41:13,650 - Program(
+  ProgramName(
+   test317
+  ) [ProgramName]
+  ConstVarList_Var(
+    ConstVarList_Const(
+      ConstVarList_Eps(
+      ) [ConstVarList_Eps]
+      ConstList(
+        Type(
+         char
+        ) [Type]
+        ConstItem(
+         x
+          ConstVal_num(
+           1
+          ) [ConstVal_num]
+        ) [ConstItem]
+        RConstItem_rep(
+          ConstItem(
+           y
+            ConstVal_num(
+             2
+            ) [ConstVal_num]
+          ) [ConstItem]
+          RConstItem_eps(
+          ) [RConstItem_eps]
+        ) [RConstItem_rep]
+      ) [ConstList]
+    ) [ConstVarList_Const]
+    VarList(
+      Type(
+       int
+      ) [Type]
+      VarItem_var(
+       var
+      ) [VarItem_var]
+      RVarItem_rep(
+        VarItem_var(
+         func
+        ) [VarItem_var]
+        RVarItem_rep(
+          VarItem_arr(
+           arr
+          ) [VarItem_arr]
+          RVarItem_eps(
+          ) [RVarItem_eps]
+        ) [RVarItem_rep]
+      ) [RVarItem_rep]
+    ) [VarList]
+  ) [ConstVarList_Var]
+  MethodList_rep(
+    MethodList_rep(
+      MethodList_eps(
+      ) [MethodList_eps]
+      MethodDecl(
+        MethodType_t(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType_t]
+        MethodName(
+         sum
+        ) [MethodName]
+        ParamList_comma(
+          ParamList_it(
+            ParamItem_var(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [ParamItem_var]
+          ) [ParamList_it]
+          ParamItem_var(
+            Type(
+             int
+            ) [Type]
+           b
+          ) [ParamItem_var]
+        ) [ParamList_comma]
+        RVarList_eps(
+        ) [RVarList_eps]
+        StatementList_eps(
+        ) [StatementList_eps]
+      ) [MethodDecl]
+    ) [MethodList_rep]
+    MethodDecl(
+      MethodType_v(
+      ) [MethodType_v]
+      MethodName(
+       main
+      ) [MethodName]
+      ParamList_eps(
+      ) [ParamList_eps]
+      RVarList_eps(
+      ) [RVarList_eps]
+      StatementList_rep(
+        StatementList_eps(
+        ) [StatementList_eps]
+        Statement_desig(
+          DesigStatement_exp(
+            Designator_var(
+             var
+            ) [Designator_var]
+            Expr_aritm(
+              AddExpr(
+                Term(
+                  Factor_pos(
+                    Factor_n(
+                     2
+                    ) [Factor_n]
+                  ) [Factor_pos]
+                  RMul_eps(
+                  ) [RMul_eps]
+                ) [Term]
+                RAdd_rep(
+                  Addop_p(
+                  ) [Addop_p]
+                  Term(
+                    Factor_pos(
+                      Factor_d(
+                        Designator_var(
+                         x
+                        ) [Designator_var]
+                      ) [Factor_d]
+                    ) [Factor_pos]
+                    RMul_eps(
+                    ) [RMul_eps]
+                  ) [Term]
+                  RAdd_eps(
+                  ) [RAdd_eps]
+                ) [RAdd_rep]
+              ) [AddExpr]
+            ) [Expr_aritm]
+          ) [DesigStatement_exp]
+        ) [Statement_desig]
+      ) [StatementList_rep]
+    ) [MethodDecl]
+  ) [MethodList_rep]
+) [Program]
+INFO  17:41:13,651 - ===================================
+ERROR 17:41:13,657 - Nekompatibilna dodela vrednosti konstanti: x na liniji 5
+ERROR 17:41:13,657 - Nekompatibilna dodela vrednosti konstanti: y na liniji 5
+ERROR 17:41:13,658 - Pristup nedefinisanoj promenljivoj: x na liniji 13

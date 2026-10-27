@@ -1,0 +1,72 @@
+INFO  23:28:04,281 - Compiling source file: C:\Users\tamara\eclipse-workspace\MJCompiler\test\program.mj
+INFO  23:28:04,307 - #2 program
+INFO  23:28:04,308 - #44 test317
+INFO  23:28:04,308 - #5 const
+INFO  23:28:04,308 - #44 int
+INFO  23:28:04,309 - #44 x
+INFO  23:28:04,309 - #6 =
+INFO  23:28:04,309 - #45 1
+INFO  23:28:04,309 - #8 ,
+INFO  23:28:04,309 - #44 x
+INFO  23:28:04,310 - #6 =
+INFO  23:28:04,310 - #45 2
+INFO  23:28:04,310 - #7 ;
+INFO  23:28:04,310 - #3 {
+INFO  23:28:04,310 - #11 void
+INFO  23:28:04,311 - #44 main
+INFO  23:28:04,311 - #42 (
+INFO  23:28:04,311 - #43 )
+INFO  23:28:04,311 - #3 {
+INFO  23:28:04,312 - #4 }
+INFO  23:28:04,312 - #4 }
+INFO  23:28:04,313 - Program(
+  ProgramName(
+   test317
+  ) [ProgramName]
+  ConstVarList_Const(
+    ConstVarList_Eps(
+    ) [ConstVarList_Eps]
+    ConstList(
+      Type(
+       int
+      ) [Type]
+      ConstItem(
+       x
+        ConstVal_num(
+         1
+        ) [ConstVal_num]
+      ) [ConstItem]
+      RConstItem_rep(
+        ConstItem(
+         x
+          ConstVal_num(
+           2
+          ) [ConstVal_num]
+        ) [ConstItem]
+        RConstItem_eps(
+        ) [RConstItem_eps]
+      ) [RConstItem_rep]
+    ) [ConstList]
+  ) [ConstVarList_Const]
+  MethodList_rep(
+    MethodList_eps(
+    ) [MethodList_eps]
+    MethodDecl(
+      MethodType_v(
+      ) [MethodType_v]
+      MethodName(
+       main
+      ) [MethodName]
+      ParamList_eps(
+      ) [ParamList_eps]
+      VarList_eps(
+      ) [VarList_eps]
+      StatementList_eps(
+      ) [StatementList_eps]
+    ) [MethodDecl]
+  ) [MethodList_rep]
+) [Program]
+INFO  23:28:04,316 - ===================================
+ERROR 23:28:04,321 - Dvostruka definicija konstante: x na liniji 5
+INFO  23:28:04,321 - ===================================
+INFO  23:28:04,321 - Parsiranje NIJE uspesno zavrseno!

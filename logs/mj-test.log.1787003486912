@@ -1,0 +1,157 @@
+INFO  23:50:56,713 - Compiling source file: C:\Users\tamara\eclipse-workspace\MJCompiler\test\program.mj
+INFO  23:50:56,748 - #2 program
+INFO  23:50:56,748 - #44 test317
+INFO  23:50:56,748 - #44 int
+INFO  23:50:56,750 - #44 i
+INFO  23:50:56,751 - #8 ,
+INFO  23:50:56,751 - #44 j
+INFO  23:50:56,751 - #8 ,
+INFO  23:50:56,751 - #44 gvar
+INFO  23:50:56,751 - #8 ,
+INFO  23:50:56,751 - #44 fvar
+INFO  23:50:56,751 - #8 ,
+INFO  23:50:56,751 - #44 arr1
+INFO  23:50:56,751 - #9 [
+INFO  23:50:56,751 - #10 ]
+INFO  23:50:56,751 - #7 ;
+INFO  23:50:56,752 - #3 {
+INFO  23:50:56,752 - #11 void
+INFO  23:50:56,753 - #44 main
+INFO  23:50:56,753 - #42 (
+INFO  23:50:56,753 - #43 )
+INFO  23:50:56,754 - #44 int
+INFO  23:50:56,754 - #44 a
+INFO  23:50:56,778 - #8 ,
+INFO  23:50:56,778 - #44 b
+INFO  23:50:56,778 - #7 ;
+INFO  23:50:56,778 - #3 {
+INFO  23:50:56,779 - #18 print
+INFO  23:50:56,779 - #42 (
+INFO  23:50:56,779 - #45 2
+INFO  23:50:56,779 - #23 +
+INFO  23:50:56,780 - #45 3
+INFO  23:50:56,781 - #25 *
+INFO  23:50:56,781 - #45 2
+INFO  23:50:56,782 - #43 )
+INFO  23:50:56,782 - #7 ;
+INFO  23:50:56,782 - #16 return
+INFO  23:50:56,782 - #7 ;
+INFO  23:50:56,782 - #4 }
+INFO  23:50:56,783 - #4 }
+INFO  23:50:56,787 - Program(
+  ProgramName(
+   test317
+  ) [ProgramName]
+  ConstVarList_Var(
+    ConstVarList_Eps(
+    ) [ConstVarList_Eps]
+    VarList(
+      Type(
+       int
+      ) [Type]
+      VarItem_var(
+       i
+      ) [VarItem_var]
+      RVarItem_rep(
+        VarItem_var(
+         j
+        ) [VarItem_var]
+        RVarItem_rep(
+          VarItem_var(
+           gvar
+          ) [VarItem_var]
+          RVarItem_rep(
+            VarItem_var(
+             fvar
+            ) [VarItem_var]
+            RVarItem_rep(
+              VarItem_arr(
+               arr1
+              ) [VarItem_arr]
+              RVarItem_eps(
+              ) [RVarItem_eps]
+            ) [RVarItem_rep]
+          ) [RVarItem_rep]
+        ) [RVarItem_rep]
+      ) [RVarItem_rep]
+    ) [VarList]
+  ) [ConstVarList_Var]
+  MethodList_rep(
+    MethodList_eps(
+    ) [MethodList_eps]
+    MethodDecl(
+      MethodType_v(
+      ) [MethodType_v]
+      MethodName(
+       main
+      ) [MethodName]
+      ParamList_eps(
+      ) [ParamList_eps]
+      RVarList_rep(
+        VarList(
+          Type(
+           int
+          ) [Type]
+          VarItem_var(
+           a
+          ) [VarItem_var]
+          RVarItem_rep(
+            VarItem_var(
+             b
+            ) [VarItem_var]
+            RVarItem_eps(
+            ) [RVarItem_eps]
+          ) [RVarItem_rep]
+        ) [VarList]
+      ) [RVarList_rep]
+      StatementList_rep(
+        StatementList_rep(
+          StatementList_eps(
+          ) [StatementList_eps]
+          Statement_print1(
+            Expr_aritm(
+              RAdd_rep(
+                RAdd_term(
+                  Term(
+                    RMul_fac(
+                      Factor_pos(
+                        Factor_n(
+                         2
+                        ) [Factor_n]
+                      ) [Factor_pos]
+                    ) [RMul_fac]
+                  ) [Term]
+                ) [RAdd_term]
+                Addop_p(
+                ) [Addop_p]
+                Term(
+                  RMul_rep(
+                    RMul_fac(
+                      Factor_pos(
+                        Factor_n(
+                         3
+                        ) [Factor_n]
+                      ) [Factor_pos]
+                    ) [RMul_fac]
+                    Mulop_as(
+                    ) [Mulop_as]
+                    Factor_pos(
+                      Factor_n(
+                       2
+                      ) [Factor_n]
+                    ) [Factor_pos]
+                  ) [RMul_rep]
+                ) [Term]
+              ) [RAdd_rep]
+            ) [Expr_aritm]
+          ) [Statement_print1]
+        ) [StatementList_rep]
+        Statement_ret2(
+        ) [Statement_ret2]
+      ) [StatementList_rep]
+    ) [MethodDecl]
+  ) [MethodList_rep]
+) [Program]
+INFO  23:50:56,787 - ===================================
+INFO  23:50:56,794 - ===================================
+INFO  23:50:56,797 - Parsiranje uspesno zavrseno!

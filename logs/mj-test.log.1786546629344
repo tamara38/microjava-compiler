@@ -1,0 +1,139 @@
+INFO  16:56:53,956 - Compiling source file: C:\Users\tamara\eclipse-workspace\MJCompiler\test\program.mj
+INFO  16:56:54,010 - #2 program
+INFO  16:56:54,011 - #44 test317
+INFO  16:56:54,011 - #5 const
+INFO  16:56:54,012 - #44 int
+INFO  16:56:54,012 - #44 x
+INFO  16:56:54,013 - #6 =
+INFO  16:56:54,013 - #45 1
+INFO  16:56:54,013 - #7 ;
+INFO  16:56:54,014 - #3 {
+INFO  16:56:54,015 - #44 int
+INFO  16:56:54,016 - #44 sum
+INFO  16:56:54,016 - #42 (
+INFO  16:56:54,017 - #44 int
+INFO  16:56:54,017 - #44 a
+INFO  16:56:54,017 - #8 ,
+INFO  16:56:54,017 - #44 bool
+INFO  16:56:54,017 - #44 b
+INFO  16:56:54,018 - #8 ,
+INFO  16:56:54,018 - #44 char
+INFO  16:56:54,018 - #44 c
+INFO  16:56:54,018 - #43 )
+INFO  16:56:54,018 - #3 {
+INFO  16:56:54,043 - #4 }
+INFO  16:56:54,044 - #11 void
+INFO  16:56:54,045 - #44 main
+INFO  16:56:54,045 - #42 (
+INFO  16:56:54,045 - #43 )
+INFO  16:56:54,045 - #3 {
+INFO  16:56:54,046 - #18 print
+INFO  16:56:54,046 - #42 (
+INFO  16:56:54,046 - #24 -
+INFO  16:56:54,046 - #47 a
+INFO  16:56:54,046 - #43 )
+INFO  16:56:54,049 - #7 ;
+INFO  16:56:54,049 - #4 }
+INFO  16:56:54,049 - #4 }
+INFO  16:56:54,054 - Program(
+  ProgramName(
+   test317
+  ) [ProgramName]
+  ConstVarList_Const(
+    ConstVarList_Eps(
+    ) [ConstVarList_Eps]
+    ConstList(
+      Type(
+       int
+      ) [Type]
+      ConstItem(
+       x
+        ConstVal_num(
+         1
+        ) [ConstVal_num]
+      ) [ConstItem]
+      RConstItem_eps(
+      ) [RConstItem_eps]
+    ) [ConstList]
+  ) [ConstVarList_Const]
+  MethodList_rep(
+    MethodList_rep(
+      MethodList_eps(
+      ) [MethodList_eps]
+      MethodDecl(
+        MethodType_t(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType_t]
+        MethodName(
+         sum
+        ) [MethodName]
+        ParamList_comma(
+          ParamList_comma(
+            ParamList_it(
+              ParamItem_var(
+                Type(
+                 int
+                ) [Type]
+               a
+              ) [ParamItem_var]
+            ) [ParamList_it]
+            ParamItem_var(
+              Type(
+               bool
+              ) [Type]
+             b
+            ) [ParamItem_var]
+          ) [ParamList_comma]
+          ParamItem_var(
+            Type(
+             char
+            ) [Type]
+           c
+          ) [ParamItem_var]
+        ) [ParamList_comma]
+        RVarList_eps(
+        ) [RVarList_eps]
+        StatementList_eps(
+        ) [StatementList_eps]
+      ) [MethodDecl]
+    ) [MethodList_rep]
+    MethodDecl(
+      MethodType_v(
+      ) [MethodType_v]
+      MethodName(
+       main
+      ) [MethodName]
+      ParamList_eps(
+      ) [ParamList_eps]
+      RVarList_eps(
+      ) [RVarList_eps]
+      StatementList_rep(
+        StatementList_eps(
+        ) [StatementList_eps]
+        Statement_print1(
+          Expr_aritm(
+            AddExpr(
+              Term(
+                Factor_neg(
+                  Factor_c(
+                   a
+                  ) [Factor_c]
+                ) [Factor_neg]
+                RMul_eps(
+                ) [RMul_eps]
+              ) [Term]
+              RAdd_eps(
+              ) [RAdd_eps]
+            ) [AddExpr]
+          ) [Expr_aritm]
+        ) [Statement_print1]
+      ) [StatementList_rep]
+    ) [MethodDecl]
+  ) [MethodList_rep]
+) [Program]
+INFO  16:56:54,054 - ===================================
+ERROR 16:56:54,062 - Negacija neodgovarajuceg tipa podatka: rs.etf.pp1.symboltable.concepts.Struct@6cc4c815 na liniji 11
+INFO  16:56:54,062 - ===================================
+INFO  16:56:54,062 - Parsiranje NIJE uspesno zavrseno!

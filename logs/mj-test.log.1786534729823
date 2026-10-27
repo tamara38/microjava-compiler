@@ -1,0 +1,103 @@
+INFO  11:02:18,878 - Compiling source file: C:\Users\tamara\eclipse-workspace\MJCompiler\test\program.mj
+INFO  11:02:18,922 - #2 program
+INFO  11:02:18,922 - #44 test317
+INFO  11:02:18,923 - #5 const
+INFO  11:02:18,924 - #44 int
+INFO  11:02:18,924 - #44 x
+INFO  11:02:18,925 - #6 =
+INFO  11:02:18,925 - #45 1
+INFO  11:02:18,925 - #7 ;
+INFO  11:02:18,925 - #3 {
+INFO  11:02:18,926 - #44 int
+INFO  11:02:18,927 - #44 sum
+INFO  11:02:18,927 - #42 (
+INFO  11:02:18,928 - #43 )
+INFO  11:02:18,928 - #44 int
+INFO  11:02:18,928 - #44 a
+INFO  11:02:18,928 - #8 ,
+INFO  11:02:18,929 - #44 b
+INFO  11:02:18,929 - #7 ;
+INFO  11:02:18,929 - #3 {
+INFO  11:02:18,931 - #4 }
+INFO  11:02:18,931 - #11 void
+INFO  11:02:18,932 - #44 main
+INFO  11:02:18,933 - #42 (
+INFO  11:02:18,933 - #43 )
+INFO  11:02:18,933 - #3 {
+INFO  11:02:18,934 - #4 }
+INFO  11:02:18,934 - #4 }
+INFO  11:02:18,938 - Program(
+  ProgramName(
+   test317
+  ) [ProgramName]
+  ConstVarList_Const(
+    ConstVarList_Eps(
+    ) [ConstVarList_Eps]
+    ConstList(
+      Type(
+       int
+      ) [Type]
+      ConstItem(
+       x
+        ConstVal_num(
+         1
+        ) [ConstVal_num]
+      ) [ConstItem]
+      RConstItem_eps(
+      ) [RConstItem_eps]
+    ) [ConstList]
+  ) [ConstVarList_Const]
+  MethodList_rep(
+    MethodList_rep(
+      MethodList_eps(
+      ) [MethodList_eps]
+      MethodDecl(
+        MethodType_t(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType_t]
+        MethodName(
+         sum
+        ) [MethodName]
+        ParamList_eps(
+        ) [ParamList_eps]
+        RVarList_rep(
+          VarList(
+            Type(
+             int
+            ) [Type]
+            VarItem_var(
+             a
+            ) [VarItem_var]
+            RVarItem_rep(
+              VarItem_var(
+               b
+              ) [VarItem_var]
+              RVarItem_eps(
+              ) [RVarItem_eps]
+            ) [RVarItem_rep]
+          ) [VarList]
+        ) [RVarList_rep]
+        StatementList_eps(
+        ) [StatementList_eps]
+      ) [MethodDecl]
+    ) [MethodList_rep]
+    MethodDecl(
+      MethodType_v(
+      ) [MethodType_v]
+      MethodName(
+       main
+      ) [MethodName]
+      ParamList_eps(
+      ) [ParamList_eps]
+      RVarList_eps(
+      ) [RVarList_eps]
+      StatementList_eps(
+      ) [StatementList_eps]
+    ) [MethodDecl]
+  ) [MethodList_rep]
+) [Program]
+INFO  11:02:18,938 - ===================================
+INFO  11:02:18,945 - ===================================
+INFO  11:02:18,945 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,233 @@
+INFO  15:45:48,537 - Compiling source file: C:\Users\tamara\eclipse-workspace\MJCompiler\test\program.mj
+INFO  15:45:48,570 - #2 program
+INFO  15:45:48,571 - #44 test317
+INFO  15:45:48,571 - #5 const
+INFO  15:45:48,571 - #44 int
+INFO  15:45:48,573 - #44 x
+INFO  15:45:48,573 - #6 =
+INFO  15:45:48,573 - #45 1
+INFO  15:45:48,573 - #8 ,
+INFO  15:45:48,574 - #44 y
+INFO  15:45:48,574 - #6 =
+INFO  15:45:48,574 - #45 2
+INFO  15:45:48,574 - #7 ;
+INFO  15:45:48,574 - #44 int
+INFO  15:45:48,575 - #44 var
+INFO  15:45:48,575 - #8 ,
+INFO  15:45:48,575 - #44 func
+INFO  15:45:48,575 - #8 ,
+INFO  15:45:48,575 - #44 arr1
+INFO  15:45:48,575 - #9 [
+INFO  15:45:48,575 - #10 ]
+INFO  15:45:48,575 - #8 ,
+INFO  15:45:48,575 - #44 arr2
+INFO  15:45:48,600 - #9 [
+INFO  15:45:48,600 - #10 ]
+INFO  15:45:48,600 - #7 ;
+INFO  15:45:48,601 - #44 char
+INFO  15:45:48,602 - #44 c
+INFO  15:45:48,602 - #8 ,
+INFO  15:45:48,602 - #44 arrc
+INFO  15:45:48,602 - #9 [
+INFO  15:45:48,602 - #10 ]
+INFO  15:45:48,602 - #7 ;
+INFO  15:45:48,602 - #3 {
+INFO  15:45:48,602 - #44 int
+INFO  15:45:48,603 - #44 sum
+INFO  15:45:48,603 - #42 (
+INFO  15:45:48,603 - #44 int
+INFO  15:45:48,603 - #44 a
+INFO  15:45:48,603 - #8 ,
+INFO  15:45:48,604 - #44 int
+INFO  15:45:48,604 - #44 b
+INFO  15:45:48,604 - #43 )
+INFO  15:45:48,604 - #3 {
+INFO  15:45:48,605 - #16 return
+INFO  15:45:48,605 - #46 1
+INFO  15:45:48,605 - #7 ;
+INFO  15:45:48,606 - #4 }
+INFO  15:45:48,607 - #11 void
+INFO  15:45:48,607 - #44 main
+INFO  15:45:48,607 - #42 (
+INFO  15:45:48,607 - #43 )
+INFO  15:45:48,609 - #3 {
+INFO  15:45:48,609 - #44 arr1
+INFO  15:45:48,609 - #9 [
+INFO  15:45:48,610 - #45 2
+INFO  15:45:48,610 - #10 ]
+INFO  15:45:48,610 - #36 ++
+INFO  15:45:48,610 - #7 ;
+INFO  15:45:48,611 - #4 }
+INFO  15:45:48,611 - #4 }
+INFO  15:45:48,615 - Program(
+  ProgramName(
+   test317
+  ) [ProgramName]
+  ConstVarList_Var(
+    ConstVarList_Var(
+      ConstVarList_Const(
+        ConstVarList_Eps(
+        ) [ConstVarList_Eps]
+        ConstList(
+          Type(
+           int
+          ) [Type]
+          ConstItem(
+           x
+            ConstVal_num(
+             1
+            ) [ConstVal_num]
+          ) [ConstItem]
+          RConstItem_rep(
+            ConstItem(
+             y
+              ConstVal_num(
+               2
+              ) [ConstVal_num]
+            ) [ConstItem]
+            RConstItem_eps(
+            ) [RConstItem_eps]
+          ) [RConstItem_rep]
+        ) [ConstList]
+      ) [ConstVarList_Const]
+      VarList(
+        Type(
+         int
+        ) [Type]
+        VarItem_var(
+         var
+        ) [VarItem_var]
+        RVarItem_rep(
+          VarItem_var(
+           func
+          ) [VarItem_var]
+          RVarItem_rep(
+            VarItem_arr(
+             arr1
+            ) [VarItem_arr]
+            RVarItem_rep(
+              VarItem_arr(
+               arr2
+              ) [VarItem_arr]
+              RVarItem_eps(
+              ) [RVarItem_eps]
+            ) [RVarItem_rep]
+          ) [RVarItem_rep]
+        ) [RVarItem_rep]
+      ) [VarList]
+    ) [ConstVarList_Var]
+    VarList(
+      Type(
+       char
+      ) [Type]
+      VarItem_var(
+       c
+      ) [VarItem_var]
+      RVarItem_rep(
+        VarItem_arr(
+         arrc
+        ) [VarItem_arr]
+        RVarItem_eps(
+        ) [RVarItem_eps]
+      ) [RVarItem_rep]
+    ) [VarList]
+  ) [ConstVarList_Var]
+  MethodList_rep(
+    MethodList_rep(
+      MethodList_eps(
+      ) [MethodList_eps]
+      MethodDecl(
+        MethodType_t(
+          Type(
+           int
+          ) [Type]
+        ) [MethodType_t]
+        MethodName(
+         sum
+        ) [MethodName]
+        ParamList_comma(
+          ParamList_it(
+            ParamItem_var(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [ParamItem_var]
+          ) [ParamList_it]
+          ParamItem_var(
+            Type(
+             int
+            ) [Type]
+           b
+          ) [ParamItem_var]
+        ) [ParamList_comma]
+        RVarList_eps(
+        ) [RVarList_eps]
+        StatementList_rep(
+          StatementList_eps(
+          ) [StatementList_eps]
+          Statement_ret1(
+            Expr_aritm(
+              AddExpr(
+                Term(
+                  Factor_pos(
+                    Factor_b(
+                     1
+                    ) [Factor_b]
+                  ) [Factor_pos]
+                  RMul_eps(
+                  ) [RMul_eps]
+                ) [Term]
+                RAdd_eps(
+                ) [RAdd_eps]
+              ) [AddExpr]
+            ) [Expr_aritm]
+          ) [Statement_ret1]
+        ) [StatementList_rep]
+      ) [MethodDecl]
+    ) [MethodList_rep]
+    MethodDecl(
+      MethodType_v(
+      ) [MethodType_v]
+      MethodName(
+       main
+      ) [MethodName]
+      ParamList_eps(
+      ) [ParamList_eps]
+      RVarList_eps(
+      ) [RVarList_eps]
+      StatementList_rep(
+        StatementList_eps(
+        ) [StatementList_eps]
+        Statement_desig(
+          DesigStatement_i(
+            Designator_el(
+              ArrayName(
+               arr1
+              ) [ArrayName]
+              Expr_aritm(
+                AddExpr(
+                  Term(
+                    Factor_pos(
+                      Factor_n(
+                       2
+                      ) [Factor_n]
+                    ) [Factor_pos]
+                    RMul_eps(
+                    ) [RMul_eps]
+                  ) [Term]
+                  RAdd_eps(
+                  ) [RAdd_eps]
+                ) [AddExpr]
+              ) [Expr_aritm]
+            ) [Designator_el]
+          ) [DesigStatement_i]
+        ) [Statement_desig]
+      ) [StatementList_rep]
+    ) [MethodDecl]
+  ) [MethodList_rep]
+) [Program]
+INFO  15:45:48,615 - ===================================
+ERROR 15:45:48,622 - Neodgovarajuci tip return iskaza metode: sum na liniji 11
+INFO  15:45:48,623 - ===================================
+INFO  15:45:48,624 - Parsiranje NIJE uspesno zavrseno!

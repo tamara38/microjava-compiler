@@ -1,0 +1,60 @@
+INFO  23:27:46,520 - Compiling source file: C:\Users\tamara\eclipse-workspace\MJCompiler\test\program.mj
+INFO  23:27:46,540 - #2 program
+INFO  23:27:46,540 - #44 test317
+INFO  23:27:46,540 - #5 const
+INFO  23:27:46,542 - #44 int
+INFO  23:27:46,542 - #44 x
+INFO  23:27:46,543 - #6 =
+INFO  23:27:46,543 - #47 a
+INFO  23:27:46,543 - #7 ;
+INFO  23:27:46,544 - #3 {
+INFO  23:27:46,544 - #11 void
+INFO  23:27:46,544 - #44 main
+INFO  23:27:46,545 - #42 (
+INFO  23:27:46,545 - #43 )
+INFO  23:27:46,545 - #3 {
+INFO  23:27:46,545 - #4 }
+INFO  23:27:46,546 - #4 }
+INFO  23:27:46,548 - Program(
+  ProgramName(
+   test317
+  ) [ProgramName]
+  ConstVarList_Const(
+    ConstVarList_Eps(
+    ) [ConstVarList_Eps]
+    ConstList(
+      Type(
+       int
+      ) [Type]
+      ConstItem(
+       x
+        ConstVal_char(
+         a
+        ) [ConstVal_char]
+      ) [ConstItem]
+      RConstItem_eps(
+      ) [RConstItem_eps]
+    ) [ConstList]
+  ) [ConstVarList_Const]
+  MethodList_rep(
+    MethodList_eps(
+    ) [MethodList_eps]
+    MethodDecl(
+      MethodType_v(
+      ) [MethodType_v]
+      MethodName(
+       main
+      ) [MethodName]
+      ParamList_eps(
+      ) [ParamList_eps]
+      VarList_eps(
+      ) [VarList_eps]
+      StatementList_eps(
+      ) [StatementList_eps]
+    ) [MethodDecl]
+  ) [MethodList_rep]
+) [Program]
+INFO  23:27:46,551 - ===================================
+ERROR 23:27:46,554 - Nekompatibilna dodela vrednosti konstanti: x na liniji 5
+INFO  23:27:46,555 - ===================================
+INFO  23:27:46,555 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,170 @@
+INFO  00:07:39,941 - Compiling source file: C:\Users\tamara\eclipse-workspace\MJCompiler\test\program.mj
+INFO  00:07:39,985 - #2 program
+INFO  00:07:39,985 - #45 test302
+INFO  00:07:39,985 - #5 const
+INFO  00:07:39,986 - #45 int
+INFO  00:07:39,986 - #45 jedan
+INFO  00:07:39,987 - #6 =
+INFO  00:07:39,987 - #46 1
+INFO  00:07:39,987 - #7 ;
+INFO  00:07:39,988 - #45 int
+INFO  00:07:39,989 - #45 i
+INFO  00:07:39,989 - #8 ,
+INFO  00:07:39,989 - #45 j
+INFO  00:07:39,989 - #7 ;
+INFO  00:07:39,991 - #45 bool
+INFO  00:07:39,992 - #45 ibool
+INFO  00:07:39,992 - #7 ;
+INFO  00:07:39,992 - #45 int
+INFO  00:07:39,992 - #45 niz
+INFO  00:07:39,992 - #9 [
+INFO  00:07:39,992 - #10 ]
+INFO  00:07:39,992 - #8 ,
+INFO  00:07:39,993 - #45 niz2
+INFO  00:07:40,017 - #9 [
+INFO  00:07:40,017 - #8 ,
+ERROR 00:07:40,017 - 
+Sintaksna greska na liniji 10
+INFO  00:07:40,018 - #45 niz3
+INFO  00:07:40,018 - #9 [
+INFO  00:07:40,018 - #10 ]
+ERROR 00:07:40,022 - Oporavak od greske u VarItem. Linija: 10
+INFO  00:07:40,023 - #8 ,
+INFO  00:07:40,024 - #45 niz4
+INFO  00:07:40,024 - #9 [
+INFO  00:07:40,024 - #10 ]
+INFO  00:07:40,024 - #7 ;
+INFO  00:07:40,024 - #3 {
+INFO  00:07:40,024 - #11 void
+INFO  00:07:40,025 - #45 main
+INFO  00:07:40,026 - #43 (
+INFO  00:07:40,026 - #44 )
+INFO  00:07:40,026 - #3 {
+INFO  00:07:40,027 - #45 i
+INFO  00:07:40,027 - #6 =
+INFO  00:07:40,027 - #46 1
+INFO  00:07:40,028 - #7 ;
+INFO  00:07:40,029 - #4 }
+INFO  00:07:40,029 - #4 }
+INFO  00:07:40,034 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  ConstVarList_Var(
+    ConstVarList_Var(
+      ConstVarList_Var(
+        ConstVarList_Const(
+          ConstVarList_Eps(
+          ) [ConstVarList_Eps]
+          ConstList(
+            Type(
+             int
+            ) [Type]
+            ConstItem(
+             jedan
+              ConstVal_num(
+               1
+              ) [ConstVal_num]
+            ) [ConstItem]
+            RConstItem_eps(
+            ) [RConstItem_eps]
+          ) [ConstList]
+        ) [ConstVarList_Const]
+        VarList(
+          Type(
+           int
+          ) [Type]
+          VarItem_var(
+           i
+          ) [VarItem_var]
+          RVarItem_rep(
+            VarItem_var(
+             j
+            ) [VarItem_var]
+            RVarItem_eps(
+            ) [RVarItem_eps]
+          ) [RVarItem_rep]
+        ) [VarList]
+      ) [ConstVarList_Var]
+      VarList(
+        Type(
+         bool
+        ) [Type]
+        VarItem_var(
+         ibool
+        ) [VarItem_var]
+        RVarItem_eps(
+        ) [RVarItem_eps]
+      ) [VarList]
+    ) [ConstVarList_Var]
+    VarList(
+      Type(
+       int
+      ) [Type]
+      VarItem_arr(
+       niz
+      ) [VarItem_arr]
+      RVarItem_rep(
+        VarItem_error(
+        ) [VarItem_error]
+        RVarItem_rep(
+          VarItem_arr(
+           niz3
+          ) [VarItem_arr]
+          RVarItem_rep(
+            VarItem_arr(
+             niz4
+            ) [VarItem_arr]
+            RVarItem_eps(
+            ) [RVarItem_eps]
+          ) [RVarItem_rep]
+        ) [RVarItem_rep]
+      ) [RVarItem_rep]
+    ) [VarList]
+  ) [ConstVarList_Var]
+  GlobEnd(
+  ) [GlobEnd]
+  MethodList_rep(
+    MethodList_eps(
+    ) [MethodList_eps]
+    MethodDecl(
+      MethodType_v(
+      ) [MethodType_v]
+      MethodName(
+       main
+      ) [MethodName]
+      ParamList_eps(
+      ) [ParamList_eps]
+      RVarList_eps(
+      ) [RVarList_eps]
+      StatementList_rep(
+        StatementList_eps(
+        ) [StatementList_eps]
+        Statement_desig(
+          DesigStatement_exp(
+            Designator_var(
+             i
+            ) [Designator_var]
+            Expr_aritm(
+              RAdd_term(
+                Term(
+                  RMul_fac(
+                    Factor_pos(
+                      Factor_n(
+                       1
+                      ) [Factor_n]
+                    ) [Factor_pos]
+                  ) [RMul_fac]
+                ) [Term]
+              ) [RAdd_term]
+            ) [Expr_aritm]
+          ) [DesigStatement_exp]
+        ) [Statement_desig]
+      ) [StatementList_rep]
+    ) [MethodDecl]
+  ) [MethodList_rep]
+) [Program]
+INFO  00:07:40,034 - ===================================
+INFO  00:07:40,049 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 16
+INFO  00:07:40,049 - ===================================
+INFO  00:07:40,050 - Parsiranje NIJE uspesno zavrseno!

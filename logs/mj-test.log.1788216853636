@@ -1,0 +1,655 @@
+INFO  23:33:12,446 - Compiling source file: C:\Users\tamara\eclipse-workspace\MJCompiler\test\program.mj
+INFO  23:33:12,488 - #2 program
+INFO  23:33:12,488 - #45 test302
+INFO  23:33:12,488 - #5 const
+INFO  23:33:12,489 - #45 int
+INFO  23:33:12,489 - #45 jedan
+INFO  23:33:12,490 - #6 =
+INFO  23:33:12,490 - #46 1
+INFO  23:33:12,490 - #7 ;
+INFO  23:33:12,491 - #45 int
+INFO  23:33:12,492 - #45 i
+INFO  23:33:12,492 - #8 ,
+INFO  23:33:12,492 - #45 j
+INFO  23:33:12,492 - #7 ;
+INFO  23:33:12,493 - #45 bool
+INFO  23:33:12,493 - #45 ibool
+INFO  23:33:12,493 - #7 ;
+INFO  23:33:12,493 - #45 int
+INFO  23:33:12,493 - #45 niz
+INFO  23:33:12,493 - #9 [
+INFO  23:33:12,493 - #10 ]
+INFO  23:33:12,493 - #8 ,
+INFO  23:33:12,493 - #45 niz2
+INFO  23:33:12,497 - #9 [
+INFO  23:33:12,497 - #10 ]
+INFO  23:33:12,497 - #8 ,
+INFO  23:33:12,497 - #45 niz3
+INFO  23:33:12,497 - #9 [
+INFO  23:33:12,497 - #10 ]
+INFO  23:33:12,497 - #8 ,
+INFO  23:33:12,498 - #45 niz4
+INFO  23:33:12,498 - #9 [
+INFO  23:33:12,498 - #10 ]
+INFO  23:33:12,498 - #7 ;
+INFO  23:33:12,498 - #3 {
+INFO  23:33:12,498 - #45 int
+INFO  23:33:12,499 - #45 sum
+INFO  23:33:12,499 - #43 (
+INFO  23:33:12,500 - #45 int
+INFO  23:33:12,500 - #45 z
+INFO  23:33:12,500 - #8 ,
+INFO  23:33:12,500 - #45 int
+INFO  23:33:12,500 - #45 d
+INFO  23:33:12,500 - #44 )
+INFO  23:33:12,500 - #3 {
+INFO  23:33:12,501 - #16 return
+INFO  23:33:12,502 - #45 z
+INFO  23:33:12,502 - #23 +
+INFO  23:33:12,503 - #45 d
+INFO  23:33:12,504 - #7 ;
+INFO  23:33:12,504 - #4 }
+INFO  23:33:12,505 - #45 int
+INFO  23:33:12,506 - #45 inkrement
+INFO  23:33:12,506 - #43 (
+INFO  23:33:12,506 - #45 int
+INFO  23:33:12,506 - #45 a
+INFO  23:33:12,506 - #8 ,
+INFO  23:33:12,506 - #45 int
+INFO  23:33:12,506 - #45 inc
+INFO  23:33:12,506 - #44 )
+INFO  23:33:12,506 - #45 int
+INFO  23:33:12,506 - #45 pom
+INFO  23:33:12,506 - #7 ;
+INFO  23:33:12,506 - #3 {
+INFO  23:33:12,506 - #12 if
+INFO  23:33:12,506 - #43 (
+INFO  23:33:12,508 - #45 inc
+INFO  23:33:12,508 - #29 ==
+INFO  23:33:12,508 - #45 jedan
+INFO  23:33:12,509 - #44 )
+INFO  23:33:12,511 - #45 pom
+INFO  23:33:12,511 - #6 =
+INFO  23:33:12,511 - #46 1
+INFO  23:33:12,511 - #7 ;
+INFO  23:33:12,512 - #13 else
+INFO  23:33:12,512 - #12 if
+INFO  23:33:12,512 - #43 (
+INFO  23:33:12,512 - #45 inc
+INFO  23:33:12,512 - #29 ==
+INFO  23:33:12,512 - #46 2
+INFO  23:33:12,512 - #44 )
+INFO  23:33:12,513 - #45 pom
+INFO  23:33:12,513 - #6 =
+INFO  23:33:12,513 - #45 a
+INFO  23:33:12,513 - #7 ;
+INFO  23:33:12,513 - #16 return
+INFO  23:33:12,514 - #45 sum
+INFO  23:33:12,514 - #43 (
+INFO  23:33:12,514 - #45 a
+INFO  23:33:12,515 - #8 ,
+INFO  23:33:12,515 - #45 pom
+INFO  23:33:12,516 - #44 )
+INFO  23:33:12,519 - #7 ;
+INFO  23:33:12,519 - #4 }
+INFO  23:33:12,519 - #45 bool
+INFO  23:33:12,519 - #45 verify
+INFO  23:33:12,519 - #43 (
+INFO  23:33:12,519 - #44 )
+INFO  23:33:12,520 - #3 {
+INFO  23:33:12,520 - #18 print
+INFO  23:33:12,520 - #43 (
+INFO  23:33:12,520 - #48 v
+INFO  23:33:12,520 - #44 )
+INFO  23:33:12,521 - #7 ;
+INFO  23:33:12,521 - #16 return
+INFO  23:33:12,521 - #47 0
+INFO  23:33:12,521 - #7 ;
+INFO  23:33:12,521 - #4 }
+INFO  23:33:12,521 - #11 void
+INFO  23:33:12,521 - #45 main
+INFO  23:33:12,522 - #43 (
+INFO  23:33:12,522 - #44 )
+INFO  23:33:12,522 - #3 {
+INFO  23:33:12,522 - #12 if
+INFO  23:33:12,522 - #43 (
+INFO  23:33:12,522 - #46 1
+INFO  23:33:12,522 - #30 !=
+INFO  23:33:12,522 - #46 1
+INFO  23:33:12,523 - #44 )
+INFO  23:33:12,523 - #18 print
+INFO  23:33:12,523 - #43 (
+INFO  23:33:12,523 - #24 -
+INFO  23:33:12,523 - #46 6
+INFO  23:33:12,523 - #44 )
+INFO  23:33:12,523 - #7 ;
+INFO  23:33:12,523 - #13 else
+INFO  23:33:12,523 - #18 print
+INFO  23:33:12,523 - #43 (
+INFO  23:33:12,523 - #46 0
+INFO  23:33:12,523 - #44 )
+INFO  23:33:12,523 - #7 ;
+INFO  23:33:12,523 - #45 ibool
+INFO  23:33:12,523 - #6 =
+INFO  23:33:12,523 - #47 0
+INFO  23:33:12,523 - #7 ;
+INFO  23:33:12,524 - #45 i
+INFO  23:33:12,524 - #6 =
+INFO  23:33:12,524 - #46 0
+INFO  23:33:12,524 - #7 ;
+INFO  23:33:12,524 - #19 for
+INFO  23:33:12,524 - #43 (
+INFO  23:33:12,525 - #45 i
+INFO  23:33:12,525 - #6 =
+INFO  23:33:12,525 - #46 0
+INFO  23:33:12,525 - #7 ;
+INFO  23:33:12,525 - #45 i
+INFO  23:33:12,525 - #34 <
+INFO  23:33:12,525 - #46 5
+INFO  23:33:12,525 - #7 ;
+INFO  23:33:12,525 - #45 i
+INFO  23:33:12,525 - #37 ++
+INFO  23:33:12,525 - #44 )
+INFO  23:33:12,526 - #3 {
+INFO  23:33:12,526 - #12 if
+INFO  23:33:12,526 - #43 (
+INFO  23:33:12,526 - #45 i
+INFO  23:33:12,526 - #29 ==
+INFO  23:33:12,526 - #46 2
+INFO  23:33:12,526 - #44 )
+INFO  23:33:12,526 - #45 ibool
+INFO  23:33:12,526 - #6 =
+INFO  23:33:12,526 - #47 1
+INFO  23:33:12,526 - #7 ;
+INFO  23:33:12,526 - #4 }
+INFO  23:33:12,526 - #12 if
+INFO  23:33:12,526 - #43 (
+INFO  23:33:12,526 - #45 ibool
+INFO  23:33:12,526 - #44 )
+INFO  23:33:12,526 - #12 if
+INFO  23:33:12,526 - #43 (
+INFO  23:33:12,526 - #45 i
+INFO  23:33:12,526 - #29 ==
+INFO  23:33:12,526 - #46 5
+INFO  23:33:12,526 - #44 )
+INFO  23:33:12,526 - #18 print
+INFO  23:33:12,526 - #43 (
+INFO  23:33:12,526 - #46 1
+INFO  23:33:12,526 - #44 )
+INFO  23:33:12,526 - #7 ;
+INFO  23:33:12,526 - #13 else
+INFO  23:33:12,527 - #18 print
+INFO  23:33:12,527 - #43 (
+INFO  23:33:12,527 - #24 -
+INFO  23:33:12,527 - #46 1
+INFO  23:33:12,527 - #44 )
+INFO  23:33:12,527 - #7 ;
+INFO  23:33:12,527 - #45 niz
+INFO  23:33:12,527 - #6 =
+INFO  23:33:12,527 - #42 new
+INFO  23:33:12,527 - #45 int
+INFO  23:33:12,527 - #9 [
+INFO  23:33:12,527 - #46 3
+INFO  23:33:12,527 - #10 ]
+INFO  23:33:12,527 - #7 ;
+INFO  23:33:12,527 - #45 niz
+INFO  23:33:12,527 - #9 [
+INFO  23:33:12,528 - #46 0
+INFO  23:33:12,528 - #10 ]
+INFO  23:33:12,529 - #6 =
+INFO  23:33:12,529 - #46 1
+INFO  23:33:12,529 - #7 ;
+INFO  23:33:12,529 - #45 niz
+INFO  23:33:12,529 - #9 [
+INFO  23:33:12,529 - #46 1
+INFO  23:33:12,529 - #10 ]
+INFO  23:33:12,529 - #6 =
+INFO  23:33:12,529 - #46 2
+INFO  23:33:12,529 - #7 ;
+INFO  23:33:12,529 - #45 niz
+INFO  23:33:12,529 - #9 [
+INFO  23:33:12,530 - #46 2
+INFO  23:33:12,530 - #10 ]
+INFO  23:33:12,530 - #6 =
+INFO  23:33:12,530 - #45 sum
+INFO  23:33:12,530 - #43 (
+INFO  23:33:12,530 - #45 niz
+INFO  23:33:12,530 - #9 [
+INFO  23:33:12,530 - #46 1
+INFO  23:33:12,530 - #10 ]
+INFO  23:33:12,530 - #8 ,
+INFO  23:33:12,530 - #45 niz
+INFO  23:33:12,530 - #9 [
+INFO  23:33:12,530 - #46 0
+INFO  23:33:12,530 - #10 ]
+INFO  23:33:12,530 - #44 )
+INFO  23:33:12,530 - #23 +
+INFO  23:33:12,530 - #46 1
+INFO  23:33:12,530 - #7 ;
+INFO  23:33:12,530 - #12 if
+INFO  23:33:12,530 - #43 (
+INFO  23:33:12,530 - #45 niz
+INFO  23:33:12,530 - #9 [
+INFO  23:33:12,530 - #46 2
+INFO  23:33:12,531 - #10 ]
+INFO  23:33:12,531 - #29 ==
+INFO  23:33:12,531 - #46 4
+INFO  23:33:12,531 - #39 ||
+INFO  23:33:12,531 - #45 verify
+INFO  23:33:12,531 - #43 (
+INFO  23:33:12,531 - #44 )
+INFO  23:33:12,531 - #44 )
+INFO  23:33:12,531 - #18 print
+INFO  23:33:12,531 - #43 (
+INFO  23:33:12,531 - #45 ord
+INFO  23:33:12,531 - #43 (
+INFO  23:33:12,532 - #48 A
+INFO  23:33:12,532 - #44 )
+INFO  23:33:12,532 - #44 )
+INFO  23:33:12,532 - #7 ;
+INFO  23:33:12,532 - #13 else
+INFO  23:33:12,532 - #18 print
+INFO  23:33:12,532 - #43 (
+INFO  23:33:12,532 - #45 ord
+INFO  23:33:12,532 - #43 (
+INFO  23:33:12,532 - #48 a
+INFO  23:33:12,532 - #44 )
+INFO  23:33:12,533 - #44 )
+INFO  23:33:12,533 - #7 ;
+INFO  23:33:12,533 - #18 print
+INFO  23:33:12,533 - #43 (
+INFO  23:33:12,533 - #45 eol
+INFO  23:33:12,533 - #44 )
+INFO  23:33:12,533 - #7 ;
+INFO  23:33:12,534 - #45 i
+INFO  23:33:12,534 - #6 =
+INFO  23:33:12,534 - #46 0
+INFO  23:33:12,534 - #7 ;
+INFO  23:33:12,534 - #19 for
+INFO  23:33:12,534 - #43 (
+INFO  23:33:12,534 - #7 ;
+INFO  23:33:12,535 - #45 i
+INFO  23:33:12,535 - #34 <
+INFO  23:33:12,535 - #46 10
+INFO  23:33:12,535 - #7 ;
+INFO  23:33:12,535 - #44 )
+INFO  23:33:12,536 - #3 {
+INFO  23:33:12,536 - #12 if
+INFO  23:33:12,536 - #43 (
+INFO  23:33:12,536 - #45 i
+INFO  23:33:12,536 - #29 ==
+INFO  23:33:12,536 - #46 3
+INFO  23:33:12,536 - #44 )
+INFO  23:33:12,536 - #3 {
+INFO  23:33:12,536 - #45 i
+INFO  23:33:12,536 - #37 ++
+INFO  23:33:12,536 - #7 ;
+INFO  23:33:12,536 - #15 continue
+INFO  23:33:12,536 - #7 ;
+INFO  23:33:12,536 - #4 }
+INFO  23:33:12,537 - #12 if
+INFO  23:33:12,537 - #43 (
+INFO  23:33:12,537 - #45 i
+INFO  23:33:12,537 - #29 ==
+INFO  23:33:12,537 - #46 4
+INFO  23:33:12,537 - #44 )
+INFO  23:33:12,537 - #14 break
+INFO  23:33:12,537 - #7 ;
+INFO  23:33:12,537 - #45 i
+INFO  23:33:12,538 - #6 =
+INFO  23:33:12,538 - #45 inkrement
+INFO  23:33:12,538 - #43 (
+INFO  23:33:12,538 - #45 i
+INFO  23:33:12,538 - #8 ,
+INFO  23:33:12,538 - #46 1
+INFO  23:33:12,538 - #44 )
+INFO  23:33:12,538 - #7 ;
+INFO  23:33:12,538 - #4 }
+INFO  23:33:12,538 - #12 if
+INFO  23:33:12,538 - #43 (
+INFO  23:33:12,538 - #45 i
+INFO  23:33:12,538 - #29 ==
+INFO  23:33:12,538 - #46 3
+INFO  23:33:12,538 - #40 &&
+INFO  23:33:12,538 - #45 verify
+INFO  23:33:12,538 - #43 (
+INFO  23:33:12,538 - #44 )
+INFO  23:33:12,538 - #44 )
+INFO  23:33:12,538 - #18 print
+INFO  23:33:12,538 - #43 (
+INFO  23:33:12,538 - #46 4
+INFO  23:33:12,538 - #44 )
+INFO  23:33:12,538 - #7 ;
+INFO  23:33:12,538 - #13 else
+INFO  23:33:12,538 - #18 print
+INFO  23:33:12,538 - #43 (
+INFO  23:33:12,538 - #24 -
+INFO  23:33:12,538 - #46 4
+INFO  23:33:12,538 - #44 )
+INFO  23:33:12,539 - #7 ;
+INFO  23:33:12,539 - #17 read
+INFO  23:33:12,539 - #43 (
+INFO  23:33:12,539 - #45 niz
+INFO  23:33:12,539 - #9 [
+INFO  23:33:12,539 - #46 0
+INFO  23:33:12,539 - #10 ]
+INFO  23:33:12,539 - #44 )
+INFO  23:33:12,539 - #7 ;
+INFO  23:33:12,539 - #17 read
+INFO  23:33:12,539 - #43 (
+INFO  23:33:12,539 - #45 niz
+INFO  23:33:12,539 - #9 [
+INFO  23:33:12,539 - #46 1
+INFO  23:33:12,539 - #10 ]
+INFO  23:33:12,539 - #44 )
+INFO  23:33:12,539 - #7 ;
+INFO  23:33:12,539 - #17 read
+INFO  23:33:12,539 - #43 (
+INFO  23:33:12,539 - #45 niz
+INFO  23:33:12,539 - #9 [
+INFO  23:33:12,539 - #46 2
+INFO  23:33:12,539 - #10 ]
+INFO  23:33:12,539 - #44 )
+INFO  23:33:12,539 - #7 ;
+INFO  23:33:12,539 - #18 print
+INFO  23:33:12,539 - #43 (
+INFO  23:33:12,539 - #45 eol
+INFO  23:33:12,539 - #44 )
+INFO  23:33:12,540 - #7 ;
+INFO  23:33:12,540 - #18 print
+INFO  23:33:12,540 - #43 (
+INFO  23:33:12,540 - #45 sum
+INFO  23:33:12,540 - #43 (
+INFO  23:33:12,540 - #45 sum
+INFO  23:33:12,540 - #43 (
+INFO  23:33:12,540 - #45 niz
+INFO  23:33:12,540 - #9 [
+INFO  23:33:12,540 - #46 0
+INFO  23:33:12,540 - #10 ]
+INFO  23:33:12,540 - #8 ,
+INFO  23:33:12,540 - #45 niz
+INFO  23:33:12,540 - #9 [
+INFO  23:33:12,540 - #46 1
+INFO  23:33:12,540 - #10 ]
+INFO  23:33:12,540 - #44 )
+INFO  23:33:12,540 - #8 ,
+INFO  23:33:12,540 - #45 niz
+INFO  23:33:12,540 - #9 [
+INFO  23:33:12,540 - #46 2
+INFO  23:33:12,540 - #10 ]
+INFO  23:33:12,540 - #44 )
+INFO  23:33:12,540 - #44 )
+INFO  23:33:12,540 - #7 ;
+INFO  23:33:12,540 - #19 for
+INFO  23:33:12,540 - #43 (
+INFO  23:33:12,540 - #45 i
+INFO  23:33:12,540 - #6 =
+INFO  23:33:12,540 - #46 0
+INFO  23:33:12,540 - #7 ;
+INFO  23:33:12,540 - #45 i
+INFO  23:33:12,540 - #34 <
+INFO  23:33:12,540 - #45 niz
+INFO  23:33:12,540 - #20 .
+INFO  23:33:12,540 - #41 length
+INFO  23:33:12,540 - #7 ;
+INFO  23:33:12,540 - #45 i
+INFO  23:33:12,540 - #37 ++
+INFO  23:33:12,541 - #44 )
+INFO  23:33:12,541 - #3 {
+INFO  23:33:12,541 - #18 print
+INFO  23:33:12,541 - #43 (
+INFO  23:33:12,541 - #45 i
+INFO  23:33:12,541 - #44 )
+INFO  23:33:12,541 - #7 ;
+INFO  23:33:12,541 - #4 }
+INFO  23:33:12,541 - #18 print
+INFO  23:33:12,541 - #43 (
+INFO  23:33:12,541 - #45 eol
+INFO  23:33:12,541 - #44 )
+INFO  23:33:12,541 - #7 ;
+INFO  23:33:12,541 - #18 print
+INFO  23:33:12,541 - #43 (
+INFO  23:33:12,541 - #45 inkrement
+INFO  23:33:12,541 - #43 (
+INFO  23:33:12,541 - #45 niz
+INFO  23:33:12,541 - #9 [
+INFO  23:33:12,541 - #46 2
+INFO  23:33:12,541 - #10 ]
+INFO  23:33:12,541 - #8 ,
+INFO  23:33:12,541 - #46 2
+INFO  23:33:12,541 - #44 )
+INFO  23:33:12,541 - #44 )
+INFO  23:33:12,541 - #7 ;
+INFO  23:33:12,541 - #18 print
+INFO  23:33:12,541 - #43 (
+INFO  23:33:12,541 - #45 verify
+INFO  23:33:12,541 - #43 (
+INFO  23:33:12,541 - #44 )
+INFO  23:33:12,541 - #35 ?
+INFO  23:33:12,542 - #48 t
+INFO  23:33:12,542 - #36 :
+INFO  23:33:12,542 - #48 f
+INFO  23:33:12,542 - #44 )
+INFO  23:33:12,542 - #7 ;
+INFO  23:33:12,543 - #45 niz2
+INFO  23:33:12,543 - #6 =
+INFO  23:33:12,543 - #42 new
+INFO  23:33:12,543 - #45 int
+INFO  23:33:12,543 - #9 [
+INFO  23:33:12,543 - #46 5
+INFO  23:33:12,543 - #10 ]
+INFO  23:33:12,543 - #7 ;
+INFO  23:33:12,543 - #45 niz2
+INFO  23:33:12,543 - #9 [
+INFO  23:33:12,543 - #46 0
+INFO  23:33:12,543 - #10 ]
+INFO  23:33:12,543 - #6 =
+INFO  23:33:12,543 - #46 0
+INFO  23:33:12,543 - #7 ;
+INFO  23:33:12,543 - #45 niz2
+INFO  23:33:12,543 - #9 [
+INFO  23:33:12,543 - #46 1
+INFO  23:33:12,543 - #10 ]
+INFO  23:33:12,543 - #6 =
+INFO  23:33:12,543 - #46 1
+INFO  23:33:12,543 - #7 ;
+INFO  23:33:12,543 - #45 niz2
+INFO  23:33:12,543 - #9 [
+INFO  23:33:12,543 - #46 2
+INFO  23:33:12,543 - #10 ]
+INFO  23:33:12,543 - #6 =
+INFO  23:33:12,543 - #46 2
+INFO  23:33:12,543 - #7 ;
+INFO  23:33:12,543 - #45 niz2
+INFO  23:33:12,543 - #9 [
+INFO  23:33:12,543 - #46 3
+INFO  23:33:12,543 - #10 ]
+INFO  23:33:12,543 - #6 =
+INFO  23:33:12,543 - #46 3
+INFO  23:33:12,543 - #7 ;
+INFO  23:33:12,543 - #45 niz2
+INFO  23:33:12,543 - #9 [
+INFO  23:33:12,543 - #46 4
+INFO  23:33:12,543 - #10 ]
+INFO  23:33:12,543 - #6 =
+INFO  23:33:12,543 - #46 4
+INFO  23:33:12,543 - #7 ;
+INFO  23:33:12,544 - #45 niz3
+INFO  23:33:12,544 - #6 =
+INFO  23:33:12,544 - #45 niz2
+INFO  23:33:12,544 - #20 .
+INFO  23:33:12,544 - #22 map
+INFO  23:33:12,544 - #43 (
+INFO  23:33:12,544 - #45 i
+INFO  23:33:12,544 - #21 =>
+INFO  23:33:12,545 - #45 i
+INFO  23:33:12,545 - #26 *
+INFO  23:33:12,546 - #46 5
+INFO  23:33:12,547 - #44 )
+INFO  23:33:12,547 - #7 ;
+INFO  23:33:12,547 - #19 for
+INFO  23:33:12,547 - #43 (
+INFO  23:33:12,547 - #45 i
+INFO  23:33:12,547 - #6 =
+INFO  23:33:12,547 - #46 0
+INFO  23:33:12,547 - #7 ;
+INFO  23:33:12,547 - #45 i
+INFO  23:33:12,547 - #34 <
+INFO  23:33:12,547 - #45 niz3
+INFO  23:33:12,547 - #20 .
+INFO  23:33:12,547 - #41 length
+INFO  23:33:12,547 - #7 ;
+INFO  23:33:12,547 - #45 i
+INFO  23:33:12,547 - #37 ++
+INFO  23:33:12,547 - #44 )
+INFO  23:33:12,547 - #3 {
+INFO  23:33:12,547 - #18 print
+INFO  23:33:12,547 - #43 (
+INFO  23:33:12,547 - #45 niz3
+INFO  23:33:12,547 - #9 [
+INFO  23:33:12,548 - #45 i
+INFO  23:33:12,548 - #10 ]
+INFO  23:33:12,548 - #44 )
+INFO  23:33:12,548 - #7 ;
+INFO  23:33:12,548 - #18 print
+INFO  23:33:12,548 - #43 (
+INFO  23:33:12,548 - #45 eol
+INFO  23:33:12,548 - #44 )
+INFO  23:33:12,548 - #7 ;
+INFO  23:33:12,548 - #4 }
+INFO  23:33:12,548 - #17 read
+INFO  23:33:12,548 - #43 (
+INFO  23:33:12,548 - #45 j
+INFO  23:33:12,548 - #44 )
+INFO  23:33:12,548 - #7 ;
+INFO  23:33:12,548 - #45 niz4
+INFO  23:33:12,548 - #6 =
+INFO  23:33:12,548 - #45 niz2
+INFO  23:33:12,548 - #20 .
+INFO  23:33:12,548 - #22 map
+INFO  23:33:12,548 - #43 (
+INFO  23:33:12,548 - #45 i
+INFO  23:33:12,548 - #21 =>
+INFO  23:33:12,548 - #45 i
+INFO  23:33:12,548 - #23 +
+INFO  23:33:12,548 - #45 j
+INFO  23:33:12,548 - #44 )
+INFO  23:33:12,548 - #7 ;
+INFO  23:33:12,548 - #19 for
+INFO  23:33:12,548 - #43 (
+INFO  23:33:12,548 - #45 i
+INFO  23:33:12,548 - #6 =
+INFO  23:33:12,549 - #46 0
+INFO  23:33:12,549 - #7 ;
+INFO  23:33:12,549 - #45 i
+INFO  23:33:12,549 - #34 <
+INFO  23:33:12,549 - #45 niz4
+INFO  23:33:12,549 - #20 .
+INFO  23:33:12,549 - #41 length
+INFO  23:33:12,549 - #7 ;
+INFO  23:33:12,549 - #45 i
+INFO  23:33:12,549 - #37 ++
+INFO  23:33:12,549 - #44 )
+INFO  23:33:12,549 - #3 {
+INFO  23:33:12,549 - #18 print
+INFO  23:33:12,549 - #43 (
+INFO  23:33:12,549 - #45 niz4
+INFO  23:33:12,549 - #9 [
+INFO  23:33:12,549 - #45 i
+INFO  23:33:12,550 - #10 ]
+INFO  23:33:12,550 - #44 )
+INFO  23:33:12,550 - #7 ;
+INFO  23:33:12,550 - #18 print
+INFO  23:33:12,550 - #43 (
+INFO  23:33:12,550 - #45 eol
+INFO  23:33:12,550 - #44 )
+INFO  23:33:12,550 - #7 ;
+INFO  23:33:12,550 - #4 }
+INFO  23:33:12,550 - #4 }
+INFO  23:33:12,550 - #4 }
+INFO  23:33:12,551 - ================SEMANTICKA OBRADA===================
+INFO  23:33:12,561 - Pristup formalnom parametru z [Kind: 1] na liniji 15
+INFO  23:33:12,561 - Pristup formalnom parametru d [Kind: 1] na liniji 15
+INFO  23:33:12,561 - Pristup formalnom parametru inc [Kind: 1] na liniji 20
+INFO  23:33:12,561 - Pristup simbolickoj konstanti jedan [Kind: 0] na liniji 20
+INFO  23:33:12,562 - Pristup lokalnoj promenljivoj pom [Kind: 1] na liniji 20
+INFO  23:33:12,562 - Pristup formalnom parametru inc [Kind: 1] na liniji 21
+INFO  23:33:12,562 - Pristup lokalnoj promenljivoj pom [Kind: 1] na liniji 21
+INFO  23:33:12,562 - Pristup formalnom parametru a [Kind: 1] na liniji 21
+INFO  23:33:12,562 - Pristup formalnom parametru a [Kind: 1] na liniji 23
+INFO  23:33:12,562 - Pristup lokalnoj promenljivoj pom [Kind: 1] na liniji 23
+INFO  23:33:12,563 - Poziv funkcije sum [Kind: 3] na liniji 23
+INFO  23:33:12,563 - Pristup globalnoj promenljivoj ibool [Kind: 1] na liniji 36
+INFO  23:33:12,563 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 37
+INFO  23:33:12,563 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 38
+INFO  23:33:12,563 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 38
+INFO  23:33:12,563 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 38
+INFO  23:33:12,563 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 40
+INFO  23:33:12,563 - Pristup globalnoj promenljivoj ibool [Kind: 1] na liniji 40
+INFO  23:33:12,563 - Pristup globalnoj promenljivoj ibool [Kind: 1] na liniji 43
+INFO  23:33:12,563 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 44
+INFO  23:33:12,563 - Pristup globalnoj promenljivoj niz [Kind: 1] na liniji 47
+INFO  23:33:12,564 - Pristup elementu niza niz [Kind: 1] na liniji 48
+INFO  23:33:12,564 - Pristup elementu niza niz [Kind: 1] na liniji 49
+INFO  23:33:12,564 - Pristup elementu niza niz [Kind: 1] na liniji 50
+INFO  23:33:12,564 - Pristup elementu niza niz [Kind: 1] na liniji 50
+INFO  23:33:12,564 - Pristup elementu niza niz [Kind: 1] na liniji 50
+INFO  23:33:12,564 - Poziv funkcije sum [Kind: 3] na liniji 50
+INFO  23:33:12,564 - Pristup elementu niza niz [Kind: 1] na liniji 51
+INFO  23:33:12,564 - Poziv funkcije verify [Kind: 3] na liniji 51
+INFO  23:33:12,564 - Poziv funkcije ord [Kind: 3] na liniji 51
+INFO  23:33:12,564 - Poziv funkcije ord [Kind: 3] na liniji 52
+INFO  23:33:12,564 - Pristup simbolickoj konstanti eol [Kind: 0] na liniji 54
+INFO  23:33:12,564 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 55
+INFO  23:33:12,564 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 56
+INFO  23:33:12,564 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 58
+INFO  23:33:12,564 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 60
+INFO  23:33:12,564 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 63
+INFO  23:33:12,564 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 64
+INFO  23:33:12,564 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 64
+INFO  23:33:12,564 - Poziv funkcije inkrement [Kind: 3] na liniji 64
+INFO  23:33:12,564 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 67
+INFO  23:33:12,564 - Poziv funkcije verify [Kind: 3] na liniji 67
+INFO  23:33:12,564 - Pristup elementu niza niz [Kind: 1] na liniji 70
+INFO  23:33:12,564 - Pristup elementu niza niz [Kind: 1] na liniji 71
+INFO  23:33:12,564 - Pristup elementu niza niz [Kind: 1] na liniji 72
+INFO  23:33:12,564 - Pristup simbolickoj konstanti eol [Kind: 0] na liniji 73
+INFO  23:33:12,565 - Pristup elementu niza niz [Kind: 1] na liniji 75
+INFO  23:33:12,565 - Pristup elementu niza niz [Kind: 1] na liniji 75
+INFO  23:33:12,565 - Poziv funkcije sum [Kind: 3] na liniji 75
+INFO  23:33:12,565 - Pristup elementu niza niz [Kind: 1] na liniji 75
+INFO  23:33:12,565 - Poziv funkcije sum [Kind: 3] na liniji 75
+INFO  23:33:12,565 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 77
+INFO  23:33:12,565 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 77
+INFO  23:33:12,565 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 77
+INFO  23:33:12,565 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 78
+INFO  23:33:12,565 - Pristup simbolickoj konstanti eol [Kind: 0] na liniji 81
+INFO  23:33:12,565 - Pristup elementu niza niz [Kind: 1] na liniji 82
+INFO  23:33:12,565 - Poziv funkcije inkrement [Kind: 3] na liniji 82
+INFO  23:33:12,565 - Poziv funkcije verify [Kind: 3] na liniji 83
+INFO  23:33:12,565 - Pristup globalnoj promenljivoj niz2 [Kind: 1] na liniji 85
+INFO  23:33:12,566 - Pristup elementu niza niz2 [Kind: 1] na liniji 86
+INFO  23:33:12,566 - Pristup elementu niza niz2 [Kind: 1] na liniji 86
+INFO  23:33:12,566 - Pristup elementu niza niz2 [Kind: 1] na liniji 86
+INFO  23:33:12,566 - Pristup elementu niza niz2 [Kind: 1] na liniji 86
+INFO  23:33:12,566 - Pristup elementu niza niz2 [Kind: 1] na liniji 86
+INFO  23:33:12,566 - Pristup globalnoj promenljivoj niz3 [Kind: 1] na liniji 88
+INFO  23:33:12,566 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 88
+INFO  23:33:12,566 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 89
+INFO  23:33:12,566 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 89
+INFO  23:33:12,566 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 89
+INFO  23:33:12,566 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 90
+INFO  23:33:12,566 - Pristup elementu niza niz3 [Kind: 1] na liniji 90
+INFO  23:33:12,566 - Pristup simbolickoj konstanti eol [Kind: 0] na liniji 91
+INFO  23:33:12,567 - Pristup globalnoj promenljivoj j [Kind: 1] na liniji 94
+INFO  23:33:12,567 - Pristup globalnoj promenljivoj niz4 [Kind: 1] na liniji 95
+INFO  23:33:12,567 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 95
+INFO  23:33:12,567 - Pristup globalnoj promenljivoj j [Kind: 1] na liniji 95
+INFO  23:33:12,567 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 96
+INFO  23:33:12,567 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 96
+INFO  23:33:12,567 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 96
+INFO  23:33:12,567 - Pristup globalnoj promenljivoj i [Kind: 1] na liniji 97
+INFO  23:33:12,567 - Pristup elementu niza niz4 [Kind: 1] na liniji 97
+INFO  23:33:12,567 - Pristup simbolickoj konstanti eol [Kind: 0] na liniji 98
+INFO  23:33:12,567 - ===================================
+INFO  23:33:12,579 - Parsiranje uspesno zavrseno!
